@@ -132,7 +132,19 @@ function detectInitialLanguage() {
     ? navigator.languages
     : [navigator.language].filter(Boolean);
 
-  return browserLanguages.some((language) => language.toLowerCase().startsWith("sv")) ? "sv" : "en";
+  for (const language of browserLanguages) {
+    const normalizedLanguage = language.toLowerCase();
+
+    if (normalizedLanguage.startsWith("sv")) {
+      return "sv";
+    }
+
+    if (normalizedLanguage.startsWith("pl")) {
+      return "pl";
+    }
+  }
+
+  return "en";
 }
 
 async function loadDinners() {

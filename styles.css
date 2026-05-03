@@ -1,0 +1,323 @@
+:root {
+  color-scheme: light;
+  --ink: #241f1b;
+  --muted: #675f56;
+  --paper: #fffaf2;
+  --line: #eadcc8;
+  --sage: #516c56;
+  --sage-dark: #314b39;
+  --tomato: #b84c35;
+  --mustard: #c29232;
+  --sky: #456b7b;
+  --shadow: 0 28px 80px rgba(60, 42, 28, 0.18);
+  --radius: 8px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(191, 77, 53, 0.12), transparent 32rem),
+    linear-gradient(145deg, #fffaf2 0%, #f4eadb 58%, #eef2e9 100%);
+  color: var(--ink);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.app-shell {
+  width: min(920px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: clamp(14px, 3vw, 30px);
+  display: grid;
+  align-content: center;
+  gap: clamp(10px, 2vw, 16px);
+}
+
+.topbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: currentColor;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  opacity: 0.66;
+}
+
+h1,
+h2,
+h3,
+p {
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.4rem, 3.4vw, 2.15rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.pool-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 11px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.pool-count {
+  background: rgba(69, 107, 123, 0.12);
+  color: #2e5565;
+}
+
+.planner {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(234, 220, 200, 0.96);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.image-strip {
+  height: clamp(230px, 43vw, 370px);
+  position: relative;
+  overflow: hidden;
+}
+
+.image-strip img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center 44%;
+  filter: saturate(0.98);
+}
+
+.image-strip::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(36, 31, 27, 0.06), rgba(36, 31, 27, 0.2));
+}
+
+.dinner-card {
+  display: grid;
+  gap: clamp(15px, 2.4vw, 20px);
+  padding: clamp(22px, 5vw, 44px);
+}
+
+h2 {
+  margin: 0;
+  max-width: 18ch;
+  font-size: clamp(2rem, 5.4vw, 3.85rem);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.description {
+  margin: 0;
+  max-width: 58rem;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 2.5vw, 1.3rem);
+  line-height: 1.55;
+}
+
+.ingredient-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.ingredient-panel h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.ingredient-panel ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.ingredient-panel li {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: rgba(81, 108, 86, 0.09);
+  color: var(--sage-dark);
+  font-weight: 750;
+}
+
+.notes {
+  margin: 0;
+  padding-left: 12px;
+  border-left: 4px solid var(--mustard);
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.34fr) 1fr;
+  gap: 10px;
+  padding: 0 clamp(22px, 5vw, 44px) clamp(22px, 5vw, 44px);
+}
+
+.primary-action,
+.secondary-action {
+  min-height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: var(--radius);
+  font-size: 1.05rem;
+  font-weight: 900;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease, opacity 160ms ease;
+}
+
+.primary-action {
+  border: 0;
+  background: var(--sage-dark);
+  color: #fffaf2;
+  box-shadow: 0 16px 30px rgba(49, 75, 57, 0.22);
+}
+
+.secondary-action {
+  border: 1px solid var(--line);
+  background: #fffaf2;
+  color: var(--sage-dark);
+}
+
+.primary-action:hover,
+.primary-action:focus-visible,
+.secondary-action:not(:disabled):hover,
+.secondary-action:not(:disabled):focus-visible {
+  transform: translateY(-1px);
+}
+
+.primary-action:hover,
+.primary-action:focus-visible {
+  background: #283f30;
+  box-shadow: 0 18px 34px rgba(49, 75, 57, 0.28);
+}
+
+.secondary-action:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+@media (max-width: 640px) {
+  .app-shell {
+    padding: 8px;
+    align-content: start;
+    gap: 7px;
+  }
+
+  .topbar {
+    align-items: center;
+    gap: 10px;
+  }
+
+  h1 {
+    font-size: 1.28rem;
+  }
+
+  .pool-count {
+    min-height: 26px;
+    padding: 0 9px;
+    font-size: 0.76rem;
+  }
+
+  .image-strip {
+    height: 188px;
+  }
+
+  .dinner-card {
+    gap: 10px;
+    padding: 16px;
+  }
+
+  h2 {
+    max-width: 17ch;
+    font-size: clamp(1.65rem, 8vw, 2.25rem);
+    line-height: 0.98;
+  }
+
+  .description {
+    font-size: 0.98rem;
+    line-height: 1.42;
+  }
+
+  .ingredient-panel {
+    gap: 7px;
+  }
+
+  .ingredient-panel h3 {
+    font-size: 0.92rem;
+  }
+
+  .ingredient-panel ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+  }
+
+  .ingredient-panel li {
+    min-height: 36px;
+    padding: 8px 10px;
+    font-size: 0.92rem;
+  }
+
+  .notes {
+    font-size: 0.92rem;
+    line-height: 1.35;
+  }
+
+  .actions {
+    grid-template-columns: minmax(92px, 0.36fr) 1fr;
+    gap: 8px;
+    padding: 0 16px 16px;
+  }
+
+  .primary-action,
+  .secondary-action {
+    min-height: 50px;
+    font-size: 0.92rem;
+  }
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "taco-bowls",
+    "name": "Build-Your-Own Taco Bowls",
+    "description": "Rice bowls with seasoned beef or beans, corn, salsa, avocado, cheese, and crunchy tortilla chips.",
+    "mainIngredients": [
+      "rice",
+      "ground beef or beans",
+      "corn",
+      "salsa",
+      "avocado"
+    ],
+    "image": "assets/dishes/taco-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Set toppings out separately so everyone can build their own bowl."
+  },
+  {
+    "id": "sheet-pan-salmon",
+    "name": "Sheet-Pan Salmon with Potatoes",
+    "description": "Lemon salmon roasted with baby potatoes and green beans for a clean one-pan dinner.",
+    "mainIngredients": [
+      "salmon",
+      "baby potatoes",
+      "green beans",
+      "lemon",
+      "dill"
+    ],
+    "image": "assets/dishes/sheet-pan-salmon.jpg",
+    "recipeUrl": null,
+    "notes": "Swap salmon for chicken thighs if fish is not on the menu."
+  },
+  {
+    "id": "creamy-tomato-pasta",
+    "name": "Creamy Tomato Pasta with Spinach",
+    "description": "A comforting pasta dinner with tomato sauce, a splash of cream, spinach, and parmesan.",
+    "mainIngredients": [
+      "pasta",
+      "tomatoes",
+      "cream",
+      "spinach",
+      "parmesan"
+    ],
+    "image": "assets/dishes/creamy-tomato-pasta.jpg",
+    "recipeUrl": null,
+    "notes": "Add white beans or grilled chicken for extra protein."
+  },
+  {
+    "id": "chicken-fajitas",
+    "name": "Chicken Fajitas",
+    "description": "Sizzling chicken, peppers, and onions served with tortillas, yogurt, and lime.",
+    "mainIngredients": [
+      "chicken",
+      "bell peppers",
+      "onion",
+      "tortillas",
+      "lime"
+    ],
+    "image": "assets/dishes/chicken-fajitas.jpg",
+    "recipeUrl": null,
+    "notes": "Make extra vegetables for lunch wraps the next day."
+  },
+  {
+    "id": "lentil-bolognese",
+    "name": "Lentil Bolognese",
+    "description": "A rich tomato and lentil sauce served over spaghetti with parmesan and salad.",
+    "mainIngredients": [
+      "lentils",
+      "tomatoes",
+      "carrot",
+      "celery",
+      "spaghetti"
+    ],
+    "image": "assets/dishes/lentil-bolognese.jpg",
+    "recipeUrl": null,
+    "notes": "The sauce freezes well, so double it when you have time."
+  },
+  {
+    "id": "teriyaki-chicken-rice",
+    "name": "Teriyaki Chicken Rice Plates",
+    "description": "Sticky teriyaki chicken with rice, cucumber, carrots, and steamed broccoli.",
+    "mainIngredients": [
+      "chicken",
+      "rice",
+      "broccoli",
+      "cucumber",
+      "teriyaki sauce"
+    ],
+    "image": "assets/dishes/teriyaki-chicken-rice.jpg",
+    "recipeUrl": null,
+    "notes": "Keep sauce on the side for anyone who prefers lighter seasoning."
+  },
+  {
+    "id": "baked-potato-bar",
+    "name": "Loaded Baked Potato Bar",
+    "description": "Crispy baked potatoes with beans, cheese, yogurt, chives, salad, and optional bacon.",
+    "mainIngredients": [
+      "potatoes",
+      "beans",
+      "cheese",
+      "yogurt",
+      "chives"
+    ],
+    "image": "assets/dishes/baked-potato-bar.jpg",
+    "recipeUrl": null,
+    "notes": "Microwave potatoes first, then crisp them in the oven to save time."
+  },
+  {
+    "id": "turkey-meatballs",
+    "name": "Turkey Meatballs with Couscous",
+    "description": "Herby turkey meatballs with couscous, cucumber tomato salad, and garlic yogurt.",
+    "mainIngredients": [
+      "turkey mince",
+      "couscous",
+      "cucumber",
+      "tomatoes",
+      "yogurt"
+    ],
+    "image": "assets/dishes/turkey-meatballs.jpg",
+    "recipeUrl": null,
+    "notes": "Bake the meatballs on parchment for a lower-mess version."
+  },
+  {
+    "id": "vegetable-fried-rice",
+    "name": "Vegetable Fried Rice with Eggs",
+    "description": "Fast fried rice with bell peppers, carrots, eggs, soy sauce, and whatever vegetables need using.",
+    "mainIngredients": [
+      "rice",
+      "eggs",
+      "bell peppers",
+      "carrots",
+      "soy sauce"
+    ],
+    "image": "assets/dishes/vegetable-fried-rice.jpg",
+    "recipeUrl": null,
+    "notes": "Best with chilled leftover rice."
+  },
+  {
+    "id": "sausage-gnocchi",
+    "name": "Sausage and Gnocchi Skillet",
+    "description": "Pan-crisped gnocchi with sausage, cherry tomatoes, greens, and mozzarella.",
+    "mainIngredients": [
+      "gnocchi",
+      "sausage",
+      "cherry tomatoes",
+      "spinach",
+      "mozzarella"
+    ],
+    "image": "assets/dishes/sausage-gnocchi.jpg",
+    "recipeUrl": null,
+    "notes": "Use vegetarian sausage if you want a meat-free version."
+  },
+  {
+    "id": "chickpea-curry",
+    "name": "Mild Chickpea Coconut Curry",
+    "description": "Creamy chickpea curry with coconut milk, tomatoes, spinach, and basmati rice.",
+    "mainIngredients": [
+      "chickpeas",
+      "coconut milk",
+      "tomatoes",
+      "spinach",
+      "rice"
+    ],
+    "image": "assets/dishes/chickpea-curry.jpg",
+    "recipeUrl": null,
+    "notes": "Serve chili flakes at the table for anyone who wants heat."
+  },
+  {
+    "id": "pita-pizzas",
+    "name": "Personal Pita Pizzas",
+    "description": "Individual pita pizzas with tomato sauce, mozzarella, vegetables, and simple salad.",
+    "mainIngredients": [
+      "pita bread",
+      "tomato sauce",
+      "mozzarella",
+      "vegetables",
+      "salad"
+    ],
+    "image": "assets/dishes/pita-pizzas.jpg",
+    "recipeUrl": null,
+    "notes": "Let everyone top their own before baking."
+  },
+  {
+    "id": "beef-stroganoff",
+    "name": "Beef Stroganoff with Egg Noodles",
+    "description": "Tender beef strips and mushrooms in a creamy sauce served over egg noodles.",
+    "mainIngredients": [
+      "beef strips",
+      "mushrooms",
+      "egg noodles",
+      "sour cream",
+      "parsley"
+    ],
+    "image": "assets/dishes/beef-stroganoff.jpg",
+    "recipeUrl": null,
+    "notes": "Use Greek yogurt instead of sour cream for a lighter finish."
+  },
+  {
+    "id": "chicken-noodle-soup",
+    "name": "Chicken Noodle Soup",
+    "description": "A cozy pot of chicken, noodles, carrots, celery, and broth.",
+    "mainIngredients": [
+      "chicken",
+      "noodles",
+      "carrots",
+      "celery",
+      "broth"
+    ],
+    "image": "assets/dishes/chicken-noodle-soup.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with toast or warm rolls for a simple complete dinner."
+  },
+  {
+    "id": "veggie-lasagna",
+    "name": "Vegetable Lasagna",
+    "description": "Layered pasta with tomato sauce, roasted vegetables, ricotta, and mozzarella.",
+    "mainIngredients": [
+      "lasagna sheets",
+      "tomato sauce",
+      "zucchini",
+      "ricotta",
+      "mozzarella"
+    ],
+    "image": "assets/dishes/veggie-lasagna.jpg",
+    "recipeUrl": null,
+    "notes": "Assemble earlier in the day and bake when everyone is hungry."
+  },
+  {
+    "id": "shrimp-tacos",
+    "name": "Shrimp Tacos with Lime Slaw",
+    "description": "Quick shrimp tacos with crunchy cabbage, lime, yogurt sauce, and avocado.",
+    "mainIngredients": [
+      "shrimp",
+      "tortillas",
+      "cabbage",
+      "lime",
+      "avocado"
+    ],
+    "image": "assets/dishes/shrimp-tacos.jpg",
+    "recipeUrl": null,
+    "notes": "Keep the shrimp mild and add hot sauce at the table."
+  },
+  {
+    "id": "greek-chicken-pitas",
+    "name": "Greek Chicken Pitas",
+    "description": "Warm pitas filled with chicken, cucumber, tomato, lettuce, and tzatziki.",
+    "mainIngredients": [
+      "chicken",
+      "pita bread",
+      "cucumber",
+      "tomatoes",
+      "tzatziki"
+    ],
+    "image": "assets/dishes/greek-chicken-pitas.jpg",
+    "recipeUrl": null,
+    "notes": "Put fillings in bowls so everyone can build their own pita."
+  },
+  {
+    "id": "pork-tenderloin-apples",
+    "name": "Pork Tenderloin with Apples",
+    "description": "Roasted pork tenderloin with apples, potatoes, and a simple green salad.",
+    "mainIngredients": [
+      "pork tenderloin",
+      "apples",
+      "potatoes",
+      "mustard",
+      "greens"
+    ],
+    "image": "assets/dishes/pork-tenderloin-apples.jpg",
+    "recipeUrl": null,
+    "notes": "Slice leftovers thin for sandwiches the next day."
+  },
+  {
+    "id": "black-bean-quesadillas",
+    "name": "Black Bean Quesadillas",
+    "description": "Crispy tortillas filled with black beans, cheese, corn, and peppers.",
+    "mainIngredients": [
+      "tortillas",
+      "black beans",
+      "cheese",
+      "corn",
+      "bell peppers"
+    ],
+    "image": "assets/dishes/black-bean-quesadillas.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with salsa, yogurt, and sliced vegetables."
+  },
+  {
+    "id": "tuna-pasta-bake",
+    "name": "Tuna Pasta Bake",
+    "description": "Pasta baked with tuna, tomato sauce, sweetcorn, and a cheesy topping.",
+    "mainIngredients": [
+      "pasta",
+      "tuna",
+      "tomato sauce",
+      "sweetcorn",
+      "cheese"
+    ],
+    "image": "assets/dishes/tuna-pasta-bake.jpg",
+    "recipeUrl": null,
+    "notes": "Use small pasta shapes so the bake is easy to serve."
+  },
+  {
+    "id": "beef-and-broccoli",
+    "name": "Beef and Broccoli Stir-Fry",
+    "description": "Saucy beef and broccoli served over rice for a fast family dinner.",
+    "mainIngredients": [
+      "beef",
+      "broccoli",
+      "rice",
+      "soy sauce",
+      "garlic"
+    ],
+    "image": "assets/dishes/beef-and-broccoli.jpg",
+    "recipeUrl": null,
+    "notes": "Slice the beef thinly so it cooks quickly."
+  },
+  {
+    "id": "sweet-potato-chili",
+    "name": "Sweet Potato Chili",
+    "description": "A hearty chili with sweet potatoes, beans, tomatoes, and gentle spices.",
+    "mainIngredients": [
+      "sweet potatoes",
+      "beans",
+      "tomatoes",
+      "corn",
+      "spices"
+    ],
+    "image": "assets/dishes/sweet-potato-chili.jpg",
+    "recipeUrl": null,
+    "notes": "Top with yogurt, cheese, or avocado."
+  },
+  {
+    "id": "chicken-caesar-wraps",
+    "name": "Chicken Caesar Wraps",
+    "description": "Grilled chicken, romaine, parmesan, and Caesar dressing wrapped in tortillas.",
+    "mainIngredients": [
+      "chicken",
+      "tortillas",
+      "romaine",
+      "parmesan",
+      "Caesar dressing"
+    ],
+    "image": "assets/dishes/chicken-caesar-wraps.jpg",
+    "recipeUrl": null,
+    "notes": "Add cucumber sticks and fruit on the side."
+  },
+  {
+    "id": "swedish-meatballs",
+    "name": "Swedish Meatballs with Mash",
+    "description": "Meatballs in creamy gravy served with mashed potatoes and green beans.",
+    "mainIngredients": [
+      "meatballs",
+      "potatoes",
+      "cream",
+      "green beans",
+      "lingonberry jam"
+    ],
+    "image": "assets/dishes/swedish-meatballs.jpg",
+    "recipeUrl": null,
+    "notes": "Frozen meatballs make this a useful backup dinner."
+  },
+  {
+    "id": "mushroom-risotto",
+    "name": "Mushroom Risotto",
+    "description": "Creamy rice with mushrooms, parmesan, broth, and a simple side salad.",
+    "mainIngredients": [
+      "risotto rice",
+      "mushrooms",
+      "parmesan",
+      "broth",
+      "salad greens"
+    ],
+    "image": "assets/dishes/mushroom-risotto.jpg",
+    "recipeUrl": null,
+    "notes": "Stir in spinach near the end for extra color."
+  },
+  {
+    "id": "bbq-chicken-flatbreads",
+    "name": "BBQ Chicken Flatbreads",
+    "description": "Flatbreads topped with barbecue chicken, red onion, cheese, and corn.",
+    "mainIngredients": [
+      "flatbread",
+      "chicken",
+      "barbecue sauce",
+      "cheese",
+      "corn"
+    ],
+    "image": "assets/dishes/bbq-chicken-flatbreads.jpg",
+    "recipeUrl": null,
+    "notes": "Use leftover roast chicken if you have it."
+  },
+  {
+    "id": "falafel-plates",
+    "name": "Falafel Plates",
+    "description": "Falafel served with hummus, pita, cucumber tomato salad, and yogurt sauce.",
+    "mainIngredients": [
+      "falafel",
+      "hummus",
+      "pita bread",
+      "cucumber",
+      "tomatoes"
+    ],
+    "image": "assets/dishes/falafel-plates.jpg",
+    "recipeUrl": null,
+    "notes": "Bake frozen falafel for a low-effort dinner."
+  },
+  {
+    "id": "turkey-taco-soup",
+    "name": "Turkey Taco Soup",
+    "description": "A tomato-based soup with turkey mince, beans, corn, and taco seasoning.",
+    "mainIngredients": [
+      "turkey mince",
+      "beans",
+      "corn",
+      "tomatoes",
+      "taco seasoning"
+    ],
+    "image": "assets/dishes/turkey-taco-soup.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with tortilla chips for crunch."
+  },
+  {
+    "id": "ham-cheese-omelet",
+    "name": "Ham and Cheese Omelet Supper",
+    "description": "Fluffy omelets with ham, cheese, toast, and a crisp salad.",
+    "mainIngredients": [
+      "eggs",
+      "ham",
+      "cheese",
+      "toast",
+      "salad greens"
+    ],
+    "image": "assets/dishes/ham-cheese-omelet.jpg",
+    "recipeUrl": null,
+    "notes": "Cook two large omelets and slice them into wedges."
+  },
+  {
+    "id": "pesto-tortellini",
+    "name": "Pesto Tortellini with Spinach",
+    "description": "Cheese tortellini tossed with pesto, spinach, tomatoes, and parmesan.",
+    "mainIngredients": [
+      "tortellini",
+      "pesto",
+      "spinach",
+      "cherry tomatoes",
+      "parmesan"
+    ],
+    "image": "assets/dishes/pesto-tortellini.jpg",
+    "recipeUrl": null,
+    "notes": "Serve warm or room temperature depending on the evening."
+  },
+  {
+    "id": "chicken-pot-pie-skillet",
+    "name": "Chicken Pot Pie Skillet",
+    "description": "Creamy chicken and vegetables topped with puff pastry or biscuits.",
+    "mainIngredients": [
+      "chicken",
+      "mixed vegetables",
+      "cream",
+      "puff pastry",
+      "broth"
+    ],
+    "image": "assets/dishes/chicken-pot-pie-skillet.jpg",
+    "recipeUrl": null,
+    "notes": "Use rotisserie chicken to speed it up."
+  },
+  {
+    "id": "sesame-tofu-noodles",
+    "name": "Sesame Tofu Noodles",
+    "description": "Noodles tossed with crispy tofu, cucumber, carrots, and sesame sauce.",
+    "mainIngredients": [
+      "tofu",
+      "noodles",
+      "cucumber",
+      "carrots",
+      "sesame sauce"
+    ],
+    "image": "assets/dishes/sesame-tofu-noodles.jpg",
+    "recipeUrl": null,
+    "notes": "Press the tofu briefly so it browns better."
+  },
+  {
+    "id": "beef-burrito-wraps",
+    "name": "Beef Burrito Wraps",
+    "description": "Soft tortillas filled with beef, rice, beans, cheese, and salsa.",
+    "mainIngredients": [
+      "tortillas",
+      "beef",
+      "rice",
+      "beans",
+      "salsa"
+    ],
+    "image": "assets/dishes/beef-burrito-wraps.jpg",
+    "recipeUrl": null,
+    "notes": "Wrap extras in foil for easy lunches."
+  },
+  {
+    "id": "roasted-veg-couscous",
+    "name": "Roasted Vegetable Couscous",
+    "description": "Couscous with roasted vegetables, chickpeas, feta, and lemon dressing.",
+    "mainIngredients": [
+      "couscous",
+      "chickpeas",
+      "roasted vegetables",
+      "feta",
+      "lemon"
+    ],
+    "image": "assets/dishes/roasted-veg-couscous.jpg",
+    "recipeUrl": null,
+    "notes": "Good warm or cold, so it is flexible for busy nights."
+  },
+  {
+    "id": "lemon-garlic-chicken",
+    "name": "Lemon Garlic Chicken Thighs",
+    "description": "Juicy chicken thighs baked with lemon, garlic, potatoes, and carrots.",
+    "mainIngredients": [
+      "chicken thighs",
+      "lemon",
+      "garlic",
+      "potatoes",
+      "carrots"
+    ],
+    "image": "assets/dishes/lemon-garlic-chicken.jpg",
+    "recipeUrl": null,
+    "notes": "Roast everything on one tray for less cleanup."
+  },
+  {
+    "id": "fish-finger-tacos",
+    "name": "Fish Finger Tacos",
+    "description": "Crispy fish fingers tucked into tortillas with slaw and tartar sauce.",
+    "mainIngredients": [
+      "fish fingers",
+      "tortillas",
+      "cabbage",
+      "tartar sauce",
+      "lime"
+    ],
+    "image": "assets/dishes/fish-finger-tacos.jpg",
+    "recipeUrl": null,
+    "notes": "A useful freezer-friendly dinner."
+  },
+  {
+    "id": "minestrone-soup",
+    "name": "Minestrone Soup",
+    "description": "Vegetable soup with beans, pasta, tomatoes, and parmesan.",
+    "mainIngredients": [
+      "beans",
+      "pasta",
+      "tomatoes",
+      "vegetables",
+      "parmesan"
+    ],
+    "image": "assets/dishes/minestrone-soup.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with garlic bread if you want it heartier."
+  },
+  {
+    "id": "caprese-chicken",
+    "name": "Caprese Chicken",
+    "description": "Chicken breasts topped with tomatoes, mozzarella, basil, and balsamic glaze.",
+    "mainIngredients": [
+      "chicken",
+      "tomatoes",
+      "mozzarella",
+      "basil",
+      "balsamic glaze"
+    ],
+    "image": "assets/dishes/caprese-chicken.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with pasta, rice, or crusty bread."
+  },
+  {
+    "id": "peanut-chicken-noodles",
+    "name": "Peanut Chicken Noodles",
+    "description": "Noodles with chicken, vegetables, and a creamy peanut sauce.",
+    "mainIngredients": [
+      "chicken",
+      "noodles",
+      "peanut butter",
+      "vegetables",
+      "soy sauce"
+    ],
+    "image": "assets/dishes/peanut-chicken-noodles.jpg",
+    "recipeUrl": null,
+    "notes": "Add lime juice at the end to brighten the sauce."
+  },
+  {
+    "id": "halloumi-vegetable-traybake",
+    "name": "Halloumi Vegetable Traybake",
+    "description": "Roasted vegetables and halloumi served with couscous or flatbread.",
+    "mainIngredients": [
+      "halloumi",
+      "zucchini",
+      "peppers",
+      "red onion",
+      "couscous"
+    ],
+    "image": "assets/dishes/halloumi-vegetable-traybake.jpg",
+    "recipeUrl": null,
+    "notes": "Add chickpeas to make it more filling."
+  },
+  {
+    "id": "sloppy-joes",
+    "name": "Sloppy Joes",
+    "description": "Saucy minced beef served in buns with pickles and crunchy salad.",
+    "mainIngredients": [
+      "ground beef",
+      "buns",
+      "tomato sauce",
+      "pickles",
+      "salad"
+    ],
+    "image": "assets/dishes/sloppy-joes.jpg",
+    "recipeUrl": null,
+    "notes": "Serve open-faced for younger kids to make it easier."
+  },
+  {
+    "id": "baked-feta-orzo",
+    "name": "Baked Feta Orzo",
+    "description": "Orzo baked with feta, tomatoes, spinach, and herbs.",
+    "mainIngredients": [
+      "orzo",
+      "feta",
+      "tomatoes",
+      "spinach",
+      "herbs"
+    ],
+    "image": "assets/dishes/baked-feta-orzo.jpg",
+    "recipeUrl": null,
+    "notes": "Stir in cooked chicken if you want extra protein."
+  },
+  {
+    "id": "chicken-souvlaki-bowls",
+    "name": "Chicken Souvlaki Bowls",
+    "description": "Lemony chicken served with rice, cucumber, tomato, and yogurt sauce.",
+    "mainIngredients": [
+      "chicken",
+      "rice",
+      "cucumber",
+      "tomatoes",
+      "yogurt sauce"
+    ],
+    "image": "assets/dishes/chicken-souvlaki-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Keep the vegetables separate for easier serving."
+  },
+  {
+    "id": "bean-cheese-enchiladas",
+    "name": "Bean and Cheese Enchiladas",
+    "description": "Tortillas filled with beans and cheese, baked in enchilada sauce.",
+    "mainIngredients": [
+      "tortillas",
+      "beans",
+      "cheese",
+      "enchilada sauce",
+      "corn"
+    ],
+    "image": "assets/dishes/bean-cheese-enchiladas.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with shredded lettuce and yogurt."
+  },
+  {
+    "id": "sausage-pepper-subs",
+    "name": "Sausage and Pepper Subs",
+    "description": "Sausages with sauteed peppers and onions tucked into warm rolls.",
+    "mainIngredients": [
+      "sausages",
+      "rolls",
+      "bell peppers",
+      "onion",
+      "mustard"
+    ],
+    "image": "assets/dishes/sausage-pepper-subs.jpg",
+    "recipeUrl": null,
+    "notes": "Use chicken or vegetarian sausages if preferred."
+  },
+  {
+    "id": "cod-tomato-beans",
+    "name": "Cod with Tomato Beans",
+    "description": "Mild cod baked over tomato white beans with herbs and lemon.",
+    "mainIngredients": [
+      "cod",
+      "white beans",
+      "tomatoes",
+      "lemon",
+      "parsley"
+    ],
+    "image": "assets/dishes/cod-tomato-beans.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with bread for scooping up the sauce."
+  },
+  {
+    "id": "veggie-burger-plates",
+    "name": "Veggie Burger Plates",
+    "description": "Veggie burgers served with potato wedges, salad, and dipping sauce.",
+    "mainIngredients": [
+      "veggie burgers",
+      "potatoes",
+      "lettuce",
+      "tomatoes",
+      "sauce"
+    ],
+    "image": "assets/dishes/veggie-burger-plates.jpg",
+    "recipeUrl": null,
+    "notes": "Skip the bun and serve everything plate-style."
+  },
+  {
+    "id": "chicken-ramen-bowls",
+    "name": "Chicken Ramen Bowls",
+    "description": "Brothy noodles topped with chicken, eggs, carrots, and greens.",
+    "mainIngredients": [
+      "ramen noodles",
+      "chicken",
+      "eggs",
+      "carrots",
+      "greens"
+    ],
+    "image": "assets/dishes/chicken-ramen-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Use low-sodium broth and let everyone season their bowl."
+  },
+  {
+    "id": "beef-kofta-flatbreads",
+    "name": "Beef Kofta Flatbreads",
+    "description": "Spiced beef patties served with flatbread, salad, and garlic yogurt.",
+    "mainIngredients": [
+      "ground beef",
+      "flatbread",
+      "cucumber",
+      "tomatoes",
+      "garlic yogurt"
+    ],
+    "image": "assets/dishes/beef-kofta-flatbreads.jpg",
+    "recipeUrl": null,
+    "notes": "Shape the kofta into small patties so they cook evenly."
+  },
+  {
+    "id": "spinach-ricotta-cannelloni",
+    "name": "Spinach Ricotta Cannelloni",
+    "description": "Pasta tubes filled with spinach and ricotta, baked in tomato sauce.",
+    "mainIngredients": [
+      "cannelloni",
+      "spinach",
+      "ricotta",
+      "tomato sauce",
+      "mozzarella"
+    ],
+    "image": "assets/dishes/spinach-ricotta-cannelloni.jpg",
+    "recipeUrl": null,
+    "notes": "Use lasagna sheets rolled around the filling if needed."
+  },
+  {
+    "id": "honey-mustard-chicken",
+    "name": "Honey Mustard Chicken",
+    "description": "Chicken baked in honey mustard sauce with rice and green vegetables.",
+    "mainIngredients": [
+      "chicken",
+      "honey",
+      "mustard",
+      "rice",
+      "green beans"
+    ],
+    "image": "assets/dishes/honey-mustard-chicken.jpg",
+    "recipeUrl": null,
+    "notes": "Make extra sauce for spooning over the rice."
+  },
+  {
+    "id": "cauliflower-tikka-masala",
+    "name": "Cauliflower Tikka Masala",
+    "description": "Cauliflower and chickpeas in a mild creamy tomato curry sauce.",
+    "mainIngredients": [
+      "cauliflower",
+      "chickpeas",
+      "tomatoes",
+      "cream",
+      "rice"
+    ],
+    "image": "assets/dishes/cauliflower-tikka-masala.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with naan or rice depending on what you have."
+  },
+  {
+    "id": "pulled-pork-rice-bowls",
+    "name": "Pulled Pork Rice Bowls",
+    "description": "Pulled pork over rice with cabbage, corn, avocado, and salsa.",
+    "mainIngredients": [
+      "pulled pork",
+      "rice",
+      "cabbage",
+      "corn",
+      "salsa"
+    ],
+    "image": "assets/dishes/pulled-pork-rice-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Great for using leftover slow-cooked pork."
+  },
+  {
+    "id": "mediterranean-tuna-salad",
+    "name": "Mediterranean Tuna Salad Plates",
+    "description": "Tuna, potatoes, eggs, green beans, tomatoes, and olives on one platter.",
+    "mainIngredients": [
+      "tuna",
+      "potatoes",
+      "eggs",
+      "green beans",
+      "tomatoes"
+    ],
+    "image": "assets/dishes/mediterranean-tuna-salad.jpg",
+    "recipeUrl": null,
+    "notes": "Keep olives on the side if not everyone likes them."
+  },
+  {
+    "id": "corn-chowder",
+    "name": "Corn Chowder",
+    "description": "Creamy corn soup with potatoes, carrots, herbs, and optional bacon.",
+    "mainIngredients": [
+      "corn",
+      "potatoes",
+      "carrots",
+      "cream",
+      "bacon"
+    ],
+    "image": "assets/dishes/corn-chowder.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with cheese toast for a cozy meal."
+  },
+  {
+    "id": "chicken-parmesan-bakes",
+    "name": "Chicken Parmesan Bakes",
+    "description": "Breaded chicken baked with tomato sauce and mozzarella, served with pasta.",
+    "mainIngredients": [
+      "chicken",
+      "breadcrumbs",
+      "tomato sauce",
+      "mozzarella",
+      "pasta"
+    ],
+    "image": "assets/dishes/chicken-parmesan-bakes.jpg",
+    "recipeUrl": null,
+    "notes": "Bake instead of frying to keep cleanup easier."
+  },
+  {
+    "id": "gnocchi-tomato-beans",
+    "name": "Gnocchi with Tomato Beans",
+    "description": "Soft gnocchi simmered with white beans, tomato sauce, and spinach.",
+    "mainIngredients": [
+      "gnocchi",
+      "white beans",
+      "tomato sauce",
+      "spinach",
+      "parmesan"
+    ],
+    "image": "assets/dishes/gnocchi-tomato-beans.jpg",
+    "recipeUrl": null,
+    "notes": "Finish under the grill with mozzarella if you want it bubbly."
+  },
+  {
+    "id": "korean-beef-bowls",
+    "name": "Korean-Style Beef Bowls",
+    "description": "Sweet-savory minced beef over rice with cucumber, carrots, and sesame.",
+    "mainIngredients": [
+      "ground beef",
+      "rice",
+      "cucumber",
+      "carrots",
+      "sesame"
+    ],
+    "image": "assets/dishes/korean-beef-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Use less chili paste for a milder family version."
+  },
+  {
+    "id": "squash-mac-cheese",
+    "name": "Butternut Squash Mac and Cheese",
+    "description": "Creamy macaroni with butternut squash, cheddar, and a crisp topping.",
+    "mainIngredients": [
+      "macaroni",
+      "butternut squash",
+      "cheddar",
+      "milk",
+      "breadcrumbs"
+    ],
+    "image": "assets/dishes/squash-mac-cheese.jpg",
+    "recipeUrl": null,
+    "notes": "Blend the squash into the sauce for a smooth texture."
+  },
+  {
+    "id": "turkey-club-salad",
+    "name": "Turkey Club Salad",
+    "description": "Turkey, bacon, lettuce, tomatoes, avocado, croutons, and ranch dressing.",
+    "mainIngredients": [
+      "turkey",
+      "bacon",
+      "lettuce",
+      "tomatoes",
+      "avocado"
+    ],
+    "image": "assets/dishes/turkey-club-salad.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with bread on the side for bigger appetites."
+  },
+  {
+    "id": "chickpea-shawarma-wraps",
+    "name": "Chickpea Shawarma Wraps",
+    "description": "Roasted chickpeas wrapped with salad, pickles, and tahini yogurt sauce.",
+    "mainIngredients": [
+      "chickpeas",
+      "wraps",
+      "lettuce",
+      "pickles",
+      "tahini yogurt"
+    ],
+    "image": "assets/dishes/chickpea-shawarma-wraps.jpg",
+    "recipeUrl": null,
+    "notes": "Roast chickpeas until crisp for the best texture."
+  },
+  {
+    "id": "beef-chili-nachos",
+    "name": "Beef Chili Nachos",
+    "description": "Tortilla chips topped with beef chili, cheese, salsa, and avocado.",
+    "mainIngredients": [
+      "tortilla chips",
+      "beef chili",
+      "cheese",
+      "salsa",
+      "avocado"
+    ],
+    "image": "assets/dishes/beef-chili-nachos.jpg",
+    "recipeUrl": null,
+    "notes": "Bake on a sheet pan and serve with salad."
+  },
+  {
+    "id": "lemon-ricotta-pancake-dinner",
+    "name": "Lemon Ricotta Pancake Dinner",
+    "description": "Fluffy ricotta pancakes served with berries, yogurt, and scrambled eggs.",
+    "mainIngredients": [
+      "ricotta",
+      "eggs",
+      "flour",
+      "berries",
+      "yogurt"
+    ],
+    "image": "assets/dishes/lemon-ricotta-pancake-dinner.jpg",
+    "recipeUrl": null,
+    "notes": "A good breakfast-for-dinner variation."
+  },
+  {
+    "id": "ratatouille-pasta",
+    "name": "Ratatouille Pasta",
+    "description": "Pasta tossed with eggplant, zucchini, peppers, tomatoes, and basil.",
+    "mainIngredients": [
+      "pasta",
+      "eggplant",
+      "zucchini",
+      "peppers",
+      "tomatoes"
+    ],
+    "image": "assets/dishes/ratatouille-pasta.jpg",
+    "recipeUrl": null,
+    "notes": "Add mozzarella pearls or parmesan at the table."
+  },
+  {
+    "id": "chicken-tikka-wraps",
+    "name": "Chicken Tikka Wraps",
+    "description": "Mild spiced chicken wrapped with lettuce, cucumber, yogurt, and chutney.",
+    "mainIngredients": [
+      "chicken",
+      "wraps",
+      "lettuce",
+      "cucumber",
+      "yogurt"
+    ],
+    "image": "assets/dishes/chicken-tikka-wraps.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with mango chutney on the side."
+  },
+  {
+    "id": "salmon-teriyaki-noodles",
+    "name": "Salmon Teriyaki Noodles",
+    "description": "Glazed salmon with noodles, broccoli, carrots, and sesame.",
+    "mainIngredients": [
+      "salmon",
+      "noodles",
+      "broccoli",
+      "carrots",
+      "teriyaki sauce"
+    ],
+    "image": "assets/dishes/salmon-teriyaki-noodles.jpg",
+    "recipeUrl": null,
+    "notes": "Flake the salmon into the noodles for easier serving."
+  },
+  {
+    "id": "pasta-bacon-mushroom-sauce",
+    "name": "Pasta with Bacon and Mushroom Sauce",
+    "description": "Penne pasta tossed with bacon, mushrooms, creme fraiche, and crushed tomatoes.",
+    "mainIngredients": [
+      "bacon",
+      "mushrooms",
+      "creme fraiche",
+      "crushed tomatoes",
+      "pasta penne"
+    ],
+    "image": "assets/dishes/pasta-bacon-mushroom-sauce.jpg",
+    "recipeUrl": null,
+    "notes": "Keep the sauce creamy and tomato-rich, then finish with black pepper."
+  },
+  {
+    "id": "spanish-tortilla-salad",
+    "name": "Spanish Tortilla with Salad",
+    "description": "Potato and egg tortilla served in wedges with tomatoes and greens.",
+    "mainIngredients": [
+      "eggs",
+      "potatoes",
+      "onion",
+      "tomatoes",
+      "salad greens"
+    ],
+    "image": "assets/dishes/spanish-tortilla-salad.jpg",
+    "recipeUrl": null,
+    "notes": "Cook it ahead and serve warm or room temperature."
+  },
+  {
+    "id": "pork-ginger-stir-fry",
+    "name": "Pork and Ginger Stir-Fry",
+    "description": "Tender pork strips stir-fried with vegetables, ginger, soy, and rice.",
+    "mainIngredients": [
+      "pork",
+      "ginger",
+      "mixed vegetables",
+      "soy sauce",
+      "rice"
+    ],
+    "image": "assets/dishes/pork-ginger-stir-fry.jpg",
+    "recipeUrl": null,
+    "notes": "Use thin strips so the pork stays tender."
+  },
+  {
+    "id": "broccoli-cheddar-quiche",
+    "name": "Broccoli Cheddar Quiche",
+    "description": "Savory quiche with broccoli, cheddar, eggs, and a simple salad.",
+    "mainIngredients": [
+      "pie crust",
+      "broccoli",
+      "cheddar",
+      "eggs",
+      "salad"
+    ],
+    "image": "assets/dishes/broccoli-cheddar-quiche.jpg",
+    "recipeUrl": null,
+    "notes": "Use a ready-made crust when you need an easy version."
+  },
+  {
+    "id": "tomato-soup-grilled-cheese",
+    "name": "Tomato Soup and Grilled Cheese",
+    "description": "Smooth tomato soup served with crisp grilled cheese sandwiches.",
+    "mainIngredients": [
+      "tomatoes",
+      "bread",
+      "cheese",
+      "cream",
+      "basil"
+    ],
+    "image": "assets/dishes/tomato-soup-grilled-cheese.jpg",
+    "recipeUrl": null,
+    "notes": "Cut sandwiches into strips for dipping."
+  },
+  {
+    "id": "lamb-meatball-pitas",
+    "name": "Lamb Meatball Pitas",
+    "description": "Lamb meatballs in warm pitas with cucumber, tomato, and mint yogurt.",
+    "mainIngredients": [
+      "lamb mince",
+      "pita bread",
+      "cucumber",
+      "tomatoes",
+      "mint yogurt"
+    ],
+    "image": "assets/dishes/lamb-meatball-pitas.jpg",
+    "recipeUrl": null,
+    "notes": "Use beef or turkey mince if lamb is not available."
+  },
+  {
+    "id": "chicken-alfredo-broccoli",
+    "name": "Chicken Alfredo with Broccoli",
+    "description": "Pasta in creamy Alfredo sauce with chicken, broccoli, and parmesan.",
+    "mainIngredients": [
+      "pasta",
+      "chicken",
+      "broccoli",
+      "cream",
+      "parmesan"
+    ],
+    "image": "assets/dishes/chicken-alfredo-broccoli.jpg",
+    "recipeUrl": null,
+    "notes": "Steam the broccoli in the pasta pot for fewer dishes."
+  },
+  {
+    "id": "bean-chili-rice",
+    "name": "Bean Chili with Rice",
+    "description": "A simple bean chili served over rice with cheese and avocado.",
+    "mainIngredients": [
+      "beans",
+      "tomatoes",
+      "rice",
+      "cheese",
+      "avocado"
+    ],
+    "image": "assets/dishes/bean-chili-rice.jpg",
+    "recipeUrl": null,
+    "notes": "Use a mix of beans for better texture."
+  },
+  {
+    "id": "prawn-fried-noodles",
+    "name": "Prawn Fried Noodles",
+    "description": "Prawns, noodles, eggs, and vegetables tossed in a savory sauce.",
+    "mainIngredients": [
+      "prawns",
+      "noodles",
+      "eggs",
+      "vegetables",
+      "soy sauce"
+    ],
+    "image": "assets/dishes/prawn-fried-noodles.jpg",
+    "recipeUrl": null,
+    "notes": "Keep frozen prawns on hand for this quick option."
+  },
+  {
+    "id": "eggplant-parmesan",
+    "name": "Eggplant Parmesan",
+    "description": "Baked eggplant layered with tomato sauce, mozzarella, and parmesan.",
+    "mainIngredients": [
+      "eggplant",
+      "tomato sauce",
+      "mozzarella",
+      "parmesan",
+      "breadcrumbs"
+    ],
+    "image": "assets/dishes/eggplant-parmesan.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with pasta or a green salad."
+  },
+  {
+    "id": "turkey-burgers",
+    "name": "Turkey Burgers",
+    "description": "Juicy turkey burgers with buns, lettuce, tomato, and oven fries.",
+    "mainIngredients": [
+      "turkey mince",
+      "burger buns",
+      "lettuce",
+      "tomatoes",
+      "potatoes"
+    ],
+    "image": "assets/dishes/turkey-burgers.jpg",
+    "recipeUrl": null,
+    "notes": "Add grated zucchini to the patties to keep them moist."
+  },
+  {
+    "id": "creamy-mushroom-chicken",
+    "name": "Creamy Mushroom Chicken",
+    "description": "Chicken in a mushroom cream sauce served with rice or mashed potatoes.",
+    "mainIngredients": [
+      "chicken",
+      "mushrooms",
+      "cream",
+      "rice",
+      "parsley"
+    ],
+    "image": "assets/dishes/creamy-mushroom-chicken.jpg",
+    "recipeUrl": null,
+    "notes": "Serve green beans on the side."
+  },
+  {
+    "id": "tofu-banh-mi-bowls",
+    "name": "Tofu Banh Mi Bowls",
+    "description": "Rice bowls with crispy tofu, pickled carrots, cucumber, herbs, and mayo.",
+    "mainIngredients": [
+      "tofu",
+      "rice",
+      "carrots",
+      "cucumber",
+      "mayo"
+    ],
+    "image": "assets/dishes/tofu-banh-mi-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Keep pickles mild and add chili for adults separately."
+  },
+  {
+    "id": "chicken-corn-tacos",
+    "name": "Chicken and Corn Tacos",
+    "description": "Shredded chicken tacos with sweet corn, lettuce, cheese, and salsa.",
+    "mainIngredients": [
+      "chicken",
+      "tortillas",
+      "corn",
+      "lettuce",
+      "cheese"
+    ],
+    "image": "assets/dishes/chicken-corn-tacos.jpg",
+    "recipeUrl": null,
+    "notes": "Use leftover chicken to make this extra fast."
+  },
+  {
+    "id": "smoky-bean-stew",
+    "name": "Smoky Bean Stew",
+    "description": "Beans simmered with tomatoes, smoked paprika, carrots, and crusty bread.",
+    "mainIngredients": [
+      "beans",
+      "tomatoes",
+      "carrots",
+      "smoked paprika",
+      "bread"
+    ],
+    "image": "assets/dishes/smoky-bean-stew.jpg",
+    "recipeUrl": null,
+    "notes": "Top with yogurt or feta if you like."
+  },
+  {
+    "id": "salmon-fishcakes",
+    "name": "Salmon Fishcakes",
+    "description": "Golden salmon and potato cakes served with green beans, salad, and lemon.",
+    "mainIngredients": [
+      "salmon",
+      "potatoes",
+      "green beans",
+      "salad",
+      "lemon"
+    ],
+    "image": "assets/dishes/salmon-fishcakes.jpg",
+    "recipeUrl": null,
+    "notes": "Canned salmon works well for a pantry version."
+  },
+  {
+    "id": "beef-shepherds-pie",
+    "name": "Beef Shepherd's Pie",
+    "description": "Beef and vegetables topped with mashed potatoes and baked until golden.",
+    "mainIngredients": [
+      "ground beef",
+      "potatoes",
+      "carrots",
+      "corn",
+      "broth"
+    ],
+    "image": "assets/dishes/beef-shepherds-pie.jpg",
+    "recipeUrl": null,
+    "notes": "Make it in one oven-safe skillet if possible."
+  },
+  {
+    "id": "roasted-red-pepper-pasta",
+    "name": "Roasted Red Pepper Pasta",
+    "description": "Pasta tossed in a creamy roasted red pepper sauce with spinach.",
+    "mainIngredients": [
+      "pasta",
+      "roasted peppers",
+      "cream",
+      "spinach",
+      "parmesan"
+    ],
+    "image": "assets/dishes/roasted-red-pepper-pasta.jpg",
+    "recipeUrl": null,
+    "notes": "Blend the sauce smooth before tossing with pasta."
+  },
+  {
+    "id": "chicken-fried-rice",
+    "name": "Chicken Fried Rice",
+    "description": "Rice stir-fried with chicken, eggs, bell peppers, carrots, and soy sauce.",
+    "mainIngredients": [
+      "rice",
+      "chicken",
+      "eggs",
+      "bell peppers",
+      "carrots"
+    ],
+    "image": "assets/dishes/chicken-fried-rice.jpg",
+    "recipeUrl": null,
+    "notes": "Use chilled rice so it fries instead of steaming."
+  },
+  {
+    "id": "ricotta-spinach-flatbreads",
+    "name": "Ricotta Spinach Flatbreads",
+    "description": "Flatbreads topped with ricotta, spinach, mozzarella, and tomatoes.",
+    "mainIngredients": [
+      "flatbread",
+      "ricotta",
+      "spinach",
+      "mozzarella",
+      "tomatoes"
+    ],
+    "image": "assets/dishes/ricotta-spinach-flatbreads.jpg",
+    "recipeUrl": null,
+    "notes": "Cut into strips for easy sharing."
+  },
+  {
+    "id": "pork-meatball-subs",
+    "name": "Pork Meatball Subs",
+    "description": "Meatballs in tomato sauce tucked into rolls with melted mozzarella.",
+    "mainIngredients": [
+      "pork mince",
+      "rolls",
+      "tomato sauce",
+      "mozzarella",
+      "salad"
+    ],
+    "image": "assets/dishes/pork-meatball-subs.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with raw vegetables or salad to balance the meal."
+  },
+  {
+    "id": "coconut-lentil-dal",
+    "name": "Coconut Lentil Dal",
+    "description": "Red lentils simmered with coconut milk, mild spices, spinach, and rice.",
+    "mainIngredients": [
+      "red lentils",
+      "coconut milk",
+      "spinach",
+      "rice",
+      "spices"
+    ],
+    "image": "assets/dishes/coconut-lentil-dal.jpg",
+    "recipeUrl": null,
+    "notes": "Add lemon juice at the end for brightness."
+  },
+  {
+    "id": "chicken-pesto-panini",
+    "name": "Chicken Pesto Panini",
+    "description": "Toasted sandwiches with chicken, pesto, mozzarella, tomatoes, and salad.",
+    "mainIngredients": [
+      "bread",
+      "chicken",
+      "pesto",
+      "mozzarella",
+      "tomatoes"
+    ],
+    "image": "assets/dishes/chicken-pesto-panini.jpg",
+    "recipeUrl": null,
+    "notes": "Use a frying pan and press with another pan if you do not have a press."
+  },
+  {
+    "id": "fish-pie",
+    "name": "Fish Pie",
+    "description": "Creamy mixed fish and leeks topped with mashed potatoes and baked.",
+    "mainIngredients": [
+      "mixed fish",
+      "potatoes",
+      "leeks",
+      "milk",
+      "cheese"
+    ],
+    "image": "assets/dishes/fish-pie.jpg",
+    "recipeUrl": null,
+    "notes": "Use frozen fish pie mix for convenience."
+  },
+  {
+    "id": "halloumi-tacos",
+    "name": "Halloumi Tacos",
+    "description": "Pan-fried halloumi in tortillas with slaw, avocado, and lime.",
+    "mainIngredients": [
+      "halloumi",
+      "tortillas",
+      "cabbage",
+      "avocado",
+      "lime"
+    ],
+    "image": "assets/dishes/halloumi-tacos.jpg",
+    "recipeUrl": null,
+    "notes": "Cook halloumi just before serving so it stays soft."
+  },
+  {
+    "id": "beef-ragu-polenta",
+    "name": "Beef Ragu with Polenta",
+    "description": "Slow-simmered beef tomato sauce served over creamy polenta.",
+    "mainIngredients": [
+      "beef",
+      "tomatoes",
+      "polenta",
+      "parmesan",
+      "carrots"
+    ],
+    "image": "assets/dishes/beef-ragu-polenta.jpg",
+    "recipeUrl": null,
+    "notes": "This is a good weekend or make-ahead option."
+  },
+  {
+    "id": "chicken-biryani-style-rice",
+    "name": "Chicken Biryani-Style Rice",
+    "description": "Fragrant rice with chicken, green beans, mild spices, yogurt, and cucumber.",
+    "mainIngredients": [
+      "chicken",
+      "rice",
+      "green beans",
+      "yogurt",
+      "cucumber"
+    ],
+    "image": "assets/dishes/chicken-biryani-style-rice.jpg",
+    "recipeUrl": null,
+    "notes": "Use mild curry powder for a family-friendly version."
+  },
+  {
+    "id": "white-bean-sausage-soup",
+    "name": "White Bean Sausage Soup",
+    "description": "A hearty soup with sausage, white beans, carrots, greens, and broth.",
+    "mainIngredients": [
+      "sausage",
+      "white beans",
+      "carrots",
+      "greens",
+      "broth"
+    ],
+    "image": "assets/dishes/white-bean-sausage-soup.jpg",
+    "recipeUrl": null,
+    "notes": "Serve with bread and grated parmesan."
+  },
+  {
+    "id": "veggie-sushi-bowls",
+    "name": "Veggie Sushi Bowls",
+    "description": "Rice bowls with cucumber, avocado, carrots, edamame, and nori.",
+    "mainIngredients": [
+      "rice",
+      "cucumber",
+      "avocado",
+      "edamame",
+      "nori"
+    ],
+    "image": "assets/dishes/veggie-sushi-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Add smoked salmon or tofu if you want more protein."
+  },
+  {
+    "id": "ham-spinach-risotto",
+    "name": "Ham and Spinach Risotto",
+    "description": "Creamy risotto with diced ham, spinach, parmesan, and lemon.",
+    "mainIngredients": [
+      "risotto rice",
+      "ham",
+      "spinach",
+      "parmesan",
+      "lemon"
+    ],
+    "image": "assets/dishes/ham-spinach-risotto.jpg",
+    "recipeUrl": null,
+    "notes": "A useful way to use leftover ham."
+  },
+  {
+    "id": "turkey-lettuce-bowls",
+    "name": "Turkey Lettuce Bowls",
+    "description": "Seasoned turkey mince served with rice, lettuce, cucumber, and sauce.",
+    "mainIngredients": [
+      "turkey mince",
+      "rice",
+      "lettuce",
+      "cucumber",
+      "sauce"
+    ],
+    "image": "assets/dishes/turkey-lettuce-bowls.jpg",
+    "recipeUrl": null,
+    "notes": "Spoon into lettuce leaves or serve as rice bowls."
+  },
+  {
+    "id": "baked-ziti",
+    "name": "Baked Ziti",
+    "description": "Pasta baked with tomato sauce, ricotta, mozzarella, and basil.",
+    "mainIngredients": [
+      "ziti",
+      "tomato sauce",
+      "ricotta",
+      "mozzarella",
+      "basil"
+    ],
+    "image": "assets/dishes/baked-ziti.jpg",
+    "recipeUrl": null,
+    "notes": "Make two smaller pans and freeze one if you like."
+  },
+  {
+    "id": "miso-udon-veg",
+    "name": "Miso Udon with Vegetables",
+    "description": "Thick udon noodles in miso broth with mushrooms, greens, and eggs.",
+    "mainIngredients": [
+      "udon noodles",
+      "miso",
+      "mushrooms",
+      "greens",
+      "eggs"
+    ],
+    "image": "assets/dishes/miso-udon-veg.jpg",
+    "recipeUrl": null,
+    "notes": "Keep the broth mild and add chili oil separately."
+  },
+  {
+    "id": "breakfast-for-dinner",
+    "name": "Breakfast for Dinner",
+    "description": "Scrambled eggs, toast, roasted tomatoes, fruit, and crispy potatoes.",
+    "mainIngredients": [
+      "eggs",
+      "toast",
+      "potatoes",
+      "tomatoes",
+      "fruit"
+    ],
+    "image": "assets/dishes/breakfast-for-dinner.jpg",
+    "recipeUrl": null,
+    "notes": "Let everyone pick their favorite breakfast side."
+  }
+]

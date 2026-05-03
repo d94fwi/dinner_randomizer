@@ -1,6 +1,7 @@
 const DATA_URL = "data/dinners.json";
 const FALLBACK_IMAGE = "assets/dinner-table.jpg";
 const LANGUAGE_STORAGE_KEY = "dinnerRandomizerLanguage";
+const RECENT_REPEAT_BUFFER_SIZE = 10;
 
 const UI_TEXT = {
   en: {
@@ -101,6 +102,8 @@ const state = {
   dinners: [],
   currentDinnerId: null,
   previousDinnerIds: [],
+  upcomingDinnerIds: [],
+  recentDinnerIds: [],
   language: detectInitialLanguage(),
   loadStatus: "loading",
   loadError: null,
@@ -199,6 +202,52 @@ function normalizeDinner(dinner) {
   };
 }
 
+function shuffleItems(items) {
+  const shuffledItems = [...items];
+
+  for (let i = shuffledItems.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledItems[i], shuffledItems[j]] = [shuffledItems[j], shuffledItems[i]];
+  }
+
+  return shuffledItems;
+}
+
+function createShuffledDinnerQueue() {
+  const recentDinnerIds = new Set(state.recentDinnerIds.slice(-RECENT_REPEAT_BUFFER_SIZE));
+  const shuffledDinnerIds = shuffleItems(state.dinners.map((dinner) => dinner.id));
+
+  if (recentDinnerIds.size === 0) {
+    return shuffledDinnerIds;
+  }
+
+  const delayedDinnerIds = [];
+  const availableDinnerIds = [];
+
+  shuffledDinnerIds.forEach((dinnerId) => {
+    if (recentDinnerIds.has(dinnerId)) {
+      delayedDinnerIds.push(dinnerId);
+      return;
+    }
+
+    availableDinnerIds.push(dinnerId);
+  });
+
+  return [...availableDinnerIds, ...delayedDinnerIds];
+}
+
+function getDinnerById(dinnerId) {
+  return state.dinners.find((dinner) => dinner.id === dinnerId) || null;
+}
+
+function rememberRecentDinner(dinnerId) {
+  state.recentDinnerIds.push(dinnerId);
+
+  if (state.recentDinnerIds.length > RECENT_REPEAT_BUFFER_SIZE) {
+    state.recentDinnerIds = state.recentDinnerIds.slice(-RECENT_REPEAT_BUFFER_SIZE);
+  }
+}
+
 function pickRandomDinner() {
   if (state.dinners.length === 0) {
     state.currentDinnerId = null;
@@ -206,12 +255,16 @@ function pickRandomDinner() {
     return;
   }
 
-  let nextDinner = state.dinners[Math.floor(Math.random() * state.dinners.length)];
+  if (state.upcomingDinnerIds.length === 0) {
+    state.upcomingDinnerIds = createShuffledDinnerQueue();
+  }
 
-  if (state.dinners.length > 1) {
-    while (nextDinner.id === state.currentDinnerId) {
-      nextDinner = state.dinners[Math.floor(Math.random() * state.dinners.length)];
-    }
+  const nextDinnerId = state.upcomingDinnerIds.shift();
+  const nextDinner = getDinnerById(nextDinnerId);
+
+  if (!nextDinner) {
+    pickRandomDinner();
+    return;
   }
 
   if (state.currentDinnerId) {
@@ -219,6 +272,7 @@ function pickRandomDinner() {
   }
 
   state.currentDinnerId = nextDinner.id;
+  rememberRecentDinner(nextDinner.id);
   renderDinner(nextDinner);
 }
 

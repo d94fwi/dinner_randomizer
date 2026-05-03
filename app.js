@@ -20,6 +20,8 @@ const UI_TEXT = {
     navigationLabel: "Dinner navigation",
     back: "Back",
     next: "Next dinner idea",
+    recipeSearch: "Search recipe on Google",
+    recipeSearchTerm: "recipe",
     noIdeasLoaded: "No ideas loaded",
     noDinnerIdeasYet: "No dinner ideas yet",
     noIdeasDescription: "Add dinners to data/dinners.json to start picking.",
@@ -47,6 +49,8 @@ const UI_TEXT = {
     navigationLabel: "Middagsnavigering",
     back: "Tillbaka",
     next: "Nästa middagsidé",
+    recipeSearch: "Sök recept på Google",
+    recipeSearchTerm: "recept",
     noIdeasLoaded: "Inga idéer laddade",
     noDinnerIdeasYet: "Inga middagsidéer ännu",
     noIdeasDescription: "Lägg till middagar i data/dinners.json för att börja lotta.",
@@ -74,6 +78,8 @@ const UI_TEXT = {
     navigationLabel: "Nawigacja po obiadach",
     back: "Wstecz",
     next: "Następny pomysł",
+    recipeSearch: "Szukaj przepisu w Google",
+    recipeSearchTerm: "przepis",
     noIdeasLoaded: "Nie wczytano pomysłów",
     noDinnerIdeasYet: "Nie ma jeszcze pomysłów na obiad",
     noIdeasDescription: "Dodaj dania do data/dinners.json, aby zacząć losowanie.",
@@ -122,9 +128,9 @@ const elements = {
   dinnerNotes: document.querySelector("#dinnerNotes"),
   dinnerNavigation: document.querySelector("#dinnerNavigation"),
   backDinner: document.querySelector("#backDinner"),
-  backLabel: document.querySelector("#backLabel"),
   pickDinner: document.querySelector("#pickDinner"),
   pickLabel: document.querySelector("#pickLabel"),
+  recipeSearch: document.querySelector("#recipeSearch"),
 };
 
 function getCopy() {
@@ -196,7 +202,6 @@ function normalizeDinner(dinner) {
     description: dinner.description || UI_TEXT.en.fallbackDescription,
     mainIngredients: Array.isArray(dinner.mainIngredients) ? dinner.mainIngredients : [],
     image: dinner.image || null,
-    recipeUrl: dinner.recipeUrl || null,
     notes: dinner.notes || "",
     translations: dinner.translations || {},
   };
@@ -317,6 +322,27 @@ function getLocalizedDinner(dinner) {
   };
 }
 
+function getRecipeSearchQuery(dinner) {
+  const localizedDinner = getLocalizedDinner(dinner);
+
+  if (!localizedDinner) {
+    return "";
+  }
+
+  return `${localizedDinner.name} ${getCopy().recipeSearchTerm}`;
+}
+
+function openRecipeSearch() {
+  const searchQuery = getRecipeSearchQuery(getCurrentDinner());
+
+  if (!searchQuery) {
+    return;
+  }
+
+  const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
+  window.open(searchUrl, "_blank", "noopener,noreferrer");
+}
+
 function renderStaticText() {
   const copy = getCopy();
   document.documentElement.lang = state.language;
@@ -325,8 +351,11 @@ function renderStaticText() {
   elements.languageSwitcher.setAttribute("aria-label", copy.languageLabel);
   elements.ingredientHeading.textContent = copy.mainIngredients;
   elements.dinnerNavigation.setAttribute("aria-label", copy.navigationLabel);
-  elements.backLabel.textContent = copy.back;
+  elements.backDinner.setAttribute("aria-label", copy.back);
+  elements.backDinner.title = copy.back;
   elements.pickLabel.textContent = copy.next;
+  elements.recipeSearch.setAttribute("aria-label", copy.recipeSearch);
+  elements.recipeSearch.title = copy.recipeSearch;
 
   elements.languageButtons.forEach((button) => {
     const language = button.dataset.language;
@@ -362,6 +391,7 @@ function renderLoading() {
   elements.dinnerDescription.textContent = copy.loadingDescription;
   elements.ingredientList.replaceChildren();
   elements.dinnerNotes.textContent = "";
+  elements.recipeSearch.disabled = true;
   updateBackButton();
 }
 
@@ -374,6 +404,7 @@ function renderLoadError() {
   elements.dinnerDescription.textContent = copy.loadErrorDescription;
   elements.ingredientList.replaceChildren();
   elements.dinnerNotes.textContent = state.loadError?.message || "";
+  elements.recipeSearch.disabled = true;
   updateBackButton();
 }
 
@@ -389,6 +420,7 @@ function renderDinner(dinner) {
     elements.dinnerName.textContent = copy.noDinnerIdeasYet;
     elements.dinnerDescription.textContent = copy.noIdeasDescription;
     elements.dinnerNotes.textContent = "";
+    elements.recipeSearch.disabled = true;
     updateBackButton();
     return;
   }
@@ -399,6 +431,7 @@ function renderDinner(dinner) {
   elements.dinnerName.textContent = localizedDinner.name;
   elements.dinnerDescription.textContent = localizedDinner.description;
   elements.dinnerNotes.textContent = localizedDinner.notes;
+  elements.recipeSearch.disabled = false;
 
   localizedDinner.mainIngredients.forEach((ingredient) => {
     const item = document.createElement("li");
@@ -426,6 +459,7 @@ function setLanguage(language) {
 async function init() {
   elements.pickDinner.addEventListener("click", pickRandomDinner);
   elements.backDinner.addEventListener("click", showPreviousDinner);
+  elements.recipeSearch.addEventListener("click", openRecipeSearch);
   elements.languageButtons.forEach((button) => {
     button.addEventListener("click", () => setLanguage(button.dataset.language));
   });

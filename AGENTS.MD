@@ -39,7 +39,6 @@ Each dinner in `data/dinners.json` currently uses:
   "description": "Short dinner description.",
   "mainIngredients": ["ingredient one", "ingredient two"],
   "image": "assets/dishes/example.jpg",
-  "recipeUrl": null,
   "notes": "Optional serving note.",
   "translations": {
     "sv": {

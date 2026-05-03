@@ -11,7 +11,6 @@
       "avocado"
     ],
     "image": "assets/dishes/taco-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Set toppings out separately so everyone can build their own bowl.",
     "translations": {
       "sv": {
@@ -52,7 +51,6 @@
       "dill"
     ],
     "image": "assets/dishes/sheet-pan-salmon.jpg",
-    "recipeUrl": null,
     "notes": "Swap salmon for chicken thighs if fish is not on the menu.",
     "translations": {
       "sv": {
@@ -93,7 +91,6 @@
       "parmesan"
     ],
     "image": "assets/dishes/creamy-tomato-pasta.jpg",
-    "recipeUrl": null,
     "notes": "Add white beans or grilled chicken for extra protein.",
     "translations": {
       "sv": {
@@ -134,7 +131,6 @@
       "lime"
     ],
     "image": "assets/dishes/chicken-fajitas.jpg",
-    "recipeUrl": null,
     "notes": "Make extra vegetables for lunch wraps the next day.",
     "translations": {
       "sv": {
@@ -175,7 +171,6 @@
       "spaghetti"
     ],
     "image": "assets/dishes/lentil-bolognese.jpg",
-    "recipeUrl": null,
     "notes": "The sauce freezes well, so double it when you have time.",
     "translations": {
       "sv": {
@@ -216,7 +211,6 @@
       "teriyaki sauce"
     ],
     "image": "assets/dishes/teriyaki-chicken-rice.jpg",
-    "recipeUrl": null,
     "notes": "Keep sauce on the side for anyone who prefers lighter seasoning.",
     "translations": {
       "sv": {
@@ -257,7 +251,6 @@
       "chives"
     ],
     "image": "assets/dishes/baked-potato-bar.jpg",
-    "recipeUrl": null,
     "notes": "Microwave potatoes first, then crisp them in the oven to save time.",
     "translations": {
       "sv": {
@@ -298,7 +291,6 @@
       "yogurt"
     ],
     "image": "assets/dishes/turkey-meatballs.jpg",
-    "recipeUrl": null,
     "notes": "Bake the meatballs on parchment for a lower-mess version.",
     "translations": {
       "sv": {
@@ -339,7 +331,6 @@
       "soy sauce"
     ],
     "image": "assets/dishes/vegetable-fried-rice.jpg",
-    "recipeUrl": null,
     "notes": "Best with chilled leftover rice.",
     "translations": {
       "sv": {
@@ -380,7 +371,6 @@
       "mozzarella"
     ],
     "image": "assets/dishes/sausage-gnocchi.jpg",
-    "recipeUrl": null,
     "notes": "Use vegetarian sausage if you want a meat-free version.",
     "translations": {
       "sv": {
@@ -421,7 +411,6 @@
       "rice"
     ],
     "image": "assets/dishes/chickpea-curry.jpg",
-    "recipeUrl": null,
     "notes": "Serve chili flakes at the table for anyone who wants heat.",
     "translations": {
       "sv": {
@@ -462,7 +451,6 @@
       "salad"
     ],
     "image": "assets/dishes/pita-pizzas.jpg",
-    "recipeUrl": null,
     "notes": "Let everyone top their own before baking.",
     "translations": {
       "sv": {
@@ -503,7 +491,6 @@
       "parsley"
     ],
     "image": "assets/dishes/beef-stroganoff.jpg",
-    "recipeUrl": null,
     "notes": "Use Greek yogurt instead of sour cream for a lighter finish.",
     "translations": {
       "sv": {
@@ -544,7 +531,6 @@
       "broth"
     ],
     "image": "assets/dishes/chicken-noodle-soup.jpg",
-    "recipeUrl": null,
     "notes": "Serve with toast or warm rolls for a simple complete dinner.",
     "translations": {
       "sv": {
@@ -585,7 +571,6 @@
       "mozzarella"
     ],
     "image": "assets/dishes/veggie-lasagna.jpg",
-    "recipeUrl": null,
     "notes": "Assemble earlier in the day and bake when everyone is hungry.",
     "translations": {
       "sv": {
@@ -626,7 +611,6 @@
       "avocado"
     ],
     "image": "assets/dishes/shrimp-tacos.jpg",
-    "recipeUrl": null,
     "notes": "Keep the shrimp mild and add hot sauce at the table.",
     "translations": {
       "sv": {
@@ -667,7 +651,6 @@
       "tzatziki"
     ],
     "image": "assets/dishes/greek-chicken-pitas.jpg",
-    "recipeUrl": null,
     "notes": "Put fillings in bowls so everyone can build their own pita.",
     "translations": {
       "sv": {
@@ -708,7 +691,6 @@
       "greens"
     ],
     "image": "assets/dishes/pork-tenderloin-apples.jpg",
-    "recipeUrl": null,
     "notes": "Slice leftovers thin for sandwiches the next day.",
     "translations": {
       "sv": {
@@ -749,7 +731,6 @@
       "bell peppers"
     ],
     "image": "assets/dishes/black-bean-quesadillas.jpg",
-    "recipeUrl": null,
     "notes": "Serve with salsa, yogurt, and sliced vegetables.",
     "translations": {
       "sv": {
@@ -790,7 +771,6 @@
       "cheese"
     ],
     "image": "assets/dishes/tuna-pasta-bake.jpg",
-    "recipeUrl": null,
     "notes": "Use small pasta shapes so the bake is easy to serve.",
     "translations": {
       "sv": {
@@ -831,7 +811,6 @@
       "garlic"
     ],
     "image": "assets/dishes/beef-and-broccoli.jpg",
-    "recipeUrl": null,
     "notes": "Slice the beef thinly so it cooks quickly.",
     "translations": {
       "sv": {
@@ -872,7 +851,6 @@
       "spices"
     ],
     "image": "assets/dishes/sweet-potato-chili.jpg",
-    "recipeUrl": null,
     "notes": "Top with yogurt, cheese, or avocado.",
     "translations": {
       "sv": {
@@ -913,7 +891,6 @@
       "Caesar dressing"
     ],
     "image": "assets/dishes/chicken-caesar-wraps.jpg",
-    "recipeUrl": null,
     "notes": "Add cucumber sticks and fruit on the side.",
     "translations": {
       "sv": {
@@ -954,7 +931,6 @@
       "lingonberry jam"
     ],
     "image": "assets/dishes/swedish-meatballs.jpg",
-    "recipeUrl": null,
     "notes": "Frozen meatballs make this a useful backup dinner.",
     "translations": {
       "sv": {
@@ -995,7 +971,6 @@
       "salad greens"
     ],
     "image": "assets/dishes/mushroom-risotto.jpg",
-    "recipeUrl": null,
     "notes": "Stir in spinach near the end for extra color.",
     "translations": {
       "sv": {
@@ -1036,7 +1011,6 @@
       "corn"
     ],
     "image": "assets/dishes/bbq-chicken-flatbreads.jpg",
-    "recipeUrl": null,
     "notes": "Use leftover roast chicken if you have it.",
     "translations": {
       "sv": {
@@ -1077,7 +1051,6 @@
       "tomatoes"
     ],
     "image": "assets/dishes/falafel-plates.jpg",
-    "recipeUrl": null,
     "notes": "Bake frozen falafel for a low-effort dinner.",
     "translations": {
       "sv": {
@@ -1118,7 +1091,6 @@
       "taco seasoning"
     ],
     "image": "assets/dishes/turkey-taco-soup.jpg",
-    "recipeUrl": null,
     "notes": "Serve with tortilla chips for crunch.",
     "translations": {
       "sv": {
@@ -1159,7 +1131,6 @@
       "salad greens"
     ],
     "image": "assets/dishes/ham-cheese-omelet.jpg",
-    "recipeUrl": null,
     "notes": "Cook two large omelets and slice them into wedges.",
     "translations": {
       "sv": {
@@ -1200,7 +1171,6 @@
       "parmesan"
     ],
     "image": "assets/dishes/pesto-tortellini.jpg",
-    "recipeUrl": null,
     "notes": "Serve warm or room temperature depending on the evening.",
     "translations": {
       "sv": {
@@ -1241,7 +1211,6 @@
       "broth"
     ],
     "image": "assets/dishes/chicken-pot-pie-skillet.jpg",
-    "recipeUrl": null,
     "notes": "Use rotisserie chicken to speed it up.",
     "translations": {
       "sv": {
@@ -1282,7 +1251,6 @@
       "sesame sauce"
     ],
     "image": "assets/dishes/sesame-tofu-noodles.jpg",
-    "recipeUrl": null,
     "notes": "Press the tofu briefly so it browns better.",
     "translations": {
       "sv": {
@@ -1323,7 +1291,6 @@
       "salsa"
     ],
     "image": "assets/dishes/beef-burrito-wraps.jpg",
-    "recipeUrl": null,
     "notes": "Wrap extras in foil for easy lunches.",
     "translations": {
       "sv": {
@@ -1364,7 +1331,6 @@
       "lemon"
     ],
     "image": "assets/dishes/roasted-veg-couscous.jpg",
-    "recipeUrl": null,
     "notes": "Good warm or cold, so it is flexible for busy nights.",
     "translations": {
       "sv": {
@@ -1405,7 +1371,6 @@
       "carrots"
     ],
     "image": "assets/dishes/lemon-garlic-chicken.jpg",
-    "recipeUrl": null,
     "notes": "Roast everything on one tray for less cleanup.",
     "translations": {
       "sv": {
@@ -1446,7 +1411,6 @@
       "lime"
     ],
     "image": "assets/dishes/fish-finger-tacos.jpg",
-    "recipeUrl": null,
     "notes": "A useful freezer-friendly dinner.",
     "translations": {
       "sv": {
@@ -1487,7 +1451,6 @@
       "parmesan"
     ],
     "image": "assets/dishes/minestrone-soup.jpg",
-    "recipeUrl": null,
     "notes": "Serve with garlic bread if you want it heartier.",
     "translations": {
       "sv": {
@@ -1528,7 +1491,6 @@
       "balsamic glaze"
     ],
     "image": "assets/dishes/caprese-chicken.jpg",
-    "recipeUrl": null,
     "notes": "Serve with pasta, rice, or crusty bread.",
     "translations": {
       "sv": {
@@ -1569,7 +1531,6 @@
       "soy sauce"
     ],
     "image": "assets/dishes/peanut-chicken-noodles.jpg",
-    "recipeUrl": null,
     "notes": "Add lime juice at the end to brighten the sauce.",
     "translations": {
       "sv": {
@@ -1610,7 +1571,6 @@
       "couscous"
     ],
     "image": "assets/dishes/halloumi-vegetable-traybake.jpg",
-    "recipeUrl": null,
     "notes": "Add chickpeas to make it more filling.",
     "translations": {
       "sv": {
@@ -1651,7 +1611,6 @@
       "salad"
     ],
     "image": "assets/dishes/sloppy-joes.jpg",
-    "recipeUrl": null,
     "notes": "Serve open-faced for younger kids to make it easier.",
     "translations": {
       "sv": {
@@ -1692,7 +1651,6 @@
       "herbs"
     ],
     "image": "assets/dishes/baked-feta-orzo.jpg",
-    "recipeUrl": null,
     "notes": "Stir in cooked chicken if you want extra protein.",
     "translations": {
       "sv": {
@@ -1733,7 +1691,6 @@
       "yogurt sauce"
     ],
     "image": "assets/dishes/chicken-souvlaki-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Keep the vegetables separate for easier serving.",
     "translations": {
       "sv": {
@@ -1774,7 +1731,6 @@
       "corn"
     ],
     "image": "assets/dishes/bean-cheese-enchiladas.jpg",
-    "recipeUrl": null,
     "notes": "Serve with shredded lettuce and yogurt.",
     "translations": {
       "sv": {
@@ -1815,7 +1771,6 @@
       "mustard"
     ],
     "image": "assets/dishes/sausage-pepper-subs.jpg",
-    "recipeUrl": null,
     "notes": "Use chicken or vegetarian sausages if preferred.",
     "translations": {
       "sv": {
@@ -1856,7 +1811,6 @@
       "parsley"
     ],
     "image": "assets/dishes/cod-tomato-beans.jpg",
-    "recipeUrl": null,
     "notes": "Serve with bread for scooping up the sauce.",
     "translations": {
       "sv": {
@@ -1897,7 +1851,6 @@
       "sauce"
     ],
     "image": "assets/dishes/veggie-burger-plates.jpg",
-    "recipeUrl": null,
     "notes": "Skip the bun and serve everything plate-style.",
     "translations": {
       "sv": {
@@ -1938,7 +1891,6 @@
       "greens"
     ],
     "image": "assets/dishes/chicken-ramen-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Use low-sodium broth and let everyone season their bowl.",
     "translations": {
       "sv": {
@@ -1979,7 +1931,6 @@
       "garlic yogurt"
     ],
     "image": "assets/dishes/beef-kofta-flatbreads.jpg",
-    "recipeUrl": null,
     "notes": "Shape the kofta into small patties so they cook evenly.",
     "translations": {
       "sv": {
@@ -2020,7 +1971,6 @@
       "mozzarella"
     ],
     "image": "assets/dishes/spinach-ricotta-cannelloni.jpg",
-    "recipeUrl": null,
     "notes": "Use lasagna sheets rolled around the filling if needed.",
     "translations": {
       "sv": {
@@ -2061,7 +2011,6 @@
       "green beans"
     ],
     "image": "assets/dishes/honey-mustard-chicken.jpg",
-    "recipeUrl": null,
     "notes": "Make extra sauce for spooning over the rice.",
     "translations": {
       "sv": {
@@ -2102,7 +2051,6 @@
       "rice"
     ],
     "image": "assets/dishes/cauliflower-tikka-masala.jpg",
-    "recipeUrl": null,
     "notes": "Serve with naan or rice depending on what you have.",
     "translations": {
       "sv": {
@@ -2143,7 +2091,6 @@
       "salsa"
     ],
     "image": "assets/dishes/pulled-pork-rice-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Great for using leftover slow-cooked pork.",
     "translations": {
       "sv": {
@@ -2184,7 +2131,6 @@
       "tomatoes"
     ],
     "image": "assets/dishes/mediterranean-tuna-salad.jpg",
-    "recipeUrl": null,
     "notes": "Keep olives on the side if not everyone likes them.",
     "translations": {
       "sv": {
@@ -2225,7 +2171,6 @@
       "bacon"
     ],
     "image": "assets/dishes/corn-chowder.jpg",
-    "recipeUrl": null,
     "notes": "Serve with cheese toast for a cozy meal.",
     "translations": {
       "sv": {
@@ -2266,7 +2211,6 @@
       "pasta"
     ],
     "image": "assets/dishes/chicken-parmesan-bakes.jpg",
-    "recipeUrl": null,
     "notes": "Bake instead of frying to keep cleanup easier.",
     "translations": {
       "sv": {
@@ -2307,7 +2251,6 @@
       "parmesan"
     ],
     "image": "assets/dishes/gnocchi-tomato-beans.jpg",
-    "recipeUrl": null,
     "notes": "Finish under the grill with mozzarella if you want it bubbly.",
     "translations": {
       "sv": {
@@ -2348,7 +2291,6 @@
       "sesame"
     ],
     "image": "assets/dishes/korean-beef-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Use less chili paste for a milder family version.",
     "translations": {
       "sv": {
@@ -2389,7 +2331,6 @@
       "breadcrumbs"
     ],
     "image": "assets/dishes/squash-mac-cheese.jpg",
-    "recipeUrl": null,
     "notes": "Blend the squash into the sauce for a smooth texture.",
     "translations": {
       "sv": {
@@ -2430,7 +2371,6 @@
       "avocado"
     ],
     "image": "assets/dishes/turkey-club-salad.jpg",
-    "recipeUrl": null,
     "notes": "Serve with bread on the side for bigger appetites.",
     "translations": {
       "sv": {
@@ -2471,7 +2411,6 @@
       "tahini yogurt"
     ],
     "image": "assets/dishes/chickpea-shawarma-wraps.jpg",
-    "recipeUrl": null,
     "notes": "Roast chickpeas until crisp for the best texture.",
     "translations": {
       "sv": {
@@ -2512,7 +2451,6 @@
       "avocado"
     ],
     "image": "assets/dishes/beef-chili-nachos.jpg",
-    "recipeUrl": null,
     "notes": "Bake on a sheet pan and serve with salad.",
     "translations": {
       "sv": {
@@ -2553,7 +2491,6 @@
       "yogurt"
     ],
     "image": "assets/dishes/lemon-ricotta-pancake-dinner.jpg",
-    "recipeUrl": null,
     "notes": "A good breakfast-for-dinner variation.",
     "translations": {
       "sv": {
@@ -2594,7 +2531,6 @@
       "tomatoes"
     ],
     "image": "assets/dishes/ratatouille-pasta.jpg",
-    "recipeUrl": null,
     "notes": "Add mozzarella pearls or parmesan at the table.",
     "translations": {
       "sv": {
@@ -2635,7 +2571,6 @@
       "yogurt"
     ],
     "image": "assets/dishes/chicken-tikka-wraps.jpg",
-    "recipeUrl": null,
     "notes": "Serve with mango chutney on the side.",
     "translations": {
       "sv": {
@@ -2676,7 +2611,6 @@
       "teriyaki sauce"
     ],
     "image": "assets/dishes/salmon-teriyaki-noodles.jpg",
-    "recipeUrl": null,
     "notes": "Flake the salmon into the noodles for easier serving.",
     "translations": {
       "sv": {
@@ -2717,7 +2651,6 @@
       "pasta penne"
     ],
     "image": "assets/dishes/pasta-bacon-mushroom-sauce.jpg",
-    "recipeUrl": null,
     "notes": "Keep the sauce creamy and tomato-rich, then finish with black pepper.",
     "translations": {
       "sv": {
@@ -2758,7 +2691,6 @@
       "salad greens"
     ],
     "image": "assets/dishes/spanish-tortilla-salad.jpg",
-    "recipeUrl": null,
     "notes": "Cook it ahead and serve warm or room temperature.",
     "translations": {
       "sv": {
@@ -2799,7 +2731,6 @@
       "rice"
     ],
     "image": "assets/dishes/pork-ginger-stir-fry.jpg",
-    "recipeUrl": null,
     "notes": "Use thin strips so the pork stays tender.",
     "translations": {
       "sv": {
@@ -2840,7 +2771,6 @@
       "salad"
     ],
     "image": "assets/dishes/broccoli-cheddar-quiche.jpg",
-    "recipeUrl": null,
     "notes": "Use a ready-made crust when you need an easy version.",
     "translations": {
       "sv": {
@@ -2881,7 +2811,6 @@
       "basil"
     ],
     "image": "assets/dishes/tomato-soup-grilled-cheese.jpg",
-    "recipeUrl": null,
     "notes": "Cut sandwiches into strips for dipping.",
     "translations": {
       "sv": {
@@ -2922,7 +2851,6 @@
       "mint yogurt"
     ],
     "image": "assets/dishes/lamb-meatball-pitas.jpg",
-    "recipeUrl": null,
     "notes": "Use beef or turkey mince if lamb is not available.",
     "translations": {
       "sv": {
@@ -2963,7 +2891,6 @@
       "parmesan"
     ],
     "image": "assets/dishes/chicken-alfredo-broccoli.jpg",
-    "recipeUrl": null,
     "notes": "Steam the broccoli in the pasta pot for fewer dishes.",
     "translations": {
       "sv": {
@@ -3004,7 +2931,6 @@
       "avocado"
     ],
     "image": "assets/dishes/bean-chili-rice.jpg",
-    "recipeUrl": null,
     "notes": "Use a mix of beans for better texture.",
     "translations": {
       "sv": {
@@ -3045,7 +2971,6 @@
       "soy sauce"
     ],
     "image": "assets/dishes/prawn-fried-noodles.jpg",
-    "recipeUrl": null,
     "notes": "Keep frozen prawns on hand for this quick option.",
     "translations": {
       "sv": {
@@ -3086,7 +3011,6 @@
       "breadcrumbs"
     ],
     "image": "assets/dishes/eggplant-parmesan.jpg",
-    "recipeUrl": null,
     "notes": "Serve with pasta or a green salad.",
     "translations": {
       "sv": {
@@ -3127,7 +3051,6 @@
       "potatoes"
     ],
     "image": "assets/dishes/turkey-burgers.jpg",
-    "recipeUrl": null,
     "notes": "Add grated zucchini to the patties to keep them moist.",
     "translations": {
       "sv": {
@@ -3168,7 +3091,6 @@
       "parsley"
     ],
     "image": "assets/dishes/creamy-mushroom-chicken.jpg",
-    "recipeUrl": null,
     "notes": "Serve green beans on the side.",
     "translations": {
       "sv": {
@@ -3209,7 +3131,6 @@
       "mayo"
     ],
     "image": "assets/dishes/tofu-banh-mi-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Keep pickles mild and add chili for adults separately.",
     "translations": {
       "sv": {
@@ -3250,7 +3171,6 @@
       "cheese"
     ],
     "image": "assets/dishes/chicken-corn-tacos.jpg",
-    "recipeUrl": null,
     "notes": "Use leftover chicken to make this extra fast.",
     "translations": {
       "sv": {
@@ -3291,7 +3211,6 @@
       "bread"
     ],
     "image": "assets/dishes/smoky-bean-stew.jpg",
-    "recipeUrl": null,
     "notes": "Top with yogurt or feta if you like.",
     "translations": {
       "sv": {
@@ -3332,7 +3251,6 @@
       "lemon"
     ],
     "image": "assets/dishes/salmon-fishcakes.jpg",
-    "recipeUrl": null,
     "notes": "Canned salmon works well for a pantry version.",
     "translations": {
       "sv": {
@@ -3373,7 +3291,6 @@
       "broth"
     ],
     "image": "assets/dishes/beef-shepherds-pie.jpg",
-    "recipeUrl": null,
     "notes": "Make it in one oven-safe skillet if possible.",
     "translations": {
       "sv": {
@@ -3414,7 +3331,6 @@
       "parmesan"
     ],
     "image": "assets/dishes/roasted-red-pepper-pasta.jpg",
-    "recipeUrl": null,
     "notes": "Blend the sauce smooth before tossing with pasta.",
     "translations": {
       "sv": {
@@ -3455,7 +3371,6 @@
       "carrots"
     ],
     "image": "assets/dishes/chicken-fried-rice.jpg",
-    "recipeUrl": null,
     "notes": "Use chilled rice so it fries instead of steaming.",
     "translations": {
       "sv": {
@@ -3496,7 +3411,6 @@
       "tomatoes"
     ],
     "image": "assets/dishes/ricotta-spinach-flatbreads.jpg",
-    "recipeUrl": null,
     "notes": "Cut into strips for easy sharing.",
     "translations": {
       "sv": {
@@ -3537,7 +3451,6 @@
       "salad"
     ],
     "image": "assets/dishes/pork-meatball-subs.jpg",
-    "recipeUrl": null,
     "notes": "Serve with raw vegetables or salad to balance the meal.",
     "translations": {
       "sv": {
@@ -3578,7 +3491,6 @@
       "spices"
     ],
     "image": "assets/dishes/coconut-lentil-dal.jpg",
-    "recipeUrl": null,
     "notes": "Add lemon juice at the end for brightness.",
     "translations": {
       "sv": {
@@ -3619,7 +3531,6 @@
       "tomatoes"
     ],
     "image": "assets/dishes/chicken-pesto-panini.jpg",
-    "recipeUrl": null,
     "notes": "Use a frying pan and press with another pan if you do not have a press.",
     "translations": {
       "sv": {
@@ -3660,7 +3571,6 @@
       "cheese"
     ],
     "image": "assets/dishes/fish-pie.jpg",
-    "recipeUrl": null,
     "notes": "Use frozen fish pie mix for convenience.",
     "translations": {
       "sv": {
@@ -3701,7 +3611,6 @@
       "lime"
     ],
     "image": "assets/dishes/halloumi-tacos.jpg",
-    "recipeUrl": null,
     "notes": "Cook halloumi just before serving so it stays soft.",
     "translations": {
       "sv": {
@@ -3742,7 +3651,6 @@
       "carrots"
     ],
     "image": "assets/dishes/beef-ragu-polenta.jpg",
-    "recipeUrl": null,
     "notes": "This is a good weekend or make-ahead option.",
     "translations": {
       "sv": {
@@ -3783,7 +3691,6 @@
       "cucumber"
     ],
     "image": "assets/dishes/chicken-biryani-style-rice.jpg",
-    "recipeUrl": null,
     "notes": "Use mild curry powder for a family-friendly version.",
     "translations": {
       "sv": {
@@ -3824,7 +3731,6 @@
       "broth"
     ],
     "image": "assets/dishes/white-bean-sausage-soup.jpg",
-    "recipeUrl": null,
     "notes": "Serve with bread and grated parmesan.",
     "translations": {
       "sv": {
@@ -3865,7 +3771,6 @@
       "nori"
     ],
     "image": "assets/dishes/veggie-sushi-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Add smoked salmon or tofu if you want more protein.",
     "translations": {
       "sv": {
@@ -3906,7 +3811,6 @@
       "lemon"
     ],
     "image": "assets/dishes/ham-spinach-risotto.jpg",
-    "recipeUrl": null,
     "notes": "A useful way to use leftover ham.",
     "translations": {
       "sv": {
@@ -3947,7 +3851,6 @@
       "sauce"
     ],
     "image": "assets/dishes/turkey-lettuce-bowls.jpg",
-    "recipeUrl": null,
     "notes": "Spoon into lettuce leaves or serve as rice bowls.",
     "translations": {
       "sv": {
@@ -3988,7 +3891,6 @@
       "basil"
     ],
     "image": "assets/dishes/baked-ziti.jpg",
-    "recipeUrl": null,
     "notes": "Make two smaller pans and freeze one if you like.",
     "translations": {
       "sv": {
@@ -4029,7 +3931,6 @@
       "eggs"
     ],
     "image": "assets/dishes/miso-udon-veg.jpg",
-    "recipeUrl": null,
     "notes": "Keep the broth mild and add chili oil separately.",
     "translations": {
       "sv": {
@@ -4070,7 +3971,6 @@
       "fruit"
     ],
     "image": "assets/dishes/breakfast-for-dinner.jpg",
-    "recipeUrl": null,
     "notes": "Let everyone pick their favorite breakfast side.",
     "translations": {
       "sv": {

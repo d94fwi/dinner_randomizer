@@ -28,7 +28,7 @@ Opening `index.html` directly from disk may prevent the browser from reading `da
 
 ## Add dinners
 
-Edit `data/dinners.json`. Each dinner can already carry future image and recipe fields:
+Edit `data/dinners.json`. Each dinner can include a dish image:
 
 ```json
 {
@@ -37,7 +37,6 @@ Edit `data/dinners.json`. Each dinner can already carry future image and recipe 
   "description": "Short family-friendly description.",
   "mainIngredients": ["ingredient one", "ingredient two"],
   "image": null,
-  "recipeUrl": null,
   "notes": "Optional serving note."
 }
 ```

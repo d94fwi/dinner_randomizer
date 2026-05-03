@@ -231,13 +231,14 @@ h2 {
 
 .actions {
   display: grid;
-  grid-template-columns: minmax(120px, 0.34fr) 1fr;
+  grid-template-columns: 60px 1fr 60px;
   gap: 10px;
   padding: 0 clamp(22px, 5vw, 44px) clamp(22px, 5vw, 44px);
 }
 
 .primary-action,
-.secondary-action {
+.secondary-action,
+.google-action {
   min-height: 60px;
   display: inline-flex;
   align-items: center;
@@ -262,10 +263,34 @@ h2 {
   color: var(--sage-dark);
 }
 
+.icon-action {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  min-height: 60px;
+  max-height: 60px;
+  padding: 0;
+}
+
+.google-action {
+  padding: 0;
+  border: 1px solid var(--line);
+  background: #fffaf2;
+  color: var(--ink);
+}
+
+.google-action svg,
+.google-action path {
+  stroke: none;
+}
+
 .primary-action:hover,
 .primary-action:focus-visible,
 .secondary-action:not(:disabled):hover,
-.secondary-action:not(:disabled):focus-visible {
+.secondary-action:not(:disabled):focus-visible,
+.google-action:not(:disabled):hover,
+.google-action:not(:disabled):focus-visible {
   transform: translateY(-1px);
 }
 
@@ -276,6 +301,16 @@ h2 {
 }
 
 .secondary-action:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+.google-action:not(:disabled):hover,
+.google-action:not(:disabled):focus-visible {
+  box-shadow: 0 12px 24px rgba(60, 42, 28, 0.12);
+}
+
+.google-action:disabled {
   cursor: not-allowed;
   opacity: 0.48;
 }
@@ -371,14 +406,24 @@ svg {
   }
 
   .actions {
-    grid-template-columns: minmax(92px, 0.36fr) 1fr;
+    grid-template-columns: 50px 1fr 50px;
     gap: 8px;
     padding: 0 16px 16px;
   }
 
   .primary-action,
-  .secondary-action {
+  .secondary-action,
+  .google-action {
     min-height: 50px;
     font-size: 0.92rem;
+  }
+
+  .icon-action {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
   }
 }

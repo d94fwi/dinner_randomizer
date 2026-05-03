@@ -49,6 +49,13 @@ button {
   gap: 18px;
 }
 
+.topbar-controls {
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  gap: 8px;
+}
+
 .eyebrow {
   margin: 0 0 8px;
   color: currentColor;
@@ -88,6 +95,46 @@ h1 {
 .pool-count {
   background: rgba(69, 107, 123, 0.12);
   color: #2e5565;
+}
+
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px;
+  border: 1px solid rgba(234, 220, 200, 0.96);
+  border-radius: 999px;
+  background: rgba(255, 250, 242, 0.78);
+}
+
+.language-button {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform 160ms ease, background 160ms ease, box-shadow 160ms ease;
+}
+
+.language-button:hover,
+.language-button:focus-visible {
+  transform: translateY(-1px);
+}
+
+.language-button:focus-visible {
+  outline: 2px solid rgba(69, 107, 123, 0.55);
+  outline-offset: 2px;
+}
+
+.language-button[aria-pressed="true"] {
+  background: #fffaf2;
+  box-shadow: 0 3px 10px rgba(60, 42, 28, 0.16);
 }
 
 .planner {
@@ -255,6 +302,10 @@ svg {
     gap: 10px;
   }
 
+  .topbar-controls {
+    gap: 6px;
+  }
+
   h1 {
     font-size: 1.28rem;
   }
@@ -263,6 +314,16 @@ svg {
     min-height: 26px;
     padding: 0 9px;
     font-size: 0.76rem;
+  }
+
+  .language-switcher {
+    padding: 2px;
+  }
+
+  .language-button {
+    width: 28px;
+    height: 28px;
+    font-size: 0.95rem;
   }
 
   .image-strip {

@@ -12,9 +12,19 @@
     <main class="app-shell">
       <header class="topbar">
         <div>
-          <h1>Dinner Randomizer</h1>
+          <h1 id="appTitle">Dinner Randomizer</h1>
         </div>
-        <span class="pool-count" id="poolCount">Loading ideas</span>
+        <div class="topbar-controls">
+          <div class="language-switcher" id="languageSwitcher" role="group" aria-label="Language">
+            <button class="language-button" type="button" data-language="sv" aria-label="Svenska" aria-pressed="false" title="Svenska">
+              <span aria-hidden="true">🇸🇪</span>
+            </button>
+            <button class="language-button" type="button" data-language="en" aria-label="English" aria-pressed="true" title="English">
+              <span aria-hidden="true">🇬🇧</span>
+            </button>
+          </div>
+          <span class="pool-count" id="poolCount">Loading ideas</span>
+        </div>
       </header>
 
       <section class="planner" aria-labelledby="planner-title">
@@ -30,20 +40,20 @@
           <p class="description" id="dinnerDescription">The app is reading the dinner list.</p>
 
           <div class="ingredient-panel">
-            <h3>Main ingredients</h3>
+            <h3 id="ingredientHeading">Main ingredients</h3>
             <ul id="ingredientList"></ul>
           </div>
 
           <p class="notes" id="dinnerNotes"></p>
         </article>
 
-        <div class="actions" aria-label="Dinner navigation">
+        <div class="actions" id="dinnerNavigation" aria-label="Dinner navigation">
           <button class="secondary-action" id="backDinner" type="button" disabled>
             <svg aria-hidden="true" viewBox="0 0 24 24">
               <path d="m12 19-7-7 7-7"></path>
               <path d="M19 12H5"></path>
             </svg>
-            Back
+            <span id="backLabel">Back</span>
           </button>
           <button class="primary-action" id="pickDinner" type="button">
             <svg aria-hidden="true" viewBox="0 0 24 24">
@@ -53,7 +63,7 @@
               <path d="M15 15 21 21"></path>
               <path d="M4 4l5 5"></path>
             </svg>
-            Next dinner idea
+            <span id="pickLabel">Next dinner idea</span>
           </button>
         </div>
       </section>

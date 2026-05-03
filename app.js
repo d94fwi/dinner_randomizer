@@ -1,22 +1,99 @@
 const DATA_URL = "data/dinners.json";
 const FALLBACK_IMAGE = "assets/dinner-table.jpg";
 
+const UI_TEXT = {
+  en: {
+    pageTitle: "Dinner Randomizer",
+    appTitle: "Dinner Randomizer",
+    languageLabel: "Language",
+    languages: {
+      en: "English",
+      sv: "Swedish",
+    },
+    loadingIdeas: "Loading ideas",
+    loadingDinnerName: "Loading dinner ideas...",
+    loadingDescription: "The app is reading the dinner list.",
+    mainIngredients: "Main ingredients",
+    navigationLabel: "Dinner navigation",
+    back: "Back",
+    next: "Next dinner idea",
+    noIdeasLoaded: "No ideas loaded",
+    noDinnerIdeasYet: "No dinner ideas yet",
+    noIdeasDescription: "Add dinners to data/dinners.json to start picking.",
+    dataUnavailable: "Data unavailable",
+    loadErrorName: "Could not load dinner ideas",
+    loadErrorDescription: "Serve these files from any static host so the browser can read data/dinners.json.",
+    fallbackDescription: "A family dinner idea.",
+    ideaCount(count) {
+      return `${count} idea${count === 1 ? "" : "s"}`;
+    },
+  },
+  sv: {
+    pageTitle: "Dagens middag",
+    appTitle: "Dagens middag",
+    languageLabel: "Språk",
+    languages: {
+      en: "Engelska",
+      sv: "Svenska",
+    },
+    loadingIdeas: "Laddar idéer",
+    loadingDinnerName: "Laddar middagsidéer...",
+    loadingDescription: "Appen läser in middagslistan.",
+    mainIngredients: "Huvudingredienser",
+    navigationLabel: "Middagsnavigering",
+    back: "Tillbaka",
+    next: "Nästa middagsidé",
+    noIdeasLoaded: "Inga idéer laddade",
+    noDinnerIdeasYet: "Inga middagsidéer ännu",
+    noIdeasDescription: "Lägg till middagar i data/dinners.json för att börja lotta.",
+    dataUnavailable: "Data saknas",
+    loadErrorName: "Kunde inte ladda middagsidéer",
+    loadErrorDescription: "Servera filerna från valfri statisk server så att webbläsaren kan läsa data/dinners.json.",
+    fallbackDescription: "En middagsidé för familjen.",
+    ideaCount(count) {
+      return `${count} ${count === 1 ? "idé" : "idéer"}`;
+    },
+  },
+};
+
 const state = {
   dinners: [],
   currentDinnerId: null,
   previousDinnerIds: [],
+  language: detectInitialLanguage(),
+  loadStatus: "loading",
+  loadError: null,
 };
 
 const elements = {
+  appTitle: document.querySelector("#appTitle"),
   poolCount: document.querySelector("#poolCount"),
+  languageSwitcher: document.querySelector("#languageSwitcher"),
+  languageButtons: document.querySelectorAll("[data-language]"),
   dinnerImage: document.querySelector("#dinnerImage"),
   dinnerName: document.querySelector("#dinnerName"),
   dinnerDescription: document.querySelector("#dinnerDescription"),
+  ingredientHeading: document.querySelector("#ingredientHeading"),
   ingredientList: document.querySelector("#ingredientList"),
   dinnerNotes: document.querySelector("#dinnerNotes"),
+  dinnerNavigation: document.querySelector("#dinnerNavigation"),
   backDinner: document.querySelector("#backDinner"),
+  backLabel: document.querySelector("#backLabel"),
   pickDinner: document.querySelector("#pickDinner"),
+  pickLabel: document.querySelector("#pickLabel"),
 };
+
+function getCopy() {
+  return UI_TEXT[state.language] || UI_TEXT.en;
+}
+
+function detectInitialLanguage() {
+  const browserLanguages = Array.isArray(navigator.languages) && navigator.languages.length > 0
+    ? navigator.languages
+    : [navigator.language].filter(Boolean);
+
+  return browserLanguages.some((language) => language.toLowerCase().startsWith("sv")) ? "sv" : "en";
+}
 
 async function loadDinners() {
   const response = await fetch(DATA_URL, { cache: "no-store" });
@@ -37,11 +114,12 @@ function normalizeDinner(dinner) {
   return {
     id: dinner.id,
     name: dinner.name,
-    description: dinner.description || "A family dinner idea.",
+    description: dinner.description || UI_TEXT.en.fallbackDescription,
     mainIngredients: Array.isArray(dinner.mainIngredients) ? dinner.mainIngredients : [],
     image: dinner.image || null,
     recipeUrl: dinner.recipeUrl || null,
     notes: dinner.notes || "",
+    translations: dinner.translations || {},
   };
 }
 
@@ -87,28 +165,112 @@ function showPreviousDinner() {
   renderDinner(previousDinner);
 }
 
+function getCurrentDinner() {
+  return state.dinners.find((dinner) => dinner.id === state.currentDinnerId) || null;
+}
+
+function getLocalizedDinner(dinner) {
+  if (!dinner) {
+    return null;
+  }
+
+  const translation = dinner.translations?.[state.language] || {};
+
+  return {
+    ...dinner,
+    name: translation.name || dinner.name,
+    description: translation.description || dinner.description || getCopy().fallbackDescription,
+    mainIngredients: Array.isArray(translation.mainIngredients) && translation.mainIngredients.length > 0
+      ? translation.mainIngredients
+      : dinner.mainIngredients,
+    notes: translation.notes ?? dinner.notes,
+  };
+}
+
+function renderStaticText() {
+  const copy = getCopy();
+  document.documentElement.lang = state.language;
+  document.title = copy.pageTitle;
+  elements.appTitle.textContent = copy.appTitle;
+  elements.languageSwitcher.setAttribute("aria-label", copy.languageLabel);
+  elements.ingredientHeading.textContent = copy.mainIngredients;
+  elements.dinnerNavigation.setAttribute("aria-label", copy.navigationLabel);
+  elements.backLabel.textContent = copy.back;
+  elements.pickLabel.textContent = copy.next;
+
+  elements.languageButtons.forEach((button) => {
+    const language = button.dataset.language;
+    const isActive = language === state.language;
+    button.setAttribute("aria-label", copy.languages[language]);
+    button.setAttribute("aria-pressed", String(isActive));
+    button.title = copy.languages[language];
+  });
+}
+
+function renderApp() {
+  renderStaticText();
+
+  if (state.loadStatus === "loading") {
+    renderLoading();
+    return;
+  }
+
+  if (state.loadStatus === "error") {
+    renderLoadError();
+    return;
+  }
+
+  renderDinner(getCurrentDinner());
+}
+
+function renderLoading() {
+  const copy = getCopy();
+  elements.poolCount.textContent = copy.loadingIdeas;
+  elements.dinnerImage.src = FALLBACK_IMAGE;
+  elements.dinnerImage.alt = "";
+  elements.dinnerName.textContent = copy.loadingDinnerName;
+  elements.dinnerDescription.textContent = copy.loadingDescription;
+  elements.ingredientList.replaceChildren();
+  elements.dinnerNotes.textContent = "";
+  updateBackButton();
+}
+
+function renderLoadError() {
+  const copy = getCopy();
+  elements.poolCount.textContent = copy.dataUnavailable;
+  elements.dinnerImage.src = FALLBACK_IMAGE;
+  elements.dinnerImage.alt = "";
+  elements.dinnerName.textContent = copy.loadErrorName;
+  elements.dinnerDescription.textContent = copy.loadErrorDescription;
+  elements.ingredientList.replaceChildren();
+  elements.dinnerNotes.textContent = state.loadError?.message || "";
+  updateBackButton();
+}
+
 function renderDinner(dinner) {
+  const copy = getCopy();
+  const localizedDinner = getLocalizedDinner(dinner);
   elements.ingredientList.replaceChildren();
 
-  if (!dinner) {
-    elements.poolCount.textContent = "No ideas loaded";
+  if (!localizedDinner) {
+    elements.poolCount.textContent = copy.noIdeasLoaded;
     elements.dinnerImage.src = FALLBACK_IMAGE;
     elements.dinnerImage.alt = "";
-    elements.dinnerName.textContent = "No dinner ideas yet";
-    elements.dinnerDescription.textContent = "Add dinners to data/dinners.json to start picking.";
+    elements.dinnerName.textContent = copy.noDinnerIdeasYet;
+    elements.dinnerDescription.textContent = copy.noIdeasDescription;
     elements.dinnerNotes.textContent = "";
     updateBackButton();
     return;
   }
 
-  elements.poolCount.textContent = `${state.dinners.length} idea${state.dinners.length === 1 ? "" : "s"}`;
-  elements.dinnerImage.src = dinner.image || FALLBACK_IMAGE;
-  elements.dinnerImage.alt = dinner.image ? dinner.name : "";
-  elements.dinnerName.textContent = dinner.name;
-  elements.dinnerDescription.textContent = dinner.description;
-  elements.dinnerNotes.textContent = dinner.notes;
+  elements.poolCount.textContent = copy.ideaCount(state.dinners.length);
+  elements.dinnerImage.src = localizedDinner.image || FALLBACK_IMAGE;
+  elements.dinnerImage.alt = localizedDinner.image ? localizedDinner.name : "";
+  elements.dinnerName.textContent = localizedDinner.name;
+  elements.dinnerDescription.textContent = localizedDinner.description;
+  elements.dinnerNotes.textContent = localizedDinner.notes;
 
-  dinner.mainIngredients.forEach((ingredient) => {
+  localizedDinner.mainIngredients.forEach((ingredient) => {
     const item = document.createElement("li");
     item.textContent = ingredient;
     elements.ingredientList.append(item);
@@ -121,19 +283,32 @@ function updateBackButton() {
   elements.backDinner.disabled = state.previousDinnerIds.length === 0;
 }
 
+function setLanguage(language) {
+  if (!Object.prototype.hasOwnProperty.call(UI_TEXT, language)) {
+    return;
+  }
+
+  state.language = language;
+  renderApp();
+}
+
 async function init() {
   elements.pickDinner.addEventListener("click", pickRandomDinner);
   elements.backDinner.addEventListener("click", showPreviousDinner);
+  elements.languageButtons.forEach((button) => {
+    button.addEventListener("click", () => setLanguage(button.dataset.language));
+  });
+
+  renderApp();
 
   try {
     state.dinners = await loadDinners();
+    state.loadStatus = "ready";
     pickRandomDinner();
   } catch (error) {
-    elements.poolCount.textContent = "Data unavailable";
-    elements.dinnerName.textContent = "Could not load dinner ideas";
-    elements.dinnerDescription.textContent =
-      "Serve these files from any static host so the browser can read data/dinners.json.";
-    elements.dinnerNotes.textContent = error.message;
+    state.loadStatus = "error";
+    state.loadError = error;
+    renderApp();
   }
 }
 

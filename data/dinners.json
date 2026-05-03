@@ -12,7 +12,21 @@
     ],
     "image": "assets/dishes/taco-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Set toppings out separately so everyone can build their own bowl."
+    "notes": "Set toppings out separately so everyone can build their own bowl.",
+    "translations": {
+      "sv": {
+        "name": "Plockiga Taco Bowls",
+        "description": "Risskålar med kryddad köttfärs eller bönor, majs, salsa, avokado, ost och krispiga tortillachips.",
+        "mainIngredients": [
+          "ris",
+          "köttfärs eller bönor",
+          "majs",
+          "salsa",
+          "avokado"
+        ],
+        "notes": "Ställ fram toppingarna var för sig så att alla kan bygga sin egen skål."
+      }
+    }
   },
   {
     "id": "sheet-pan-salmon",
@@ -27,7 +41,21 @@
     ],
     "image": "assets/dishes/sheet-pan-salmon.jpg",
     "recipeUrl": null,
-    "notes": "Swap salmon for chicken thighs if fish is not on the menu."
+    "notes": "Swap salmon for chicken thighs if fish is not on the menu.",
+    "translations": {
+      "sv": {
+        "name": "Ugnslax med potatis",
+        "description": "Citronlax rostad med småpotatis och haricots verts till en enkel middag på en plåt.",
+        "mainIngredients": [
+          "lax",
+          "småpotatis",
+          "haricots verts",
+          "citron",
+          "dill"
+        ],
+        "notes": "Byt laxen mot kycklinglår om fisk inte står på menyn."
+      }
+    }
   },
   {
     "id": "creamy-tomato-pasta",
@@ -42,7 +70,21 @@
     ],
     "image": "assets/dishes/creamy-tomato-pasta.jpg",
     "recipeUrl": null,
-    "notes": "Add white beans or grilled chicken for extra protein."
+    "notes": "Add white beans or grilled chicken for extra protein.",
+    "translations": {
+      "sv": {
+        "name": "Krämig tomatpasta med spenat",
+        "description": "En värmande pastamiddag med tomatsås, en skvätt grädde, spenat och parmesan.",
+        "mainIngredients": [
+          "pasta",
+          "tomater",
+          "grädde",
+          "spenat",
+          "parmesan"
+        ],
+        "notes": "Lägg till vita bönor eller grillad kyckling för extra protein."
+      }
+    }
   },
   {
     "id": "chicken-fajitas",
@@ -57,7 +99,21 @@
     ],
     "image": "assets/dishes/chicken-fajitas.jpg",
     "recipeUrl": null,
-    "notes": "Make extra vegetables for lunch wraps the next day."
+    "notes": "Make extra vegetables for lunch wraps the next day.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Fajitas",
+        "description": "Fräsande kyckling, paprika och lök serverat med tortillas, yoghurt och lime.",
+        "mainIngredients": [
+          "kyckling",
+          "paprika",
+          "lök",
+          "tortillas",
+          "lime"
+        ],
+        "notes": "Gör extra grönsaker till lunchwraps dagen efter."
+      }
+    }
   },
   {
     "id": "lentil-bolognese",
@@ -72,7 +128,21 @@
     ],
     "image": "assets/dishes/lentil-bolognese.jpg",
     "recipeUrl": null,
-    "notes": "The sauce freezes well, so double it when you have time."
+    "notes": "The sauce freezes well, so double it when you have time.",
+    "translations": {
+      "sv": {
+        "name": "Linsbolognese",
+        "description": "En fyllig tomat- och linssås serverad över spaghetti med parmesan och sallad.",
+        "mainIngredients": [
+          "linser",
+          "tomater",
+          "morot",
+          "selleri",
+          "spaghetti"
+        ],
+        "notes": "Såsen går bra att frysa, så dubbla gärna satsen när du har tid."
+      }
+    }
   },
   {
     "id": "teriyaki-chicken-rice",
@@ -87,7 +157,21 @@
     ],
     "image": "assets/dishes/teriyaki-chicken-rice.jpg",
     "recipeUrl": null,
-    "notes": "Keep sauce on the side for anyone who prefers lighter seasoning."
+    "notes": "Keep sauce on the side for anyone who prefers lighter seasoning.",
+    "translations": {
+      "sv": {
+        "name": "Teriyaki Chicken Rice Plates",
+        "description": "Glaserad teriyakikyckling med ris, gurka, morötter och ångad broccoli.",
+        "mainIngredients": [
+          "kyckling",
+          "ris",
+          "broccoli",
+          "gurka",
+          "teriyakisås"
+        ],
+        "notes": "Servera såsen vid sidan av för den som vill ha mildare smak."
+      }
+    }
   },
   {
     "id": "baked-potato-bar",
@@ -102,7 +186,21 @@
     ],
     "image": "assets/dishes/baked-potato-bar.jpg",
     "recipeUrl": null,
-    "notes": "Microwave potatoes first, then crisp them in the oven to save time."
+    "notes": "Microwave potatoes first, then crisp them in the oven to save time.",
+    "translations": {
+      "sv": {
+        "name": "Bakpotatis med valfria toppings",
+        "description": "Krispiga bakpotatisar med bönor, ost, yoghurt, gräslök, sallad och eventuellt bacon.",
+        "mainIngredients": [
+          "potatis",
+          "bönor",
+          "ost",
+          "yoghurt",
+          "gräslök"
+        ],
+        "notes": "Förkoka potatisen i mikron och låt den sedan bli krispig i ugnen för att spara tid."
+      }
+    }
   },
   {
     "id": "turkey-meatballs",
@@ -117,7 +215,21 @@
     ],
     "image": "assets/dishes/turkey-meatballs.jpg",
     "recipeUrl": null,
-    "notes": "Bake the meatballs on parchment for a lower-mess version."
+    "notes": "Bake the meatballs on parchment for a lower-mess version.",
+    "translations": {
+      "sv": {
+        "name": "Kalkonköttbullar med couscous",
+        "description": "Örtiga kalkonköttbullar med couscous, gurk- och tomatsallad samt vitlöksyoghurt.",
+        "mainIngredients": [
+          "kalkonfärs",
+          "couscous",
+          "gurka",
+          "tomater",
+          "yoghurt"
+        ],
+        "notes": "Baka köttbullarna på bakplåtspapper för mindre disk."
+      }
+    }
   },
   {
     "id": "vegetable-fried-rice",
@@ -132,7 +244,21 @@
     ],
     "image": "assets/dishes/vegetable-fried-rice.jpg",
     "recipeUrl": null,
-    "notes": "Best with chilled leftover rice."
+    "notes": "Best with chilled leftover rice.",
+    "translations": {
+      "sv": {
+        "name": "Vegetable Fried Rice med ägg",
+        "description": "Snabbt stekt ris med paprika, morötter, ägg, soja och de grönsaker som behöver användas.",
+        "mainIngredients": [
+          "ris",
+          "ägg",
+          "paprika",
+          "morötter",
+          "soja"
+        ],
+        "notes": "Blir bäst med kallt överblivet ris."
+      }
+    }
   },
   {
     "id": "sausage-gnocchi",
@@ -147,7 +273,21 @@
     ],
     "image": "assets/dishes/sausage-gnocchi.jpg",
     "recipeUrl": null,
-    "notes": "Use vegetarian sausage if you want a meat-free version."
+    "notes": "Use vegetarian sausage if you want a meat-free version.",
+    "translations": {
+      "sv": {
+        "name": "Gnocchipanna med korv",
+        "description": "Stekt gnocchi med korv, körsbärstomater, bladgrönt och mozzarella.",
+        "mainIngredients": [
+          "gnocchi",
+          "korv",
+          "körsbärstomater",
+          "spenat",
+          "mozzarella"
+        ],
+        "notes": "Använd vegetarisk korv om du vill göra rätten köttfri."
+      }
+    }
   },
   {
     "id": "chickpea-curry",
@@ -162,7 +302,21 @@
     ],
     "image": "assets/dishes/chickpea-curry.jpg",
     "recipeUrl": null,
-    "notes": "Serve chili flakes at the table for anyone who wants heat."
+    "notes": "Serve chili flakes at the table for anyone who wants heat.",
+    "translations": {
+      "sv": {
+        "name": "Mild kikärtscurry med kokos",
+        "description": "Krämig kikärtscurry med kokosmjölk, tomater, spenat och basmatiris.",
+        "mainIngredients": [
+          "kikärter",
+          "kokosmjölk",
+          "tomater",
+          "spenat",
+          "ris"
+        ],
+        "notes": "Ställ fram chiliflakes för den som vill ha mer hetta."
+      }
+    }
   },
   {
     "id": "pita-pizzas",
@@ -177,7 +331,21 @@
     ],
     "image": "assets/dishes/pita-pizzas.jpg",
     "recipeUrl": null,
-    "notes": "Let everyone top their own before baking."
+    "notes": "Let everyone top their own before baking.",
+    "translations": {
+      "sv": {
+        "name": "Egna pitapizzor",
+        "description": "Små pitapizzor med tomatsås, mozzarella, grönsaker och enkel sallad.",
+        "mainIngredients": [
+          "pitabröd",
+          "tomatsås",
+          "mozzarella",
+          "grönsaker",
+          "sallad"
+        ],
+        "notes": "Låt alla välja sina egna toppings före gräddning."
+      }
+    }
   },
   {
     "id": "beef-stroganoff",
@@ -192,7 +360,21 @@
     ],
     "image": "assets/dishes/beef-stroganoff.jpg",
     "recipeUrl": null,
-    "notes": "Use Greek yogurt instead of sour cream for a lighter finish."
+    "notes": "Use Greek yogurt instead of sour cream for a lighter finish.",
+    "translations": {
+      "sv": {
+        "name": "Biff Stroganoff med äggnudlar",
+        "description": "Möra biffstrimlor och svamp i krämig sås, serverat över äggnudlar.",
+        "mainIngredients": [
+          "biffstrimlor",
+          "svamp",
+          "äggnudlar",
+          "crème fraiche",
+          "persilja"
+        ],
+        "notes": "Använd grekisk yoghurt i stället för crème fraiche för en lättare avslutning."
+      }
+    }
   },
   {
     "id": "chicken-noodle-soup",
@@ -207,7 +389,21 @@
     ],
     "image": "assets/dishes/chicken-noodle-soup.jpg",
     "recipeUrl": null,
-    "notes": "Serve with toast or warm rolls for a simple complete dinner."
+    "notes": "Serve with toast or warm rolls for a simple complete dinner.",
+    "translations": {
+      "sv": {
+        "name": "Kycklingnudelsoppa",
+        "description": "En mysig gryta med kyckling, nudlar, morötter, selleri och buljong.",
+        "mainIngredients": [
+          "kyckling",
+          "nudlar",
+          "morötter",
+          "selleri",
+          "buljong"
+        ],
+        "notes": "Servera med rostat bröd eller varma frallor för en enkel hel middag."
+      }
+    }
   },
   {
     "id": "veggie-lasagna",
@@ -222,7 +418,21 @@
     ],
     "image": "assets/dishes/veggie-lasagna.jpg",
     "recipeUrl": null,
-    "notes": "Assemble earlier in the day and bake when everyone is hungry."
+    "notes": "Assemble earlier in the day and bake when everyone is hungry.",
+    "translations": {
+      "sv": {
+        "name": "Vegetarisk lasagne",
+        "description": "Varvad pasta med tomatsås, rostade grönsaker, ricotta och mozzarella.",
+        "mainIngredients": [
+          "lasagneplattor",
+          "tomatsås",
+          "zucchini",
+          "ricotta",
+          "mozzarella"
+        ],
+        "notes": "Montera tidigare på dagen och grädda när alla är hungriga."
+      }
+    }
   },
   {
     "id": "shrimp-tacos",
@@ -237,7 +447,21 @@
     ],
     "image": "assets/dishes/shrimp-tacos.jpg",
     "recipeUrl": null,
-    "notes": "Keep the shrimp mild and add hot sauce at the table."
+    "notes": "Keep the shrimp mild and add hot sauce at the table.",
+    "translations": {
+      "sv": {
+        "name": "Shrimp Tacos med limecoleslaw",
+        "description": "Snabba räktacos med krispig kål, lime, yoghurtsås och avokado.",
+        "mainIngredients": [
+          "räkor",
+          "tortillas",
+          "kål",
+          "lime",
+          "avokado"
+        ],
+        "notes": "Håll räkorna milda och ställ fram het sås på bordet."
+      }
+    }
   },
   {
     "id": "greek-chicken-pitas",
@@ -252,7 +476,21 @@
     ],
     "image": "assets/dishes/greek-chicken-pitas.jpg",
     "recipeUrl": null,
-    "notes": "Put fillings in bowls so everyone can build their own pita."
+    "notes": "Put fillings in bowls so everyone can build their own pita.",
+    "translations": {
+      "sv": {
+        "name": "Grekiska kycklingpitas",
+        "description": "Varma pitabröd fyllda med kyckling, gurka, tomat, sallad och tzatziki.",
+        "mainIngredients": [
+          "kyckling",
+          "pitabröd",
+          "gurka",
+          "tomater",
+          "tzatziki"
+        ],
+        "notes": "Lägg fyllningarna i skålar så att alla kan bygga sin egen pita."
+      }
+    }
   },
   {
     "id": "pork-tenderloin-apples",
@@ -267,7 +505,21 @@
     ],
     "image": "assets/dishes/pork-tenderloin-apples.jpg",
     "recipeUrl": null,
-    "notes": "Slice leftovers thin for sandwiches the next day."
+    "notes": "Slice leftovers thin for sandwiches the next day.",
+    "translations": {
+      "sv": {
+        "name": "Fläskfilé med äpplen",
+        "description": "Ugnsstekt fläskfilé med äpplen, potatis och en enkel grön sallad.",
+        "mainIngredients": [
+          "fläskfilé",
+          "äpplen",
+          "potatis",
+          "senap",
+          "bladgrönt"
+        ],
+        "notes": "Skiva rester tunt till smörgåsar dagen efter."
+      }
+    }
   },
   {
     "id": "black-bean-quesadillas",
@@ -282,7 +534,21 @@
     ],
     "image": "assets/dishes/black-bean-quesadillas.jpg",
     "recipeUrl": null,
-    "notes": "Serve with salsa, yogurt, and sliced vegetables."
+    "notes": "Serve with salsa, yogurt, and sliced vegetables.",
+    "translations": {
+      "sv": {
+        "name": "Quesadillas med svarta bönor",
+        "description": "Krispiga tortillas fyllda med svarta bönor, ost, majs och paprika.",
+        "mainIngredients": [
+          "tortillas",
+          "svarta bönor",
+          "ost",
+          "majs",
+          "paprika"
+        ],
+        "notes": "Servera med salsa, yoghurt och skurna grönsaker."
+      }
+    }
   },
   {
     "id": "tuna-pasta-bake",
@@ -297,7 +563,21 @@
     ],
     "image": "assets/dishes/tuna-pasta-bake.jpg",
     "recipeUrl": null,
-    "notes": "Use small pasta shapes so the bake is easy to serve."
+    "notes": "Use small pasta shapes so the bake is easy to serve.",
+    "translations": {
+      "sv": {
+        "name": "Pastagratäng med tonfisk",
+        "description": "Pasta gratinerad med tonfisk, tomatsås, majs och ett ostigt täcke.",
+        "mainIngredients": [
+          "pasta",
+          "tonfisk",
+          "tomatsås",
+          "majs",
+          "ost"
+        ],
+        "notes": "Använd små pastasorter så att gratängen blir lätt att servera."
+      }
+    }
   },
   {
     "id": "beef-and-broccoli",
@@ -312,7 +592,21 @@
     ],
     "image": "assets/dishes/beef-and-broccoli.jpg",
     "recipeUrl": null,
-    "notes": "Slice the beef thinly so it cooks quickly."
+    "notes": "Slice the beef thinly so it cooks quickly.",
+    "translations": {
+      "sv": {
+        "name": "Beef and Broccoli Stir-Fry",
+        "description": "Biff och broccoli i smakrik sås, serverat över ris till en snabb familjemiddag.",
+        "mainIngredients": [
+          "biff",
+          "broccoli",
+          "ris",
+          "soja",
+          "vitlök"
+        ],
+        "notes": "Skiva köttet tunt så att det blir klart snabbt."
+      }
+    }
   },
   {
     "id": "sweet-potato-chili",
@@ -327,7 +621,21 @@
     ],
     "image": "assets/dishes/sweet-potato-chili.jpg",
     "recipeUrl": null,
-    "notes": "Top with yogurt, cheese, or avocado."
+    "notes": "Top with yogurt, cheese, or avocado.",
+    "translations": {
+      "sv": {
+        "name": "Chili med sötpotatis",
+        "description": "En matig chili med sötpotatis, bönor, tomater och milda kryddor.",
+        "mainIngredients": [
+          "sötpotatis",
+          "bönor",
+          "tomater",
+          "majs",
+          "kryddor"
+        ],
+        "notes": "Toppa med yoghurt, ost eller avokado."
+      }
+    }
   },
   {
     "id": "chicken-caesar-wraps",
@@ -342,7 +650,21 @@
     ],
     "image": "assets/dishes/chicken-caesar-wraps.jpg",
     "recipeUrl": null,
-    "notes": "Add cucumber sticks and fruit on the side."
+    "notes": "Add cucumber sticks and fruit on the side.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Caesar Wraps",
+        "description": "Grillad kyckling, romansallad, parmesan och caesardressing inrullat i tortillas.",
+        "mainIngredients": [
+          "kyckling",
+          "tortillas",
+          "romansallad",
+          "parmesan",
+          "caesardressing"
+        ],
+        "notes": "Lägg gurkstavar och frukt vid sidan av."
+      }
+    }
   },
   {
     "id": "swedish-meatballs",
@@ -357,7 +679,21 @@
     ],
     "image": "assets/dishes/swedish-meatballs.jpg",
     "recipeUrl": null,
-    "notes": "Frozen meatballs make this a useful backup dinner."
+    "notes": "Frozen meatballs make this a useful backup dinner.",
+    "translations": {
+      "sv": {
+        "name": "Köttbullar med mos",
+        "description": "Köttbullar i gräddsås serverade med potatismos och haricots verts.",
+        "mainIngredients": [
+          "köttbullar",
+          "potatis",
+          "grädde",
+          "haricots verts",
+          "lingonsylt"
+        ],
+        "notes": "Frysta köttbullar gör detta till en användbar reservmiddag."
+      }
+    }
   },
   {
     "id": "mushroom-risotto",
@@ -372,7 +708,21 @@
     ],
     "image": "assets/dishes/mushroom-risotto.jpg",
     "recipeUrl": null,
-    "notes": "Stir in spinach near the end for extra color."
+    "notes": "Stir in spinach near the end for extra color.",
+    "translations": {
+      "sv": {
+        "name": "Svamprisotto",
+        "description": "Krämigt ris med svamp, parmesan, buljong och en enkel sallad vid sidan av.",
+        "mainIngredients": [
+          "risottoris",
+          "svamp",
+          "parmesan",
+          "buljong",
+          "bladgrönt"
+        ],
+        "notes": "Rör ner spenat mot slutet för extra färg."
+      }
+    }
   },
   {
     "id": "bbq-chicken-flatbreads",
@@ -387,7 +737,21 @@
     ],
     "image": "assets/dishes/bbq-chicken-flatbreads.jpg",
     "recipeUrl": null,
-    "notes": "Use leftover roast chicken if you have it."
+    "notes": "Use leftover roast chicken if you have it.",
+    "translations": {
+      "sv": {
+        "name": "BBQ Chicken Flatbreads",
+        "description": "Flatbread toppat med barbecuekyckling, rödlök, ost och majs.",
+        "mainIngredients": [
+          "flatbread",
+          "kyckling",
+          "barbecuesås",
+          "ost",
+          "majs"
+        ],
+        "notes": "Använd överbliven ugnskyckling om du har det."
+      }
+    }
   },
   {
     "id": "falafel-plates",
@@ -402,7 +766,21 @@
     ],
     "image": "assets/dishes/falafel-plates.jpg",
     "recipeUrl": null,
-    "notes": "Bake frozen falafel for a low-effort dinner."
+    "notes": "Bake frozen falafel for a low-effort dinner.",
+    "translations": {
+      "sv": {
+        "name": "Falafeltallrikar",
+        "description": "Falafel serverad med hummus, pitabröd, gurk- och tomatsallad samt yoghurtsås.",
+        "mainIngredients": [
+          "falafel",
+          "hummus",
+          "pitabröd",
+          "gurka",
+          "tomater"
+        ],
+        "notes": "Baka fryst falafel för en middag med liten insats."
+      }
+    }
   },
   {
     "id": "turkey-taco-soup",
@@ -417,7 +795,21 @@
     ],
     "image": "assets/dishes/turkey-taco-soup.jpg",
     "recipeUrl": null,
-    "notes": "Serve with tortilla chips for crunch."
+    "notes": "Serve with tortilla chips for crunch.",
+    "translations": {
+      "sv": {
+        "name": "Tacosoppa med kalkon",
+        "description": "En tomatbaserad soppa med kalkonfärs, bönor, majs och tacokrydda.",
+        "mainIngredients": [
+          "kalkonfärs",
+          "bönor",
+          "majs",
+          "tomater",
+          "tacokrydda"
+        ],
+        "notes": "Servera med tortillachips för krispighet."
+      }
+    }
   },
   {
     "id": "ham-cheese-omelet",
@@ -432,7 +824,21 @@
     ],
     "image": "assets/dishes/ham-cheese-omelet.jpg",
     "recipeUrl": null,
-    "notes": "Cook two large omelets and slice them into wedges."
+    "notes": "Cook two large omelets and slice them into wedges.",
+    "translations": {
+      "sv": {
+        "name": "Omelettmiddag med skinka och ost",
+        "description": "Luftiga omeletter med skinka, ost, rostat bröd och krispig sallad.",
+        "mainIngredients": [
+          "ägg",
+          "skinka",
+          "ost",
+          "rostat bröd",
+          "bladgrönt"
+        ],
+        "notes": "Gör två stora omeletter och skär dem i klyftor."
+      }
+    }
   },
   {
     "id": "pesto-tortellini",
@@ -447,7 +853,21 @@
     ],
     "image": "assets/dishes/pesto-tortellini.jpg",
     "recipeUrl": null,
-    "notes": "Serve warm or room temperature depending on the evening."
+    "notes": "Serve warm or room temperature depending on the evening.",
+    "translations": {
+      "sv": {
+        "name": "Pestotortellini med spenat",
+        "description": "Osttortellini vänd med pesto, spenat, tomater och parmesan.",
+        "mainIngredients": [
+          "tortellini",
+          "pesto",
+          "spenat",
+          "körsbärstomater",
+          "parmesan"
+        ],
+        "notes": "Servera varm eller rumstempererad beroende på kvällen."
+      }
+    }
   },
   {
     "id": "chicken-pot-pie-skillet",
@@ -462,7 +882,21 @@
     ],
     "image": "assets/dishes/chicken-pot-pie-skillet.jpg",
     "recipeUrl": null,
-    "notes": "Use rotisserie chicken to speed it up."
+    "notes": "Use rotisserie chicken to speed it up.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Pot Pie i panna",
+        "description": "Krämig kyckling och grönsaker toppade med smördeg eller biscuits.",
+        "mainIngredients": [
+          "kyckling",
+          "blandade grönsaker",
+          "grädde",
+          "smördeg",
+          "buljong"
+        ],
+        "notes": "Använd färdiggrillad kyckling för att få det att gå snabbare."
+      }
+    }
   },
   {
     "id": "sesame-tofu-noodles",
@@ -477,7 +911,21 @@
     ],
     "image": "assets/dishes/sesame-tofu-noodles.jpg",
     "recipeUrl": null,
-    "notes": "Press the tofu briefly so it browns better."
+    "notes": "Press the tofu briefly so it browns better.",
+    "translations": {
+      "sv": {
+        "name": "Sesamnudlar med tofu",
+        "description": "Nudlar vända med krispig tofu, gurka, morötter och sesamsås.",
+        "mainIngredients": [
+          "tofu",
+          "nudlar",
+          "gurka",
+          "morötter",
+          "sesamsås"
+        ],
+        "notes": "Pressa tofun en kort stund så bryns den bättre."
+      }
+    }
   },
   {
     "id": "beef-burrito-wraps",
@@ -492,7 +940,21 @@
     ],
     "image": "assets/dishes/beef-burrito-wraps.jpg",
     "recipeUrl": null,
-    "notes": "Wrap extras in foil for easy lunches."
+    "notes": "Wrap extras in foil for easy lunches.",
+    "translations": {
+      "sv": {
+        "name": "Burritowraps med nötkött",
+        "description": "Mjuka tortillas fyllda med nötkött, ris, bönor, ost och salsa.",
+        "mainIngredients": [
+          "tortillas",
+          "nötkött",
+          "ris",
+          "bönor",
+          "salsa"
+        ],
+        "notes": "Slå in extra wraps i folie till enkla luncher."
+      }
+    }
   },
   {
     "id": "roasted-veg-couscous",
@@ -507,7 +969,21 @@
     ],
     "image": "assets/dishes/roasted-veg-couscous.jpg",
     "recipeUrl": null,
-    "notes": "Good warm or cold, so it is flexible for busy nights."
+    "notes": "Good warm or cold, so it is flexible for busy nights.",
+    "translations": {
+      "sv": {
+        "name": "Couscous med rostade grönsaker",
+        "description": "Couscous med rostade grönsaker, kikärter, fetaost och citrondressing.",
+        "mainIngredients": [
+          "couscous",
+          "kikärter",
+          "rostade grönsaker",
+          "fetaost",
+          "citron"
+        ],
+        "notes": "Gott både varmt och kallt, så det passar flexibla kvällar."
+      }
+    }
   },
   {
     "id": "lemon-garlic-chicken",
@@ -522,7 +998,21 @@
     ],
     "image": "assets/dishes/lemon-garlic-chicken.jpg",
     "recipeUrl": null,
-    "notes": "Roast everything on one tray for less cleanup."
+    "notes": "Roast everything on one tray for less cleanup.",
+    "translations": {
+      "sv": {
+        "name": "Kycklinglår med citron och vitlök",
+        "description": "Saftiga kycklinglår bakade med citron, vitlök, potatis och morötter.",
+        "mainIngredients": [
+          "kycklinglår",
+          "citron",
+          "vitlök",
+          "potatis",
+          "morötter"
+        ],
+        "notes": "Rosta allt på en plåt för mindre disk."
+      }
+    }
   },
   {
     "id": "fish-finger-tacos",
@@ -537,7 +1027,21 @@
     ],
     "image": "assets/dishes/fish-finger-tacos.jpg",
     "recipeUrl": null,
-    "notes": "A useful freezer-friendly dinner."
+    "notes": "A useful freezer-friendly dinner.",
+    "translations": {
+      "sv": {
+        "name": "Fish Finger Tacos",
+        "description": "Krispiga fiskpinnar i tortillas med kålsallad och tartarsås.",
+        "mainIngredients": [
+          "fiskpinnar",
+          "tortillas",
+          "kål",
+          "tartarsås",
+          "lime"
+        ],
+        "notes": "En användbar middag från frysen."
+      }
+    }
   },
   {
     "id": "minestrone-soup",
@@ -552,7 +1056,21 @@
     ],
     "image": "assets/dishes/minestrone-soup.jpg",
     "recipeUrl": null,
-    "notes": "Serve with garlic bread if you want it heartier."
+    "notes": "Serve with garlic bread if you want it heartier.",
+    "translations": {
+      "sv": {
+        "name": "Minestronesoppa",
+        "description": "Grönsakssoppa med bönor, pasta, tomater och parmesan.",
+        "mainIngredients": [
+          "bönor",
+          "pasta",
+          "tomater",
+          "grönsaker",
+          "parmesan"
+        ],
+        "notes": "Servera med vitlöksbröd om du vill göra den matigare."
+      }
+    }
   },
   {
     "id": "caprese-chicken",
@@ -567,7 +1085,21 @@
     ],
     "image": "assets/dishes/caprese-chicken.jpg",
     "recipeUrl": null,
-    "notes": "Serve with pasta, rice, or crusty bread."
+    "notes": "Serve with pasta, rice, or crusty bread.",
+    "translations": {
+      "sv": {
+        "name": "Capresekyckling",
+        "description": "Kycklingfiléer toppade med tomater, mozzarella, basilika och balsamicoglaze.",
+        "mainIngredients": [
+          "kyckling",
+          "tomater",
+          "mozzarella",
+          "basilika",
+          "balsamicoglaze"
+        ],
+        "notes": "Servera med pasta, ris eller ett gott bröd."
+      }
+    }
   },
   {
     "id": "peanut-chicken-noodles",
@@ -582,7 +1114,21 @@
     ],
     "image": "assets/dishes/peanut-chicken-noodles.jpg",
     "recipeUrl": null,
-    "notes": "Add lime juice at the end to brighten the sauce."
+    "notes": "Add lime juice at the end to brighten the sauce.",
+    "translations": {
+      "sv": {
+        "name": "Nudlar med kyckling och jordnötssås",
+        "description": "Nudlar med kyckling, grönsaker och en krämig jordnötssås.",
+        "mainIngredients": [
+          "kyckling",
+          "nudlar",
+          "jordnötssmör",
+          "grönsaker",
+          "soja"
+        ],
+        "notes": "Tillsätt limejuice på slutet för att lyfta såsen."
+      }
+    }
   },
   {
     "id": "halloumi-vegetable-traybake",
@@ -597,7 +1143,21 @@
     ],
     "image": "assets/dishes/halloumi-vegetable-traybake.jpg",
     "recipeUrl": null,
-    "notes": "Add chickpeas to make it more filling."
+    "notes": "Add chickpeas to make it more filling.",
+    "translations": {
+      "sv": {
+        "name": "Halloumi och grönsaker på plåt",
+        "description": "Rostade grönsaker och halloumi serverade med couscous eller flatbread.",
+        "mainIngredients": [
+          "halloumi",
+          "zucchini",
+          "paprika",
+          "rödlök",
+          "couscous"
+        ],
+        "notes": "Lägg till kikärter för att göra rätten mer mättande."
+      }
+    }
   },
   {
     "id": "sloppy-joes",
@@ -612,7 +1172,21 @@
     ],
     "image": "assets/dishes/sloppy-joes.jpg",
     "recipeUrl": null,
-    "notes": "Serve open-faced for younger kids to make it easier."
+    "notes": "Serve open-faced for younger kids to make it easier.",
+    "translations": {
+      "sv": {
+        "name": "Sloppy Joes",
+        "description": "Såsig nötfärs serverad i bröd med pickles och krispig sallad.",
+        "mainIngredients": [
+          "nötfärs",
+          "hamburgerbröd",
+          "tomatsås",
+          "pickles",
+          "sallad"
+        ],
+        "notes": "Servera öppet för yngre barn så blir det lättare att äta."
+      }
+    }
   },
   {
     "id": "baked-feta-orzo",
@@ -627,7 +1201,21 @@
     ],
     "image": "assets/dishes/baked-feta-orzo.jpg",
     "recipeUrl": null,
-    "notes": "Stir in cooked chicken if you want extra protein."
+    "notes": "Stir in cooked chicken if you want extra protein.",
+    "translations": {
+      "sv": {
+        "name": "Ugnsbakad fetaorzo",
+        "description": "Orzo bakad med fetaost, tomater, spenat och örter.",
+        "mainIngredients": [
+          "orzo",
+          "fetaost",
+          "tomater",
+          "spenat",
+          "örter"
+        ],
+        "notes": "Rör ner tillagad kyckling om du vill ha extra protein."
+      }
+    }
   },
   {
     "id": "chicken-souvlaki-bowls",
@@ -642,7 +1230,21 @@
     ],
     "image": "assets/dishes/chicken-souvlaki-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Keep the vegetables separate for easier serving."
+    "notes": "Keep the vegetables separate for easier serving.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Souvlaki Bowls",
+        "description": "Citronig kyckling serverad med ris, gurka, tomat och yoghurtsås.",
+        "mainIngredients": [
+          "kyckling",
+          "ris",
+          "gurka",
+          "tomater",
+          "yoghurtsås"
+        ],
+        "notes": "Håll grönsakerna separata för enklare servering."
+      }
+    }
   },
   {
     "id": "bean-cheese-enchiladas",
@@ -657,7 +1259,21 @@
     ],
     "image": "assets/dishes/bean-cheese-enchiladas.jpg",
     "recipeUrl": null,
-    "notes": "Serve with shredded lettuce and yogurt."
+    "notes": "Serve with shredded lettuce and yogurt.",
+    "translations": {
+      "sv": {
+        "name": "Enchiladas med bönor och ost",
+        "description": "Tortillas fyllda med bönor och ost, bakade i enchiladasås.",
+        "mainIngredients": [
+          "tortillas",
+          "bönor",
+          "ost",
+          "enchiladasås",
+          "majs"
+        ],
+        "notes": "Servera med strimlad sallad och yoghurt."
+      }
+    }
   },
   {
     "id": "sausage-pepper-subs",
@@ -672,7 +1288,21 @@
     ],
     "image": "assets/dishes/sausage-pepper-subs.jpg",
     "recipeUrl": null,
-    "notes": "Use chicken or vegetarian sausages if preferred."
+    "notes": "Use chicken or vegetarian sausages if preferred.",
+    "translations": {
+      "sv": {
+        "name": "Korvsubs med paprika",
+        "description": "Korv med stekt paprika och lök i varma bröd.",
+        "mainIngredients": [
+          "korv",
+          "bröd",
+          "paprika",
+          "lök",
+          "senap"
+        ],
+        "notes": "Använd kycklingkorv eller vegetarisk korv om du föredrar det."
+      }
+    }
   },
   {
     "id": "cod-tomato-beans",
@@ -687,7 +1317,21 @@
     ],
     "image": "assets/dishes/cod-tomato-beans.jpg",
     "recipeUrl": null,
-    "notes": "Serve with bread for scooping up the sauce."
+    "notes": "Serve with bread for scooping up the sauce.",
+    "translations": {
+      "sv": {
+        "name": "Torsk med tomatbönor",
+        "description": "Mild torsk bakad över vita bönor i tomatsås med örter och citron.",
+        "mainIngredients": [
+          "torsk",
+          "vita bönor",
+          "tomater",
+          "citron",
+          "persilja"
+        ],
+        "notes": "Servera med bröd att fånga upp såsen med."
+      }
+    }
   },
   {
     "id": "veggie-burger-plates",
@@ -702,7 +1346,21 @@
     ],
     "image": "assets/dishes/veggie-burger-plates.jpg",
     "recipeUrl": null,
-    "notes": "Skip the bun and serve everything plate-style."
+    "notes": "Skip the bun and serve everything plate-style.",
+    "translations": {
+      "sv": {
+        "name": "Tallrikar med vegoburgare",
+        "description": "Vegoburgare serverade med potatisklyftor, sallad och dippsås.",
+        "mainIngredients": [
+          "vegoburgare",
+          "potatis",
+          "sallad",
+          "tomater",
+          "sås"
+        ],
+        "notes": "Hoppa över brödet och servera allt som en tallrik."
+      }
+    }
   },
   {
     "id": "chicken-ramen-bowls",
@@ -717,7 +1375,21 @@
     ],
     "image": "assets/dishes/chicken-ramen-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Use low-sodium broth and let everyone season their bowl."
+    "notes": "Use low-sodium broth and let everyone season their bowl.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Ramen Bowls",
+        "description": "Nudlar i buljong toppade med kyckling, ägg, morötter och bladgrönt.",
+        "mainIngredients": [
+          "ramennudlar",
+          "kyckling",
+          "ägg",
+          "morötter",
+          "bladgrönt"
+        ],
+        "notes": "Använd buljong med låg salthalt och låt alla krydda sin egen skål."
+      }
+    }
   },
   {
     "id": "beef-kofta-flatbreads",
@@ -732,7 +1404,21 @@
     ],
     "image": "assets/dishes/beef-kofta-flatbreads.jpg",
     "recipeUrl": null,
-    "notes": "Shape the kofta into small patties so they cook evenly."
+    "notes": "Shape the kofta into small patties so they cook evenly.",
+    "translations": {
+      "sv": {
+        "name": "Beef Kofta Flatbreads",
+        "description": "Kryddade biffar på nötfärs serverade med flatbread, sallad och vitlöksyoghurt.",
+        "mainIngredients": [
+          "nötfärs",
+          "flatbread",
+          "gurka",
+          "tomater",
+          "vitlöksyoghurt"
+        ],
+        "notes": "Forma koftan som små biffar så tillagas de jämnt."
+      }
+    }
   },
   {
     "id": "spinach-ricotta-cannelloni",
@@ -747,7 +1433,21 @@
     ],
     "image": "assets/dishes/spinach-ricotta-cannelloni.jpg",
     "recipeUrl": null,
-    "notes": "Use lasagna sheets rolled around the filling if needed."
+    "notes": "Use lasagna sheets rolled around the filling if needed.",
+    "translations": {
+      "sv": {
+        "name": "Cannelloni med spenat och ricotta",
+        "description": "Pastarör fyllda med spenat och ricotta, gratinerade i tomatsås.",
+        "mainIngredients": [
+          "cannelloni",
+          "spenat",
+          "ricotta",
+          "tomatsås",
+          "mozzarella"
+        ],
+        "notes": "Använd lasagneplattor rullade runt fyllningen om det behövs."
+      }
+    }
   },
   {
     "id": "honey-mustard-chicken",
@@ -762,7 +1462,21 @@
     ],
     "image": "assets/dishes/honey-mustard-chicken.jpg",
     "recipeUrl": null,
-    "notes": "Make extra sauce for spooning over the rice."
+    "notes": "Make extra sauce for spooning over the rice.",
+    "translations": {
+      "sv": {
+        "name": "Kyckling med honung och senap",
+        "description": "Kyckling bakad i honungssenapssås med ris och gröna grönsaker.",
+        "mainIngredients": [
+          "kyckling",
+          "honung",
+          "senap",
+          "ris",
+          "haricots verts"
+        ],
+        "notes": "Gör extra sås att skeda över riset."
+      }
+    }
   },
   {
     "id": "cauliflower-tikka-masala",
@@ -777,7 +1491,21 @@
     ],
     "image": "assets/dishes/cauliflower-tikka-masala.jpg",
     "recipeUrl": null,
-    "notes": "Serve with naan or rice depending on what you have."
+    "notes": "Serve with naan or rice depending on what you have.",
+    "translations": {
+      "sv": {
+        "name": "Cauliflower Tikka Masala",
+        "description": "Blomkål och kikärter i en mild, krämig tomatcurrysås.",
+        "mainIngredients": [
+          "blomkål",
+          "kikärter",
+          "tomater",
+          "grädde",
+          "ris"
+        ],
+        "notes": "Servera med naan eller ris beroende på vad du har hemma."
+      }
+    }
   },
   {
     "id": "pulled-pork-rice-bowls",
@@ -792,7 +1520,21 @@
     ],
     "image": "assets/dishes/pulled-pork-rice-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Great for using leftover slow-cooked pork."
+    "notes": "Great for using leftover slow-cooked pork.",
+    "translations": {
+      "sv": {
+        "name": "Pulled Pork Rice Bowls",
+        "description": "Pulled pork över ris med kål, majs, avokado och salsa.",
+        "mainIngredients": [
+          "pulled pork",
+          "ris",
+          "kål",
+          "majs",
+          "salsa"
+        ],
+        "notes": "Perfekt för att använda överbliven långkokt fläskkarré."
+      }
+    }
   },
   {
     "id": "mediterranean-tuna-salad",
@@ -807,7 +1549,21 @@
     ],
     "image": "assets/dishes/mediterranean-tuna-salad.jpg",
     "recipeUrl": null,
-    "notes": "Keep olives on the side if not everyone likes them."
+    "notes": "Keep olives on the side if not everyone likes them.",
+    "translations": {
+      "sv": {
+        "name": "Medelhavstallrik med tonfisk",
+        "description": "Tonfisk, potatis, ägg, haricots verts, tomater och oliver på ett fat.",
+        "mainIngredients": [
+          "tonfisk",
+          "potatis",
+          "ägg",
+          "haricots verts",
+          "tomater"
+        ],
+        "notes": "Håll oliverna vid sidan av om inte alla gillar dem."
+      }
+    }
   },
   {
     "id": "corn-chowder",
@@ -822,7 +1578,21 @@
     ],
     "image": "assets/dishes/corn-chowder.jpg",
     "recipeUrl": null,
-    "notes": "Serve with cheese toast for a cozy meal."
+    "notes": "Serve with cheese toast for a cozy meal.",
+    "translations": {
+      "sv": {
+        "name": "Corn Chowder",
+        "description": "Krämig majssoppa med potatis, morötter, örter och eventuellt bacon.",
+        "mainIngredients": [
+          "majs",
+          "potatis",
+          "morötter",
+          "grädde",
+          "bacon"
+        ],
+        "notes": "Servera med osttoast för en mysig måltid."
+      }
+    }
   },
   {
     "id": "chicken-parmesan-bakes",
@@ -837,7 +1607,21 @@
     ],
     "image": "assets/dishes/chicken-parmesan-bakes.jpg",
     "recipeUrl": null,
-    "notes": "Bake instead of frying to keep cleanup easier."
+    "notes": "Bake instead of frying to keep cleanup easier.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Parmesan Bake",
+        "description": "Panerad kyckling bakad med tomatsås och mozzarella, serverad med pasta.",
+        "mainIngredients": [
+          "kyckling",
+          "ströbröd",
+          "tomatsås",
+          "mozzarella",
+          "pasta"
+        ],
+        "notes": "Baka i stället för att steka för enklare rengöring."
+      }
+    }
   },
   {
     "id": "gnocchi-tomato-beans",
@@ -852,7 +1636,21 @@
     ],
     "image": "assets/dishes/gnocchi-tomato-beans.jpg",
     "recipeUrl": null,
-    "notes": "Finish under the grill with mozzarella if you want it bubbly."
+    "notes": "Finish under the grill with mozzarella if you want it bubbly.",
+    "translations": {
+      "sv": {
+        "name": "Gnocchi med tomatbönor",
+        "description": "Mjuk gnocchi sjuden med vita bönor, tomatsås och spenat.",
+        "mainIngredients": [
+          "gnocchi",
+          "vita bönor",
+          "tomatsås",
+          "spenat",
+          "parmesan"
+        ],
+        "notes": "Avsluta under grillen med mozzarella om du vill ha den bubblig."
+      }
+    }
   },
   {
     "id": "korean-beef-bowls",
@@ -867,7 +1665,21 @@
     ],
     "image": "assets/dishes/korean-beef-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Use less chili paste for a milder family version."
+    "notes": "Use less chili paste for a milder family version.",
+    "translations": {
+      "sv": {
+        "name": "Korean-Style Beef Bowls",
+        "description": "Söt-salt nötfärs över ris med gurka, morötter och sesam.",
+        "mainIngredients": [
+          "nötfärs",
+          "ris",
+          "gurka",
+          "morötter",
+          "sesam"
+        ],
+        "notes": "Använd mindre chilipasta för en mildare familjevariant."
+      }
+    }
   },
   {
     "id": "squash-mac-cheese",
@@ -882,7 +1694,21 @@
     ],
     "image": "assets/dishes/squash-mac-cheese.jpg",
     "recipeUrl": null,
-    "notes": "Blend the squash into the sauce for a smooth texture."
+    "notes": "Blend the squash into the sauce for a smooth texture.",
+    "translations": {
+      "sv": {
+        "name": "Mac and Cheese med butternutpumpa",
+        "description": "Krämiga makaroner med butternutpumpa, cheddar och krispigt täcke.",
+        "mainIngredients": [
+          "makaroner",
+          "butternutpumpa",
+          "cheddar",
+          "mjölk",
+          "ströbröd"
+        ],
+        "notes": "Mixa pumpan i såsen för en slät konsistens."
+      }
+    }
   },
   {
     "id": "turkey-club-salad",
@@ -897,7 +1723,21 @@
     ],
     "image": "assets/dishes/turkey-club-salad.jpg",
     "recipeUrl": null,
-    "notes": "Serve with bread on the side for bigger appetites."
+    "notes": "Serve with bread on the side for bigger appetites.",
+    "translations": {
+      "sv": {
+        "name": "Turkey Club Salad",
+        "description": "Kalkon, bacon, sallad, tomater, avokado, krutonger och ranchdressing.",
+        "mainIngredients": [
+          "kalkon",
+          "bacon",
+          "sallad",
+          "tomater",
+          "avokado"
+        ],
+        "notes": "Servera med bröd vid sidan av för större aptit."
+      }
+    }
   },
   {
     "id": "chickpea-shawarma-wraps",
@@ -912,7 +1752,21 @@
     ],
     "image": "assets/dishes/chickpea-shawarma-wraps.jpg",
     "recipeUrl": null,
-    "notes": "Roast chickpeas until crisp for the best texture."
+    "notes": "Roast chickpeas until crisp for the best texture.",
+    "translations": {
+      "sv": {
+        "name": "Chickpea Shawarma Wraps",
+        "description": "Rostade kikärter i wraps med sallad, pickles och tahiniyoghurt.",
+        "mainIngredients": [
+          "kikärter",
+          "wraps",
+          "sallad",
+          "pickles",
+          "tahiniyoghurt"
+        ],
+        "notes": "Rosta kikärterna tills de är krispiga för bäst konsistens."
+      }
+    }
   },
   {
     "id": "beef-chili-nachos",
@@ -927,7 +1781,21 @@
     ],
     "image": "assets/dishes/beef-chili-nachos.jpg",
     "recipeUrl": null,
-    "notes": "Bake on a sheet pan and serve with salad."
+    "notes": "Bake on a sheet pan and serve with salad.",
+    "translations": {
+      "sv": {
+        "name": "Nachos med biffchili",
+        "description": "Tortillachips toppade med biffchili, ost, salsa och avokado.",
+        "mainIngredients": [
+          "tortillachips",
+          "biffchili",
+          "ost",
+          "salsa",
+          "avokado"
+        ],
+        "notes": "Gratinera på en plåt och servera med sallad."
+      }
+    }
   },
   {
     "id": "lemon-ricotta-pancake-dinner",
@@ -942,7 +1810,21 @@
     ],
     "image": "assets/dishes/lemon-ricotta-pancake-dinner.jpg",
     "recipeUrl": null,
-    "notes": "A good breakfast-for-dinner variation."
+    "notes": "A good breakfast-for-dinner variation.",
+    "translations": {
+      "sv": {
+        "name": "Middagspannkakor med citron och ricotta",
+        "description": "Fluffiga ricottapannkakor serverade med bär, yoghurt och äggröra.",
+        "mainIngredients": [
+          "ricotta",
+          "ägg",
+          "mjöl",
+          "bär",
+          "yoghurt"
+        ],
+        "notes": "En bra frukost-till-middag-variant."
+      }
+    }
   },
   {
     "id": "ratatouille-pasta",
@@ -957,7 +1839,21 @@
     ],
     "image": "assets/dishes/ratatouille-pasta.jpg",
     "recipeUrl": null,
-    "notes": "Add mozzarella pearls or parmesan at the table."
+    "notes": "Add mozzarella pearls or parmesan at the table.",
+    "translations": {
+      "sv": {
+        "name": "Ratatouillepasta",
+        "description": "Pasta vänd med aubergine, zucchini, paprika, tomater och basilika.",
+        "mainIngredients": [
+          "pasta",
+          "aubergine",
+          "zucchini",
+          "paprika",
+          "tomater"
+        ],
+        "notes": "Ställ fram mozzarellapärlor eller parmesan vid bordet."
+      }
+    }
   },
   {
     "id": "chicken-tikka-wraps",
@@ -972,7 +1868,21 @@
     ],
     "image": "assets/dishes/chicken-tikka-wraps.jpg",
     "recipeUrl": null,
-    "notes": "Serve with mango chutney on the side."
+    "notes": "Serve with mango chutney on the side.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Tikka Wraps",
+        "description": "Milt kryddad kyckling i wraps med sallad, gurka, yoghurt och chutney.",
+        "mainIngredients": [
+          "kyckling",
+          "wraps",
+          "sallad",
+          "gurka",
+          "yoghurt"
+        ],
+        "notes": "Servera mangochutney vid sidan av."
+      }
+    }
   },
   {
     "id": "salmon-teriyaki-noodles",
@@ -987,7 +1897,21 @@
     ],
     "image": "assets/dishes/salmon-teriyaki-noodles.jpg",
     "recipeUrl": null,
-    "notes": "Flake the salmon into the noodles for easier serving."
+    "notes": "Flake the salmon into the noodles for easier serving.",
+    "translations": {
+      "sv": {
+        "name": "Teriyakilax med nudlar",
+        "description": "Glaserad lax med nudlar, broccoli, morötter och sesam.",
+        "mainIngredients": [
+          "lax",
+          "nudlar",
+          "broccoli",
+          "morötter",
+          "teriyakisås"
+        ],
+        "notes": "Dela laxen i bitar och vänd ner i nudlarna för enklare servering."
+      }
+    }
   },
   {
     "id": "pasta-bacon-mushroom-sauce",
@@ -1002,7 +1926,21 @@
     ],
     "image": "assets/dishes/pasta-bacon-mushroom-sauce.jpg",
     "recipeUrl": null,
-    "notes": "Keep the sauce creamy and tomato-rich, then finish with black pepper."
+    "notes": "Keep the sauce creamy and tomato-rich, then finish with black pepper.",
+    "translations": {
+      "sv": {
+        "name": "Pasta med bacon- och svampsås",
+        "description": "Penne vänd med bacon, svamp, crème fraiche och krossade tomater.",
+        "mainIngredients": [
+          "bacon",
+          "svamp",
+          "crème fraiche",
+          "krossade tomater",
+          "penne"
+        ],
+        "notes": "Håll såsen krämig och tomatrik och avsluta med svartpeppar."
+      }
+    }
   },
   {
     "id": "spanish-tortilla-salad",
@@ -1017,7 +1955,21 @@
     ],
     "image": "assets/dishes/spanish-tortilla-salad.jpg",
     "recipeUrl": null,
-    "notes": "Cook it ahead and serve warm or room temperature."
+    "notes": "Cook it ahead and serve warm or room temperature.",
+    "translations": {
+      "sv": {
+        "name": "Spansk tortilla med sallad",
+        "description": "Potatis- och äggtortilla serverad i klyftor med tomater och bladgrönt.",
+        "mainIngredients": [
+          "ägg",
+          "potatis",
+          "lök",
+          "tomater",
+          "bladgrönt"
+        ],
+        "notes": "Laga den i förväg och servera varm eller rumstempererad."
+      }
+    }
   },
   {
     "id": "pork-ginger-stir-fry",
@@ -1032,7 +1984,21 @@
     ],
     "image": "assets/dishes/pork-ginger-stir-fry.jpg",
     "recipeUrl": null,
-    "notes": "Use thin strips so the pork stays tender."
+    "notes": "Use thin strips so the pork stays tender.",
+    "translations": {
+      "sv": {
+        "name": "Wok med fläsk och ingefära",
+        "description": "Möra fläskstrimlor wokade med grönsaker, ingefära, soja och ris.",
+        "mainIngredients": [
+          "fläskkött",
+          "ingefära",
+          "blandade grönsaker",
+          "soja",
+          "ris"
+        ],
+        "notes": "Använd tunna strimlor så håller sig köttet mört."
+      }
+    }
   },
   {
     "id": "broccoli-cheddar-quiche",
@@ -1047,7 +2013,21 @@
     ],
     "image": "assets/dishes/broccoli-cheddar-quiche.jpg",
     "recipeUrl": null,
-    "notes": "Use a ready-made crust when you need an easy version."
+    "notes": "Use a ready-made crust when you need an easy version.",
+    "translations": {
+      "sv": {
+        "name": "Paj med broccoli och cheddar",
+        "description": "Matig paj med broccoli, cheddar, ägg och enkel sallad.",
+        "mainIngredients": [
+          "pajdeg",
+          "broccoli",
+          "cheddar",
+          "ägg",
+          "sallad"
+        ],
+        "notes": "Använd färdig pajdeg när du vill ha en enkel version."
+      }
+    }
   },
   {
     "id": "tomato-soup-grilled-cheese",
@@ -1062,7 +2042,21 @@
     ],
     "image": "assets/dishes/tomato-soup-grilled-cheese.jpg",
     "recipeUrl": null,
-    "notes": "Cut sandwiches into strips for dipping."
+    "notes": "Cut sandwiches into strips for dipping.",
+    "translations": {
+      "sv": {
+        "name": "Tomatsoppa med grilled cheese",
+        "description": "Len tomatsoppa serverad med frasiga grilled cheese-smörgåsar.",
+        "mainIngredients": [
+          "tomater",
+          "bröd",
+          "ost",
+          "grädde",
+          "basilika"
+        ],
+        "notes": "Skär smörgåsarna i stavar att doppa."
+      }
+    }
   },
   {
     "id": "lamb-meatball-pitas",
@@ -1077,7 +2071,21 @@
     ],
     "image": "assets/dishes/lamb-meatball-pitas.jpg",
     "recipeUrl": null,
-    "notes": "Use beef or turkey mince if lamb is not available."
+    "notes": "Use beef or turkey mince if lamb is not available.",
+    "translations": {
+      "sv": {
+        "name": "Lammfärsbullar i pita",
+        "description": "Lammfärsbullar i varma pitabröd med gurka, tomat och myntyoghurt.",
+        "mainIngredients": [
+          "lammfärs",
+          "pitabröd",
+          "gurka",
+          "tomater",
+          "myntyoghurt"
+        ],
+        "notes": "Använd nöt- eller kalkonfärs om lamm inte finns."
+      }
+    }
   },
   {
     "id": "chicken-alfredo-broccoli",
@@ -1092,7 +2100,21 @@
     ],
     "image": "assets/dishes/chicken-alfredo-broccoli.jpg",
     "recipeUrl": null,
-    "notes": "Steam the broccoli in the pasta pot for fewer dishes."
+    "notes": "Steam the broccoli in the pasta pot for fewer dishes.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Alfredo med broccoli",
+        "description": "Pasta i krämig Alfredosås med kyckling, broccoli och parmesan.",
+        "mainIngredients": [
+          "pasta",
+          "kyckling",
+          "broccoli",
+          "grädde",
+          "parmesan"
+        ],
+        "notes": "Ånga broccolin i pastakastrullen för färre kastruller."
+      }
+    }
   },
   {
     "id": "bean-chili-rice",
@@ -1107,7 +2129,21 @@
     ],
     "image": "assets/dishes/bean-chili-rice.jpg",
     "recipeUrl": null,
-    "notes": "Use a mix of beans for better texture."
+    "notes": "Use a mix of beans for better texture.",
+    "translations": {
+      "sv": {
+        "name": "Bönchili med ris",
+        "description": "En enkel bönchili serverad över ris med ost och avokado.",
+        "mainIngredients": [
+          "bönor",
+          "tomater",
+          "ris",
+          "ost",
+          "avokado"
+        ],
+        "notes": "Använd en blandning av bönor för bättre konsistens."
+      }
+    }
   },
   {
     "id": "prawn-fried-noodles",
@@ -1122,7 +2158,21 @@
     ],
     "image": "assets/dishes/prawn-fried-noodles.jpg",
     "recipeUrl": null,
-    "notes": "Keep frozen prawns on hand for this quick option."
+    "notes": "Keep frozen prawns on hand for this quick option.",
+    "translations": {
+      "sv": {
+        "name": "Stekta nudlar med räkor",
+        "description": "Räkor, nudlar, ägg och grönsaker vända i en smakrik sås.",
+        "mainIngredients": [
+          "räkor",
+          "nudlar",
+          "ägg",
+          "grönsaker",
+          "soja"
+        ],
+        "notes": "Ha frysta räkor hemma för detta snabba alternativ."
+      }
+    }
   },
   {
     "id": "eggplant-parmesan",
@@ -1137,7 +2187,21 @@
     ],
     "image": "assets/dishes/eggplant-parmesan.jpg",
     "recipeUrl": null,
-    "notes": "Serve with pasta or a green salad."
+    "notes": "Serve with pasta or a green salad.",
+    "translations": {
+      "sv": {
+        "name": "Eggplant Parmesan",
+        "description": "Ugnsbakad aubergine varvad med tomatsås, mozzarella och parmesan.",
+        "mainIngredients": [
+          "aubergine",
+          "tomatsås",
+          "mozzarella",
+          "parmesan",
+          "ströbröd"
+        ],
+        "notes": "Servera med pasta eller grön sallad."
+      }
+    }
   },
   {
     "id": "turkey-burgers",
@@ -1152,7 +2216,21 @@
     ],
     "image": "assets/dishes/turkey-burgers.jpg",
     "recipeUrl": null,
-    "notes": "Add grated zucchini to the patties to keep them moist."
+    "notes": "Add grated zucchini to the patties to keep them moist.",
+    "translations": {
+      "sv": {
+        "name": "Kalkonburgare",
+        "description": "Saftiga kalkonburgare med bröd, sallad, tomat och ugnspommes.",
+        "mainIngredients": [
+          "kalkonfärs",
+          "hamburgerbröd",
+          "sallad",
+          "tomater",
+          "potatis"
+        ],
+        "notes": "Riv ner zucchini i biffarna så håller de sig saftiga."
+      }
+    }
   },
   {
     "id": "creamy-mushroom-chicken",
@@ -1167,7 +2245,21 @@
     ],
     "image": "assets/dishes/creamy-mushroom-chicken.jpg",
     "recipeUrl": null,
-    "notes": "Serve green beans on the side."
+    "notes": "Serve green beans on the side.",
+    "translations": {
+      "sv": {
+        "name": "Krämig svampkyckling",
+        "description": "Kyckling i svampgräddsås serverad med ris eller potatismos.",
+        "mainIngredients": [
+          "kyckling",
+          "svamp",
+          "grädde",
+          "ris",
+          "persilja"
+        ],
+        "notes": "Servera haricots verts vid sidan av."
+      }
+    }
   },
   {
     "id": "tofu-banh-mi-bowls",
@@ -1182,7 +2274,21 @@
     ],
     "image": "assets/dishes/tofu-banh-mi-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Keep pickles mild and add chili for adults separately."
+    "notes": "Keep pickles mild and add chili for adults separately.",
+    "translations": {
+      "sv": {
+        "name": "Tofu Banh Mi Bowls",
+        "description": "Risskålar med krispig tofu, picklade morötter, gurka, örter och majonnäs.",
+        "mainIngredients": [
+          "tofu",
+          "ris",
+          "morötter",
+          "gurka",
+          "majonnäs"
+        ],
+        "notes": "Håll picklesen mild och lägg till chili separat för vuxna."
+      }
+    }
   },
   {
     "id": "chicken-corn-tacos",
@@ -1197,7 +2303,21 @@
     ],
     "image": "assets/dishes/chicken-corn-tacos.jpg",
     "recipeUrl": null,
-    "notes": "Use leftover chicken to make this extra fast."
+    "notes": "Use leftover chicken to make this extra fast.",
+    "translations": {
+      "sv": {
+        "name": "Kyckling- och majstacos",
+        "description": "Tacos med strimlad kyckling, söt majs, sallad, ost och salsa.",
+        "mainIngredients": [
+          "kyckling",
+          "tortillas",
+          "majs",
+          "sallad",
+          "ost"
+        ],
+        "notes": "Använd överbliven kyckling för att göra detta extra snabbt."
+      }
+    }
   },
   {
     "id": "smoky-bean-stew",
@@ -1212,7 +2332,21 @@
     ],
     "image": "assets/dishes/smoky-bean-stew.jpg",
     "recipeUrl": null,
-    "notes": "Top with yogurt or feta if you like."
+    "notes": "Top with yogurt or feta if you like.",
+    "translations": {
+      "sv": {
+        "name": "Rökig böngryta",
+        "description": "Bönor sjudna med tomater, rökt paprikapulver, morötter och ett gott bröd.",
+        "mainIngredients": [
+          "bönor",
+          "tomater",
+          "morötter",
+          "rökt paprikapulver",
+          "bröd"
+        ],
+        "notes": "Toppa med yoghurt eller fetaost om du vill."
+      }
+    }
   },
   {
     "id": "salmon-fishcakes",
@@ -1227,7 +2361,21 @@
     ],
     "image": "assets/dishes/salmon-fishcakes.jpg",
     "recipeUrl": null,
-    "notes": "Canned salmon works well for a pantry version."
+    "notes": "Canned salmon works well for a pantry version.",
+    "translations": {
+      "sv": {
+        "name": "Laxbiffar",
+        "description": "Gyllene lax- och potatisbiffar serverade med haricots verts, sallad och citron.",
+        "mainIngredients": [
+          "lax",
+          "potatis",
+          "haricots verts",
+          "sallad",
+          "citron"
+        ],
+        "notes": "Konserverad lax fungerar bra som skafferivariant."
+      }
+    }
   },
   {
     "id": "beef-shepherds-pie",
@@ -1242,7 +2390,21 @@
     ],
     "image": "assets/dishes/beef-shepherds-pie.jpg",
     "recipeUrl": null,
-    "notes": "Make it in one oven-safe skillet if possible."
+    "notes": "Make it in one oven-safe skillet if possible.",
+    "translations": {
+      "sv": {
+        "name": "Shepherd's Pie med nötkött",
+        "description": "Nötkött och grönsaker toppade med potatismos och bakade tills ytan är gyllene.",
+        "mainIngredients": [
+          "nötfärs",
+          "potatis",
+          "morötter",
+          "majs",
+          "buljong"
+        ],
+        "notes": "Gör den gärna i en ugnssäker stekpanna om möjligt."
+      }
+    }
   },
   {
     "id": "roasted-red-pepper-pasta",
@@ -1257,7 +2419,21 @@
     ],
     "image": "assets/dishes/roasted-red-pepper-pasta.jpg",
     "recipeUrl": null,
-    "notes": "Blend the sauce smooth before tossing with pasta."
+    "notes": "Blend the sauce smooth before tossing with pasta.",
+    "translations": {
+      "sv": {
+        "name": "Pasta med rostad paprikasås",
+        "description": "Pasta vänd i en krämig sås på rostad röd paprika med spenat.",
+        "mainIngredients": [
+          "pasta",
+          "rostad paprika",
+          "grädde",
+          "spenat",
+          "parmesan"
+        ],
+        "notes": "Mixa såsen slät innan du vänder ner pastan."
+      }
+    }
   },
   {
     "id": "chicken-fried-rice",
@@ -1272,7 +2448,21 @@
     ],
     "image": "assets/dishes/chicken-fried-rice.jpg",
     "recipeUrl": null,
-    "notes": "Use chilled rice so it fries instead of steaming."
+    "notes": "Use chilled rice so it fries instead of steaming.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Fried Rice",
+        "description": "Ris stekt med kyckling, ägg, paprika, morötter och soja.",
+        "mainIngredients": [
+          "ris",
+          "kyckling",
+          "ägg",
+          "paprika",
+          "morötter"
+        ],
+        "notes": "Använd kallt ris så steks det i stället för att ångas."
+      }
+    }
   },
   {
     "id": "ricotta-spinach-flatbreads",
@@ -1287,7 +2477,21 @@
     ],
     "image": "assets/dishes/ricotta-spinach-flatbreads.jpg",
     "recipeUrl": null,
-    "notes": "Cut into strips for easy sharing."
+    "notes": "Cut into strips for easy sharing.",
+    "translations": {
+      "sv": {
+        "name": "Flatbreads med ricotta och spenat",
+        "description": "Flatbread toppat med ricotta, spenat, mozzarella och tomater.",
+        "mainIngredients": [
+          "flatbread",
+          "ricotta",
+          "spenat",
+          "mozzarella",
+          "tomater"
+        ],
+        "notes": "Skär i remsor så blir det lätt att dela."
+      }
+    }
   },
   {
     "id": "pork-meatball-subs",
@@ -1302,7 +2506,21 @@
     ],
     "image": "assets/dishes/pork-meatball-subs.jpg",
     "recipeUrl": null,
-    "notes": "Serve with raw vegetables or salad to balance the meal."
+    "notes": "Serve with raw vegetables or salad to balance the meal.",
+    "translations": {
+      "sv": {
+        "name": "Subs med fläskköttbullar",
+        "description": "Köttbullar i tomatsås i bröd med smält mozzarella.",
+        "mainIngredients": [
+          "fläskfärs",
+          "bröd",
+          "tomatsås",
+          "mozzarella",
+          "sallad"
+        ],
+        "notes": "Servera med råa grönsaker eller sallad för balans."
+      }
+    }
   },
   {
     "id": "coconut-lentil-dal",
@@ -1317,7 +2535,21 @@
     ],
     "image": "assets/dishes/coconut-lentil-dal.jpg",
     "recipeUrl": null,
-    "notes": "Add lemon juice at the end for brightness."
+    "notes": "Add lemon juice at the end for brightness.",
+    "translations": {
+      "sv": {
+        "name": "Linsdal med kokos",
+        "description": "Röda linser sjudna med kokosmjölk, milda kryddor, spenat och ris.",
+        "mainIngredients": [
+          "röda linser",
+          "kokosmjölk",
+          "spenat",
+          "ris",
+          "kryddor"
+        ],
+        "notes": "Tillsätt citronjuice på slutet för fräschör."
+      }
+    }
   },
   {
     "id": "chicken-pesto-panini",
@@ -1332,7 +2564,21 @@
     ],
     "image": "assets/dishes/chicken-pesto-panini.jpg",
     "recipeUrl": null,
-    "notes": "Use a frying pan and press with another pan if you do not have a press."
+    "notes": "Use a frying pan and press with another pan if you do not have a press.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Pesto Panini",
+        "description": "Rostade smörgåsar med kyckling, pesto, mozzarella, tomater och sallad.",
+        "mainIngredients": [
+          "bröd",
+          "kyckling",
+          "pesto",
+          "mozzarella",
+          "tomater"
+        ],
+        "notes": "Använd en stekpanna och pressa med en annan panna om du inte har en press."
+      }
+    }
   },
   {
     "id": "fish-pie",
@@ -1347,7 +2593,21 @@
     ],
     "image": "assets/dishes/fish-pie.jpg",
     "recipeUrl": null,
-    "notes": "Use frozen fish pie mix for convenience."
+    "notes": "Use frozen fish pie mix for convenience.",
+    "translations": {
+      "sv": {
+        "name": "Fish Pie",
+        "description": "Krämig blandad fisk och purjolök toppad med potatismos och gratinerad.",
+        "mainIngredients": [
+          "blandad fisk",
+          "potatis",
+          "purjolök",
+          "mjölk",
+          "ost"
+        ],
+        "notes": "Använd fryst fiskpajsmix för enkelhetens skull."
+      }
+    }
   },
   {
     "id": "halloumi-tacos",
@@ -1362,7 +2622,21 @@
     ],
     "image": "assets/dishes/halloumi-tacos.jpg",
     "recipeUrl": null,
-    "notes": "Cook halloumi just before serving so it stays soft."
+    "notes": "Cook halloumi just before serving so it stays soft.",
+    "translations": {
+      "sv": {
+        "name": "Halloumitacos",
+        "description": "Stekt halloumi i tortillas med kålsallad, avokado och lime.",
+        "mainIngredients": [
+          "halloumi",
+          "tortillas",
+          "kål",
+          "avokado",
+          "lime"
+        ],
+        "notes": "Stek halloumin precis före servering så håller den sig mjuk."
+      }
+    }
   },
   {
     "id": "beef-ragu-polenta",
@@ -1377,7 +2651,21 @@
     ],
     "image": "assets/dishes/beef-ragu-polenta.jpg",
     "recipeUrl": null,
-    "notes": "This is a good weekend or make-ahead option."
+    "notes": "This is a good weekend or make-ahead option.",
+    "translations": {
+      "sv": {
+        "name": "Nötragu med polenta",
+        "description": "Långkokt tomatsås med nötkött serverad över krämig polenta.",
+        "mainIngredients": [
+          "nötkött",
+          "tomater",
+          "polenta",
+          "parmesan",
+          "morötter"
+        ],
+        "notes": "Det här passar bra som helgmiddag eller att laga i förväg."
+      }
+    }
   },
   {
     "id": "chicken-biryani-style-rice",
@@ -1392,7 +2680,21 @@
     ],
     "image": "assets/dishes/chicken-biryani-style-rice.jpg",
     "recipeUrl": null,
-    "notes": "Use mild curry powder for a family-friendly version."
+    "notes": "Use mild curry powder for a family-friendly version.",
+    "translations": {
+      "sv": {
+        "name": "Chicken Biryani-Style Rice",
+        "description": "Doftande ris med kyckling, haricots verts, milda kryddor, yoghurt och gurka.",
+        "mainIngredients": [
+          "kyckling",
+          "ris",
+          "haricots verts",
+          "yoghurt",
+          "gurka"
+        ],
+        "notes": "Använd milt currypulver för en familjevänlig variant."
+      }
+    }
   },
   {
     "id": "white-bean-sausage-soup",
@@ -1407,7 +2709,21 @@
     ],
     "image": "assets/dishes/white-bean-sausage-soup.jpg",
     "recipeUrl": null,
-    "notes": "Serve with bread and grated parmesan."
+    "notes": "Serve with bread and grated parmesan.",
+    "translations": {
+      "sv": {
+        "name": "Soppa med vita bönor och korv",
+        "description": "En matig soppa med korv, vita bönor, morötter, bladgrönt och buljong.",
+        "mainIngredients": [
+          "korv",
+          "vita bönor",
+          "morötter",
+          "bladgrönt",
+          "buljong"
+        ],
+        "notes": "Servera med bröd och riven parmesan."
+      }
+    }
   },
   {
     "id": "veggie-sushi-bowls",
@@ -1422,7 +2738,21 @@
     ],
     "image": "assets/dishes/veggie-sushi-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Add smoked salmon or tofu if you want more protein."
+    "notes": "Add smoked salmon or tofu if you want more protein.",
+    "translations": {
+      "sv": {
+        "name": "Veggie Sushi Bowls",
+        "description": "Risskålar med gurka, avokado, morötter, edamamebönor och nori.",
+        "mainIngredients": [
+          "ris",
+          "gurka",
+          "avokado",
+          "edamamebönor",
+          "nori"
+        ],
+        "notes": "Lägg till rökt lax eller tofu om du vill ha mer protein."
+      }
+    }
   },
   {
     "id": "ham-spinach-risotto",
@@ -1437,7 +2767,21 @@
     ],
     "image": "assets/dishes/ham-spinach-risotto.jpg",
     "recipeUrl": null,
-    "notes": "A useful way to use leftover ham."
+    "notes": "A useful way to use leftover ham.",
+    "translations": {
+      "sv": {
+        "name": "Risotto med skinka och spenat",
+        "description": "Krämig risotto med tärnad skinka, spenat, parmesan och citron.",
+        "mainIngredients": [
+          "risottoris",
+          "skinka",
+          "spenat",
+          "parmesan",
+          "citron"
+        ],
+        "notes": "Ett användbart sätt att ta hand om överbliven skinka."
+      }
+    }
   },
   {
     "id": "turkey-lettuce-bowls",
@@ -1452,7 +2796,21 @@
     ],
     "image": "assets/dishes/turkey-lettuce-bowls.jpg",
     "recipeUrl": null,
-    "notes": "Spoon into lettuce leaves or serve as rice bowls."
+    "notes": "Spoon into lettuce leaves or serve as rice bowls.",
+    "translations": {
+      "sv": {
+        "name": "Kalkonfärsskålar med sallad",
+        "description": "Kryddad kalkonfärs serverad med ris, sallad, gurka och sås.",
+        "mainIngredients": [
+          "kalkonfärs",
+          "ris",
+          "sallad",
+          "gurka",
+          "sås"
+        ],
+        "notes": "Skeda ner i salladsblad eller servera som risskålar."
+      }
+    }
   },
   {
     "id": "baked-ziti",
@@ -1467,7 +2825,21 @@
     ],
     "image": "assets/dishes/baked-ziti.jpg",
     "recipeUrl": null,
-    "notes": "Make two smaller pans and freeze one if you like."
+    "notes": "Make two smaller pans and freeze one if you like.",
+    "translations": {
+      "sv": {
+        "name": "Baked Ziti",
+        "description": "Pasta gratinerad med tomatsås, ricotta, mozzarella och basilika.",
+        "mainIngredients": [
+          "ziti",
+          "tomatsås",
+          "ricotta",
+          "mozzarella",
+          "basilika"
+        ],
+        "notes": "Gör två mindre formar och frys in en om du vill."
+      }
+    }
   },
   {
     "id": "miso-udon-veg",
@@ -1482,7 +2854,21 @@
     ],
     "image": "assets/dishes/miso-udon-veg.jpg",
     "recipeUrl": null,
-    "notes": "Keep the broth mild and add chili oil separately."
+    "notes": "Keep the broth mild and add chili oil separately.",
+    "translations": {
+      "sv": {
+        "name": "Miso Udon med grönsaker",
+        "description": "Tjocka udonnudlar i misobuljong med svamp, bladgrönt och ägg.",
+        "mainIngredients": [
+          "udonnudlar",
+          "miso",
+          "svamp",
+          "bladgrönt",
+          "ägg"
+        ],
+        "notes": "Håll buljongen mild och ställ fram chiliolja separat."
+      }
+    }
   },
   {
     "id": "breakfast-for-dinner",
@@ -1497,6 +2883,20 @@
     ],
     "image": "assets/dishes/breakfast-for-dinner.jpg",
     "recipeUrl": null,
-    "notes": "Let everyone pick their favorite breakfast side."
+    "notes": "Let everyone pick their favorite breakfast side.",
+    "translations": {
+      "sv": {
+        "name": "Frukost till middag",
+        "description": "Äggröra, rostat bröd, rostade tomater, frukt och krispig potatis.",
+        "mainIngredients": [
+          "ägg",
+          "rostat bröd",
+          "potatis",
+          "tomater",
+          "frukt"
+        ],
+        "notes": "Låt alla välja sitt favorittillbehör från frukostbordet."
+      }
+    }
   }
 ]

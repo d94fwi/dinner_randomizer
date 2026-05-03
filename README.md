@@ -5,6 +5,11 @@ A static dinner idea picker for a family of four. There is no backend; the page 
 This is a vibe coded application. Most of the dinners suggestions are AI generated, as well as the images.
 Use at your own risk.
 
+## Run from Github pages
+
+Run [Dinner Randomizer](https://d94fwi.github.io/dinner_randomizer/) here.
+
+
 ## Run locally
 
 Serve the folder with any static file server:

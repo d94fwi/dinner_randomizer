@@ -25,6 +25,18 @@
           "avokado"
         ],
         "notes": "Ställ fram toppingarna var för sig så att alla kan bygga sin egen skål."
+      },
+      "pl": {
+        "name": "Taco Bowls do samodzielnego skomponowania",
+        "description": "Miski z ryżem, przyprawioną wołowiną lub fasolą, kukurydzą, salsą, awokado, serem i chrupiącymi chipsami tortilla.",
+        "mainIngredients": [
+          "ryż",
+          "mielona wołowina lub fasola",
+          "kukurydza",
+          "salsa",
+          "awokado"
+        ],
+        "notes": "Podaj dodatki osobno, żeby każdy mógł złożyć własną miskę."
       }
     }
   },
@@ -54,6 +66,18 @@
           "dill"
         ],
         "notes": "Byt laxen mot kycklinglår om fisk inte står på menyn."
+      },
+      "pl": {
+        "name": "Łosoś z piekarnika z ziemniakami",
+        "description": "Łosoś z cytryną pieczony z młodymi ziemniakami i zieloną fasolką jako prosty obiad z jednej blachy.",
+        "mainIngredients": [
+          "łosoś",
+          "młode ziemniaki",
+          "zielona fasolka",
+          "cytryna",
+          "koperek"
+        ],
+        "notes": "Jeśli ryba nie pasuje do planu, zamień łososia na udka z kurczaka."
       }
     }
   },
@@ -83,6 +107,18 @@
           "parmesan"
         ],
         "notes": "Lägg till vita bönor eller grillad kyckling för extra protein."
+      },
+      "pl": {
+        "name": "Kremowy makaron pomidorowy ze szpinakiem",
+        "description": "Przytulny makaron z sosem pomidorowym, odrobiną śmietanki, szpinakiem i parmezanem.",
+        "mainIngredients": [
+          "makaron",
+          "pomidory",
+          "śmietanka",
+          "szpinak",
+          "parmezan"
+        ],
+        "notes": "Dodaj białą fasolę albo grillowanego kurczaka, jeśli chcesz więcej białka."
       }
     }
   },
@@ -112,6 +148,18 @@
           "lime"
         ],
         "notes": "Gör extra grönsaker till lunchwraps dagen efter."
+      },
+      "pl": {
+        "name": "Chicken Fajitas",
+        "description": "Podsmażany kurczak, papryka i cebula podane z tortillami, jogurtem i limonką.",
+        "mainIngredients": [
+          "kurczak",
+          "papryka",
+          "cebula",
+          "tortille",
+          "limonka"
+        ],
+        "notes": "Przygotuj więcej warzyw, a następnego dnia wykorzystasz je do wrapów na lunch."
       }
     }
   },
@@ -141,6 +189,18 @@
           "spaghetti"
         ],
         "notes": "Såsen går bra att frysa, så dubbla gärna satsen när du har tid."
+      },
+      "pl": {
+        "name": "Bolognese z soczewicą",
+        "description": "Gęsty sos pomidorowy z soczewicą podany ze spaghetti, parmezanem i sałatą.",
+        "mainIngredients": [
+          "soczewica",
+          "pomidory",
+          "marchew",
+          "seler naciowy",
+          "spaghetti"
+        ],
+        "notes": "Sos dobrze się mrozi, więc warto zrobić podwójną porcję, kiedy masz czas."
       }
     }
   },
@@ -170,6 +230,18 @@
           "teriyakisås"
         ],
         "notes": "Servera såsen vid sidan av för den som vill ha mildare smak."
+      },
+      "pl": {
+        "name": "Talerze ryżowe z kurczakiem teriyaki",
+        "description": "Kurczak w kleistym sosie teriyaki z ryżem, ogórkiem, marchewką i brokułem gotowanym na parze.",
+        "mainIngredients": [
+          "kurczak",
+          "ryż",
+          "brokuł",
+          "ogórek",
+          "sos teriyaki"
+        ],
+        "notes": "Podaj sos osobno dla tych, którzy wolą delikatniejsze doprawienie."
       }
     }
   },
@@ -199,6 +271,18 @@
           "gräslök"
         ],
         "notes": "Förkoka potatisen i mikron och låt den sedan bli krispig i ugnen för att spara tid."
+      },
+      "pl": {
+        "name": "Pieczone ziemniaki z dodatkami",
+        "description": "Chrupiące pieczone ziemniaki z fasolą, serem, jogurtem, szczypiorkiem, sałatą i opcjonalnym bekonem.",
+        "mainIngredients": [
+          "ziemniaki",
+          "fasola",
+          "ser",
+          "jogurt",
+          "szczypiorek"
+        ],
+        "notes": "Najpierw podgotuj ziemniaki w mikrofalówce, a potem dopiecz w piekarniku, żeby oszczędzić czas."
       }
     }
   },
@@ -228,6 +312,18 @@
           "yoghurt"
         ],
         "notes": "Baka köttbullarna på bakplåtspapper för mindre disk."
+      },
+      "pl": {
+        "name": "Klopsiki z indyka z kuskusem",
+        "description": "Ziołowe klopsiki z indyka z kuskusem, sałatką z ogórka i pomidora oraz jogurtem czosnkowym.",
+        "mainIngredients": [
+          "mielony indyk",
+          "kuskus",
+          "ogórek",
+          "pomidory",
+          "jogurt"
+        ],
+        "notes": "Upiecz klopsiki na papierze do pieczenia, żeby było mniej sprzątania."
       }
     }
   },
@@ -257,6 +353,18 @@
           "soja"
         ],
         "notes": "Blir bäst med kallt överblivet ris."
+      },
+      "pl": {
+        "name": "Vegetable Fried Rice z jajkiem",
+        "description": "Szybki smażony ryż z papryką, marchewką, jajkami, sosem sojowym i warzywami, które trzeba zużyć.",
+        "mainIngredients": [
+          "ryż",
+          "jajka",
+          "papryka",
+          "marchew",
+          "sos sojowy"
+        ],
+        "notes": "Najlepiej wychodzi z zimnego ryżu z poprzedniego dnia."
       }
     }
   },
@@ -286,6 +394,18 @@
           "mozzarella"
         ],
         "notes": "Använd vegetarisk korv om du vill göra rätten köttfri."
+      },
+      "pl": {
+        "name": "Patelnia z kiełbasą i gnocchi",
+        "description": "Podsmażane gnocchi z kiełbasą, pomidorkami koktajlowymi, zieleniną i mozzarellą.",
+        "mainIngredients": [
+          "gnocchi",
+          "kiełbasa",
+          "pomidorki koktajlowe",
+          "szpinak",
+          "mozzarella"
+        ],
+        "notes": "Użyj wegetariańskiej kiełbasy, jeśli chcesz wersję bez mięsa."
       }
     }
   },
@@ -315,6 +435,18 @@
           "ris"
         ],
         "notes": "Ställ fram chiliflakes för den som vill ha mer hetta."
+      },
+      "pl": {
+        "name": "Łagodne curry z ciecierzycą i kokosem",
+        "description": "Kremowe curry z ciecierzycą, mlekiem kokosowym, pomidorami, szpinakiem i ryżem basmati.",
+        "mainIngredients": [
+          "ciecierzyca",
+          "mleko kokosowe",
+          "pomidory",
+          "szpinak",
+          "ryż"
+        ],
+        "notes": "Postaw na stole płatki chili dla osób, które chcą ostrzejszą wersję."
       }
     }
   },
@@ -344,6 +476,18 @@
           "sallad"
         ],
         "notes": "Låt alla välja sina egna toppings före gräddning."
+      },
+      "pl": {
+        "name": "Mini pizze na pitach",
+        "description": "Indywidualne pizze z pity z sosem pomidorowym, mozzarellą, warzywami i prostą sałatą.",
+        "mainIngredients": [
+          "chlebki pita",
+          "sos pomidorowy",
+          "mozzarella",
+          "warzywa",
+          "sałata"
+        ],
+        "notes": "Niech każdy wybierze własne dodatki przed pieczeniem."
       }
     }
   },
@@ -373,6 +517,18 @@
           "persilja"
         ],
         "notes": "Använd grekisk yoghurt i stället för crème fraiche för en lättare avslutning."
+      },
+      "pl": {
+        "name": "Beef Stroganoff z makaronem jajecznym",
+        "description": "Delikatne paski wołowiny i pieczarki w kremowym sosie, podane na makaronie jajecznym.",
+        "mainIngredients": [
+          "paski wołowiny",
+          "pieczarki",
+          "makaron jajeczny",
+          "kwaśna śmietana",
+          "pietruszka"
+        ],
+        "notes": "Zamiast kwaśnej śmietany użyj jogurtu greckiego, jeśli chcesz lżejsze wykończenie."
       }
     }
   },
@@ -402,6 +558,18 @@
           "buljong"
         ],
         "notes": "Servera med rostat bröd eller varma frallor för en enkel hel middag."
+      },
+      "pl": {
+        "name": "Zupa z kurczakiem i makaronem",
+        "description": "Rozgrzewający garnek kurczaka, makaronu, marchewki, selera naciowego i bulionu.",
+        "mainIngredients": [
+          "kurczak",
+          "makaron",
+          "marchew",
+          "seler naciowy",
+          "bulion"
+        ],
+        "notes": "Podaj z tostami albo ciepłymi bułkami jako prosty pełny obiad."
       }
     }
   },
@@ -431,6 +599,18 @@
           "mozzarella"
         ],
         "notes": "Montera tidigare på dagen och grädda när alla är hungriga."
+      },
+      "pl": {
+        "name": "Lasagne warzywna",
+        "description": "Warstwy makaronu z sosem pomidorowym, pieczonymi warzywami, ricottą i mozzarellą.",
+        "mainIngredients": [
+          "płaty lasagne",
+          "sos pomidorowy",
+          "cukinia",
+          "ricotta",
+          "mozzarella"
+        ],
+        "notes": "Złóż danie wcześniej w ciągu dnia i upiecz, kiedy wszyscy zgłodnieją."
       }
     }
   },
@@ -460,6 +640,18 @@
           "avokado"
         ],
         "notes": "Håll räkorna milda och ställ fram het sås på bordet."
+      },
+      "pl": {
+        "name": "Shrimp Tacos z surówką limonkową",
+        "description": "Szybkie tacos z krewetkami, chrupiącą kapustą, limonką, sosem jogurtowym i awokado.",
+        "mainIngredients": [
+          "krewetki",
+          "tortille",
+          "kapusta",
+          "limonka",
+          "awokado"
+        ],
+        "notes": "Zostaw krewetki łagodne i postaw ostry sos na stole."
       }
     }
   },
@@ -489,6 +681,18 @@
           "tzatziki"
         ],
         "notes": "Lägg fyllningarna i skålar så att alla kan bygga sin egen pita."
+      },
+      "pl": {
+        "name": "Greckie pity z kurczakiem",
+        "description": "Ciepłe pity wypełnione kurczakiem, ogórkiem, pomidorem, sałatą i tzatziki.",
+        "mainIngredients": [
+          "kurczak",
+          "chlebki pita",
+          "ogórek",
+          "pomidory",
+          "tzatziki"
+        ],
+        "notes": "Podaj składniki w miskach, żeby każdy mógł złożyć własną pitę."
       }
     }
   },
@@ -518,6 +722,18 @@
           "bladgrönt"
         ],
         "notes": "Skiva rester tunt till smörgåsar dagen efter."
+      },
+      "pl": {
+        "name": "Polędwiczka wieprzowa z jabłkami",
+        "description": "Pieczona polędwiczka wieprzowa z jabłkami, ziemniakami i prostą zieloną sałatą.",
+        "mainIngredients": [
+          "polędwiczka wieprzowa",
+          "jabłka",
+          "ziemniaki",
+          "musztarda",
+          "zielenina"
+        ],
+        "notes": "Pokrój resztki cienko i użyj następnego dnia do kanapek."
       }
     }
   },
@@ -547,6 +763,18 @@
           "paprika"
         ],
         "notes": "Servera med salsa, yoghurt och skurna grönsaker."
+      },
+      "pl": {
+        "name": "Quesadillas z czarną fasolą",
+        "description": "Chrupiące tortille wypełnione czarną fasolą, serem, kukurydzą i papryką.",
+        "mainIngredients": [
+          "tortille",
+          "czarna fasola",
+          "ser",
+          "kukurydza",
+          "papryka"
+        ],
+        "notes": "Podaj z salsą, jogurtem i pokrojonymi warzywami."
       }
     }
   },
@@ -576,6 +804,18 @@
           "ost"
         ],
         "notes": "Använd små pastasorter så att gratängen blir lätt att servera."
+      },
+      "pl": {
+        "name": "Zapiekanka makaronowa z tuńczykiem",
+        "description": "Makaron zapiekany z tuńczykiem, sosem pomidorowym, kukurydzą i serową warstwą na wierzchu.",
+        "mainIngredients": [
+          "makaron",
+          "tuńczyk",
+          "sos pomidorowy",
+          "kukurydza",
+          "ser"
+        ],
+        "notes": "Użyj drobnego makaronu, żeby zapiekankę łatwo było nakładać."
       }
     }
   },
@@ -605,6 +845,18 @@
           "vitlök"
         ],
         "notes": "Skiva köttet tunt så att det blir klart snabbt."
+      },
+      "pl": {
+        "name": "Beef and Broccoli Stir-Fry",
+        "description": "Wołowina i brokuł w sosie, podane na ryżu jako szybki rodzinny obiad.",
+        "mainIngredients": [
+          "wołowina",
+          "brokuł",
+          "ryż",
+          "sos sojowy",
+          "czosnek"
+        ],
+        "notes": "Pokrój wołowinę cienko, żeby szybko się usmażyła."
       }
     }
   },
@@ -634,6 +886,18 @@
           "kryddor"
         ],
         "notes": "Toppa med yoghurt, ost eller avokado."
+      },
+      "pl": {
+        "name": "Chili z batatami",
+        "description": "Sycące chili z batatami, fasolą, pomidorami i łagodnymi przyprawami.",
+        "mainIngredients": [
+          "bataty",
+          "fasola",
+          "pomidory",
+          "kukurydza",
+          "przyprawy"
+        ],
+        "notes": "Podaj z jogurtem, serem albo awokado na wierzchu."
       }
     }
   },
@@ -663,6 +927,18 @@
           "caesardressing"
         ],
         "notes": "Lägg gurkstavar och frukt vid sidan av."
+      },
+      "pl": {
+        "name": "Chicken Caesar Wraps",
+        "description": "Grillowany kurczak, sałata rzymska, parmezan i sos cezar zawinięte w tortille.",
+        "mainIngredients": [
+          "kurczak",
+          "tortille",
+          "sałata rzymska",
+          "parmezan",
+          "sos cezar"
+        ],
+        "notes": "Dodaj z boku słupki ogórka i owoce."
       }
     }
   },
@@ -692,6 +968,18 @@
           "lingonsylt"
         ],
         "notes": "Frysta köttbullar gör detta till en användbar reservmiddag."
+      },
+      "pl": {
+        "name": "Szwedzkie klopsiki z puree",
+        "description": "Klopsiki w kremowym sosie podane z puree ziemniaczanym i zieloną fasolką.",
+        "mainIngredients": [
+          "klopsiki",
+          "ziemniaki",
+          "śmietanka",
+          "zielona fasolka",
+          "dżem borówkowy"
+        ],
+        "notes": "Mrożone klopsiki robią z tego przydatny obiad awaryjny."
       }
     }
   },
@@ -721,6 +1009,18 @@
           "bladgrönt"
         ],
         "notes": "Rör ner spenat mot slutet för extra färg."
+      },
+      "pl": {
+        "name": "Risotto grzybowe",
+        "description": "Kremowy ryż z grzybami, parmezanem, bulionem i prostą sałatą.",
+        "mainIngredients": [
+          "ryż do risotto",
+          "grzyby",
+          "parmezan",
+          "bulion",
+          "zielenina sałatkowa"
+        ],
+        "notes": "Pod koniec wmieszaj szpinak dla dodatkowego koloru."
       }
     }
   },
@@ -750,6 +1050,18 @@
           "majs"
         ],
         "notes": "Använd överbliven ugnskyckling om du har det."
+      },
+      "pl": {
+        "name": "BBQ Chicken Flatbreads",
+        "description": "Flatbread z kurczakiem barbecue, czerwoną cebulą, serem i kukurydzą.",
+        "mainIngredients": [
+          "flatbread",
+          "kurczak",
+          "sos barbecue",
+          "ser",
+          "kukurydza"
+        ],
+        "notes": "Użyj resztek pieczonego kurczaka, jeśli je masz."
       }
     }
   },
@@ -779,6 +1091,18 @@
           "tomater"
         ],
         "notes": "Baka fryst falafel för en middag med liten insats."
+      },
+      "pl": {
+        "name": "Talerze z falafelem",
+        "description": "Falafel podany z hummusem, pitą, sałatką z ogórka i pomidora oraz sosem jogurtowym.",
+        "mainIngredients": [
+          "falafel",
+          "hummus",
+          "chlebki pita",
+          "ogórek",
+          "pomidory"
+        ],
+        "notes": "Upiecz mrożony falafel, jeśli chcesz obiad bez dużego wysiłku."
       }
     }
   },
@@ -808,6 +1132,18 @@
           "tacokrydda"
         ],
         "notes": "Servera med tortillachips för krispighet."
+      },
+      "pl": {
+        "name": "Zupa taco z indykiem",
+        "description": "Zupa na bazie pomidorów z mielonym indykiem, fasolą, kukurydzą i przyprawą taco.",
+        "mainIngredients": [
+          "mielony indyk",
+          "fasola",
+          "kukurydza",
+          "pomidory",
+          "przyprawa taco"
+        ],
+        "notes": "Podaj z chipsami tortilla dla chrupkości."
       }
     }
   },
@@ -837,6 +1173,18 @@
           "bladgrönt"
         ],
         "notes": "Gör två stora omeletter och skär dem i klyftor."
+      },
+      "pl": {
+        "name": "Omletowa kolacja z szynką i serem",
+        "description": "Puszyste omlety z szynką, serem, tostami i chrupiącą sałatą.",
+        "mainIngredients": [
+          "jajka",
+          "szynka",
+          "ser",
+          "tosty",
+          "zielenina sałatkowa"
+        ],
+        "notes": "Usmaż dwa duże omlety i pokrój je w kliny."
       }
     }
   },
@@ -866,6 +1214,18 @@
           "parmesan"
         ],
         "notes": "Servera varm eller rumstempererad beroende på kvällen."
+      },
+      "pl": {
+        "name": "Tortellini z pesto i szpinakiem",
+        "description": "Serowe tortellini wymieszane z pesto, szpinakiem, pomidorami i parmezanem.",
+        "mainIngredients": [
+          "tortellini",
+          "pesto",
+          "szpinak",
+          "pomidorki koktajlowe",
+          "parmezan"
+        ],
+        "notes": "Podaj na ciepło albo w temperaturze pokojowej, zależnie od wieczoru."
       }
     }
   },
@@ -895,6 +1255,18 @@
           "buljong"
         ],
         "notes": "Använd färdiggrillad kyckling för att få det att gå snabbare."
+      },
+      "pl": {
+        "name": "Chicken Pot Pie z patelni",
+        "description": "Kremowy kurczak z warzywami przykryty ciastem francuskim albo bułeczkami.",
+        "mainIngredients": [
+          "kurczak",
+          "mieszane warzywa",
+          "śmietanka",
+          "ciasto francuskie",
+          "bulion"
+        ],
+        "notes": "Użyj kurczaka z rożna, żeby przyspieszyć przygotowanie."
       }
     }
   },
@@ -924,6 +1296,18 @@
           "sesamsås"
         ],
         "notes": "Pressa tofun en kort stund så bryns den bättre."
+      },
+      "pl": {
+        "name": "Makaron sezamowy z tofu",
+        "description": "Makaron wymieszany z chrupiącym tofu, ogórkiem, marchewką i sosem sezamowym.",
+        "mainIngredients": [
+          "tofu",
+          "makaron",
+          "ogórek",
+          "marchew",
+          "sos sezamowy"
+        ],
+        "notes": "Krótko odciśnij tofu, żeby lepiej się zrumieniło."
       }
     }
   },
@@ -953,6 +1337,18 @@
           "salsa"
         ],
         "notes": "Slå in extra wraps i folie till enkla luncher."
+      },
+      "pl": {
+        "name": "Wrapy burrito z wołowiną",
+        "description": "Miękkie tortille wypełnione wołowiną, ryżem, fasolą, serem i salsą.",
+        "mainIngredients": [
+          "tortille",
+          "wołowina",
+          "ryż",
+          "fasola",
+          "salsa"
+        ],
+        "notes": "Zawiń dodatkowe porcje w folię na łatwy lunch."
       }
     }
   },
@@ -982,6 +1378,18 @@
           "citron"
         ],
         "notes": "Gott både varmt och kallt, så det passar flexibla kvällar."
+      },
+      "pl": {
+        "name": "Kuskus z pieczonymi warzywami",
+        "description": "Kuskus z pieczonymi warzywami, ciecierzycą, fetą i dressingiem cytrynowym.",
+        "mainIngredients": [
+          "kuskus",
+          "ciecierzyca",
+          "pieczone warzywa",
+          "feta",
+          "cytryna"
+        ],
+        "notes": "Dobry na ciepło i na zimno, więc sprawdza się w zabiegane wieczory."
       }
     }
   },
@@ -1011,6 +1419,18 @@
           "morötter"
         ],
         "notes": "Rosta allt på en plåt för mindre disk."
+      },
+      "pl": {
+        "name": "Udka z kurczaka z cytryną i czosnkiem",
+        "description": "Soczyste udka pieczone z cytryną, czosnkiem, ziemniakami i marchewką.",
+        "mainIngredients": [
+          "udka z kurczaka",
+          "cytryna",
+          "czosnek",
+          "ziemniaki",
+          "marchew"
+        ],
+        "notes": "Upiecz wszystko na jednej blasze, żeby było mniej sprzątania."
       }
     }
   },
@@ -1040,6 +1460,18 @@
           "lime"
         ],
         "notes": "En användbar middag från frysen."
+      },
+      "pl": {
+        "name": "Fish Finger Tacos",
+        "description": "Chrupiące paluszki rybne w tortillach z surówką i sosem tatarskim.",
+        "mainIngredients": [
+          "paluszki rybne",
+          "tortille",
+          "kapusta",
+          "sos tatarski",
+          "limonka"
+        ],
+        "notes": "Przydatny obiad z produktów z zamrażarki."
       }
     }
   },
@@ -1069,6 +1501,18 @@
           "parmesan"
         ],
         "notes": "Servera med vitlöksbröd om du vill göra den matigare."
+      },
+      "pl": {
+        "name": "Zupa minestrone",
+        "description": "Zupa warzywna z fasolą, makaronem, pomidorami i parmezanem.",
+        "mainIngredients": [
+          "fasola",
+          "makaron",
+          "pomidory",
+          "warzywa",
+          "parmezan"
+        ],
+        "notes": "Podaj z pieczywem czosnkowym, jeśli chcesz bardziej sycący posiłek."
       }
     }
   },
@@ -1098,6 +1542,18 @@
           "balsamicoglaze"
         ],
         "notes": "Servera med pasta, ris eller ett gott bröd."
+      },
+      "pl": {
+        "name": "Kurczak Caprese",
+        "description": "Piersi z kurczaka z pomidorami, mozzarellą, bazylią i glazurą balsamiczną.",
+        "mainIngredients": [
+          "kurczak",
+          "pomidory",
+          "mozzarella",
+          "bazylia",
+          "glazura balsamiczna"
+        ],
+        "notes": "Podaj z makaronem, ryżem albo chrupiącym pieczywem."
       }
     }
   },
@@ -1127,6 +1583,18 @@
           "soja"
         ],
         "notes": "Tillsätt limejuice på slutet för att lyfta såsen."
+      },
+      "pl": {
+        "name": "Makaron z kurczakiem i sosem orzechowym",
+        "description": "Makaron z kurczakiem, warzywami i kremowym sosem z masła orzechowego.",
+        "mainIngredients": [
+          "kurczak",
+          "makaron",
+          "masło orzechowe",
+          "warzywa",
+          "sos sojowy"
+        ],
+        "notes": "Na końcu dodaj sok z limonki, żeby odświeżyć sos."
       }
     }
   },
@@ -1156,6 +1624,18 @@
           "couscous"
         ],
         "notes": "Lägg till kikärter för att göra rätten mer mättande."
+      },
+      "pl": {
+        "name": "Halloumi z warzywami z piekarnika",
+        "description": "Pieczone warzywa i halloumi podane z kuskusem albo flatbreadem.",
+        "mainIngredients": [
+          "halloumi",
+          "cukinia",
+          "papryka",
+          "czerwona cebula",
+          "kuskus"
+        ],
+        "notes": "Dodaj ciecierzycę, żeby danie było bardziej sycące."
       }
     }
   },
@@ -1185,6 +1665,18 @@
           "sallad"
         ],
         "notes": "Servera öppet för yngre barn så blir det lättare att äta."
+      },
+      "pl": {
+        "name": "Sloppy Joes",
+        "description": "Wołowina mielona w sosie podana w bułkach z piklami i chrupiącą sałatą.",
+        "mainIngredients": [
+          "mielona wołowina",
+          "bułki",
+          "sos pomidorowy",
+          "pikle",
+          "sałata"
+        ],
+        "notes": "Dla młodszych dzieci podaj na otwartej bułce, będzie łatwiej jeść."
       }
     }
   },
@@ -1214,6 +1706,18 @@
           "örter"
         ],
         "notes": "Rör ner tillagad kyckling om du vill ha extra protein."
+      },
+      "pl": {
+        "name": "Pieczone orzo z fetą",
+        "description": "Orzo zapiekane z fetą, pomidorami, szpinakiem i ziołami.",
+        "mainIngredients": [
+          "orzo",
+          "feta",
+          "pomidory",
+          "szpinak",
+          "zioła"
+        ],
+        "notes": "Wmieszaj ugotowanego kurczaka, jeśli chcesz więcej białka."
       }
     }
   },
@@ -1243,6 +1747,18 @@
           "yoghurtsås"
         ],
         "notes": "Håll grönsakerna separata för enklare servering."
+      },
+      "pl": {
+        "name": "Chicken Souvlaki Bowls",
+        "description": "Cytrynowy kurczak podany z ryżem, ogórkiem, pomidorem i sosem jogurtowym.",
+        "mainIngredients": [
+          "kurczak",
+          "ryż",
+          "ogórek",
+          "pomidory",
+          "sos jogurtowy"
+        ],
+        "notes": "Trzymaj warzywa osobno, żeby łatwiej było podawać."
       }
     }
   },
@@ -1272,6 +1788,18 @@
           "majs"
         ],
         "notes": "Servera med strimlad sallad och yoghurt."
+      },
+      "pl": {
+        "name": "Enchiladas z fasolą i serem",
+        "description": "Tortille wypełnione fasolą i serem, zapieczone w sosie enchilada.",
+        "mainIngredients": [
+          "tortille",
+          "fasola",
+          "ser",
+          "sos enchilada",
+          "kukurydza"
+        ],
+        "notes": "Podaj z poszatkowaną sałatą i jogurtem."
       }
     }
   },
@@ -1301,6 +1829,18 @@
           "senap"
         ],
         "notes": "Använd kycklingkorv eller vegetarisk korv om du föredrar det."
+      },
+      "pl": {
+        "name": "Suby z kiełbasą i papryką",
+        "description": "Kiełbaski ze smażoną papryką i cebulą w ciepłych bułkach.",
+        "mainIngredients": [
+          "kiełbaski",
+          "bułki",
+          "papryka",
+          "cebula",
+          "musztarda"
+        ],
+        "notes": "Użyj kiełbasek z kurczaka albo wegetariańskich, jeśli wolisz."
       }
     }
   },
@@ -1330,6 +1870,18 @@
           "persilja"
         ],
         "notes": "Servera med bröd att fånga upp såsen med."
+      },
+      "pl": {
+        "name": "Dorsz z fasolą w pomidorach",
+        "description": "Delikatny dorsz pieczony na białej fasoli w pomidorach z ziołami i cytryną.",
+        "mainIngredients": [
+          "dorsz",
+          "biała fasola",
+          "pomidory",
+          "cytryna",
+          "pietruszka"
+        ],
+        "notes": "Podaj z pieczywem do zbierania sosu."
       }
     }
   },
@@ -1359,6 +1911,18 @@
           "sås"
         ],
         "notes": "Hoppa över brödet och servera allt som en tallrik."
+      },
+      "pl": {
+        "name": "Talerze z burgerami warzywnymi",
+        "description": "Burgery warzywne podane z ziemniaczanymi łódeczkami, sałatą i sosem do maczania.",
+        "mainIngredients": [
+          "burgery warzywne",
+          "ziemniaki",
+          "sałata",
+          "pomidory",
+          "sos"
+        ],
+        "notes": "Pomiń bułkę i podaj wszystko na talerzu."
       }
     }
   },
@@ -1388,6 +1952,18 @@
           "bladgrönt"
         ],
         "notes": "Använd buljong med låg salthalt och låt alla krydda sin egen skål."
+      },
+      "pl": {
+        "name": "Chicken Ramen Bowls",
+        "description": "Makaron w bulionie z kurczakiem, jajkami, marchewką i zieleniną.",
+        "mainIngredients": [
+          "makaron ramen",
+          "kurczak",
+          "jajka",
+          "marchew",
+          "zielenina"
+        ],
+        "notes": "Użyj bulionu z mniejszą ilością soli i pozwól każdemu doprawić własną miskę."
       }
     }
   },
@@ -1417,6 +1993,18 @@
           "vitlöksyoghurt"
         ],
         "notes": "Forma koftan som små biffar så tillagas de jämnt."
+      },
+      "pl": {
+        "name": "Beef Kofta Flatbreads",
+        "description": "Przyprawione kotleciki wołowe podane z flatbreadem, sałatą i jogurtem czosnkowym.",
+        "mainIngredients": [
+          "mielona wołowina",
+          "flatbread",
+          "ogórek",
+          "pomidory",
+          "jogurt czosnkowy"
+        ],
+        "notes": "Uformuj koftę w małe kotleciki, żeby równomiernie się smażyły."
       }
     }
   },
@@ -1446,6 +2034,18 @@
           "mozzarella"
         ],
         "notes": "Använd lasagneplattor rullade runt fyllningen om det behövs."
+      },
+      "pl": {
+        "name": "Cannelloni ze szpinakiem i ricottą",
+        "description": "Rurki makaronowe wypełnione szpinakiem i ricottą, zapieczone w sosie pomidorowym.",
+        "mainIngredients": [
+          "cannelloni",
+          "szpinak",
+          "ricotta",
+          "sos pomidorowy",
+          "mozzarella"
+        ],
+        "notes": "W razie potrzeby użyj płatów lasagne zawiniętych wokół nadzienia."
       }
     }
   },
@@ -1475,6 +2075,18 @@
           "haricots verts"
         ],
         "notes": "Gör extra sås att skeda över riset."
+      },
+      "pl": {
+        "name": "Kurczak w sosie miodowo-musztardowym",
+        "description": "Kurczak pieczony w sosie miodowo-musztardowym z ryżem i zielonymi warzywami.",
+        "mainIngredients": [
+          "kurczak",
+          "miód",
+          "musztarda",
+          "ryż",
+          "zielona fasolka"
+        ],
+        "notes": "Zrób więcej sosu, żeby polać nim ryż."
       }
     }
   },
@@ -1504,6 +2116,18 @@
           "ris"
         ],
         "notes": "Servera med naan eller ris beroende på vad du har hemma."
+      },
+      "pl": {
+        "name": "Cauliflower Tikka Masala",
+        "description": "Kalafior i ciecierzyca w łagodnym, kremowym sosie curry pomidorowym.",
+        "mainIngredients": [
+          "kalafior",
+          "ciecierzyca",
+          "pomidory",
+          "śmietanka",
+          "ryż"
+        ],
+        "notes": "Podaj z naanem albo ryżem, zależnie od tego, co masz."
       }
     }
   },
@@ -1533,6 +2157,18 @@
           "salsa"
         ],
         "notes": "Perfekt för att använda överbliven långkokt fläskkarré."
+      },
+      "pl": {
+        "name": "Pulled Pork Rice Bowls",
+        "description": "Pulled pork na ryżu z kapustą, kukurydzą, awokado i salsą.",
+        "mainIngredients": [
+          "pulled pork",
+          "ryż",
+          "kapusta",
+          "kukurydza",
+          "salsa"
+        ],
+        "notes": "Świetny sposób na wykorzystanie resztek wolno gotowanej wieprzowiny."
       }
     }
   },
@@ -1562,6 +2198,18 @@
           "tomater"
         ],
         "notes": "Håll oliverna vid sidan av om inte alla gillar dem."
+      },
+      "pl": {
+        "name": "Śródziemnomorskie talerze z tuńczykiem",
+        "description": "Tuńczyk, ziemniaki, jajka, zielona fasolka, pomidory i oliwki na jednym półmisku.",
+        "mainIngredients": [
+          "tuńczyk",
+          "ziemniaki",
+          "jajka",
+          "zielona fasolka",
+          "pomidory"
+        ],
+        "notes": "Podaj oliwki osobno, jeśli nie wszyscy je lubią."
       }
     }
   },
@@ -1591,6 +2239,18 @@
           "bacon"
         ],
         "notes": "Servera med osttoast för en mysig måltid."
+      },
+      "pl": {
+        "name": "Corn Chowder",
+        "description": "Kremowa zupa kukurydziana z ziemniakami, marchewką, ziołami i opcjonalnym bekonem.",
+        "mainIngredients": [
+          "kukurydza",
+          "ziemniaki",
+          "marchew",
+          "śmietanka",
+          "bekon"
+        ],
+        "notes": "Podaj z tostami serowymi jako przytulny posiłek."
       }
     }
   },
@@ -1620,6 +2280,18 @@
           "pasta"
         ],
         "notes": "Baka i stället för att steka för enklare rengöring."
+      },
+      "pl": {
+        "name": "Chicken Parmesan Bake",
+        "description": "Panierowany kurczak zapiekany z sosem pomidorowym i mozzarellą, podany z makaronem.",
+        "mainIngredients": [
+          "kurczak",
+          "bułka tarta",
+          "sos pomidorowy",
+          "mozzarella",
+          "makaron"
+        ],
+        "notes": "Upiecz zamiast smażyć, żeby łatwiej było posprzątać."
       }
     }
   },
@@ -1649,6 +2321,18 @@
           "parmesan"
         ],
         "notes": "Avsluta under grillen med mozzarella om du vill ha den bubblig."
+      },
+      "pl": {
+        "name": "Gnocchi z fasolą w pomidorach",
+        "description": "Miękkie gnocchi duszone z białą fasolą, sosem pomidorowym i szpinakiem.",
+        "mainIngredients": [
+          "gnocchi",
+          "biała fasola",
+          "sos pomidorowy",
+          "szpinak",
+          "parmezan"
+        ],
+        "notes": "Na koniec zapiecz pod grillem z mozzarellą, jeśli chcesz bąbelkujący wierzch."
       }
     }
   },
@@ -1678,6 +2362,18 @@
           "sesam"
         ],
         "notes": "Använd mindre chilipasta för en mildare familjevariant."
+      },
+      "pl": {
+        "name": "Korean-Style Beef Bowls",
+        "description": "Słodko-słona mielona wołowina na ryżu z ogórkiem, marchewką i sezamem.",
+        "mainIngredients": [
+          "mielona wołowina",
+          "ryż",
+          "ogórek",
+          "marchew",
+          "sezam"
+        ],
+        "notes": "Użyj mniej pasty chili, jeśli chcesz łagodniejszą wersję rodzinną."
       }
     }
   },
@@ -1707,6 +2403,18 @@
           "ströbröd"
         ],
         "notes": "Mixa pumpan i såsen för en slät konsistens."
+      },
+      "pl": {
+        "name": "Mac and Cheese z dynią piżmową",
+        "description": "Kremowy makaron z dynią piżmową, cheddarem i chrupiącą posypką.",
+        "mainIngredients": [
+          "makaron",
+          "dynia piżmowa",
+          "cheddar",
+          "mleko",
+          "bułka tarta"
+        ],
+        "notes": "Zmiksuj dynię w sosie, żeby uzyskać gładką konsystencję."
       }
     }
   },
@@ -1736,6 +2444,18 @@
           "avokado"
         ],
         "notes": "Servera med bröd vid sidan av för större aptit."
+      },
+      "pl": {
+        "name": "Turkey Club Salad",
+        "description": "Indyk, bekon, sałata, pomidory, awokado, grzanki i dressing ranch.",
+        "mainIngredients": [
+          "indyk",
+          "bekon",
+          "sałata",
+          "pomidory",
+          "awokado"
+        ],
+        "notes": "Podaj z pieczywem dla większych apetytów."
       }
     }
   },
@@ -1765,6 +2485,18 @@
           "tahiniyoghurt"
         ],
         "notes": "Rosta kikärterna tills de är krispiga för bäst konsistens."
+      },
+      "pl": {
+        "name": "Chickpea Shawarma Wraps",
+        "description": "Pieczona ciecierzyca w wrapach z sałatą, piklami i sosem jogurtowo-tahini.",
+        "mainIngredients": [
+          "ciecierzyca",
+          "wrapy",
+          "sałata",
+          "pikle",
+          "jogurt z tahini"
+        ],
+        "notes": "Upiecz ciecierzycę na chrupko, żeby miała najlepszą teksturę."
       }
     }
   },
@@ -1794,6 +2526,18 @@
           "avokado"
         ],
         "notes": "Gratinera på en plåt och servera med sallad."
+      },
+      "pl": {
+        "name": "Nachos z wołowym chili",
+        "description": "Chipsy tortilla z wołowym chili, serem, salsą i awokado.",
+        "mainIngredients": [
+          "chipsy tortilla",
+          "wołowe chili",
+          "ser",
+          "salsa",
+          "awokado"
+        ],
+        "notes": "Zapiekaj na blasze i podaj z sałatą."
       }
     }
   },
@@ -1823,6 +2567,18 @@
           "yoghurt"
         ],
         "notes": "En bra frukost-till-middag-variant."
+      },
+      "pl": {
+        "name": "Placki z ricottą i cytryną na obiad",
+        "description": "Puszyste placki z ricottą podane z owocami jagodowymi, jogurtem i jajecznicą.",
+        "mainIngredients": [
+          "ricotta",
+          "jajka",
+          "mąka",
+          "owoce jagodowe",
+          "jogurt"
+        ],
+        "notes": "Dobra wariacja śniadania na obiad."
       }
     }
   },
@@ -1852,6 +2608,18 @@
           "tomater"
         ],
         "notes": "Ställ fram mozzarellapärlor eller parmesan vid bordet."
+      },
+      "pl": {
+        "name": "Makaron ratatouille",
+        "description": "Makaron wymieszany z bakłażanem, cukinią, papryką, pomidorami i bazylią.",
+        "mainIngredients": [
+          "makaron",
+          "bakłażan",
+          "cukinia",
+          "papryka",
+          "pomidory"
+        ],
+        "notes": "Podaj przy stole kuleczki mozzarelli albo parmezan."
       }
     }
   },
@@ -1881,6 +2649,18 @@
           "yoghurt"
         ],
         "notes": "Servera mangochutney vid sidan av."
+      },
+      "pl": {
+        "name": "Chicken Tikka Wraps",
+        "description": "Łagodnie przyprawiony kurczak zawinięty z sałatą, ogórkiem, jogurtem i chutneyem.",
+        "mainIngredients": [
+          "kurczak",
+          "wrapy",
+          "sałata",
+          "ogórek",
+          "jogurt"
+        ],
+        "notes": "Podaj chutney mango osobno."
       }
     }
   },
@@ -1910,6 +2690,18 @@
           "teriyakisås"
         ],
         "notes": "Dela laxen i bitar och vänd ner i nudlarna för enklare servering."
+      },
+      "pl": {
+        "name": "Łosoś teriyaki z makaronem",
+        "description": "Glazurowany łosoś z makaronem, brokułem, marchewką i sezamem.",
+        "mainIngredients": [
+          "łosoś",
+          "makaron",
+          "brokuł",
+          "marchew",
+          "sos teriyaki"
+        ],
+        "notes": "Rozdrobnij łososia do makaronu, żeby łatwiej było podawać."
       }
     }
   },
@@ -1939,6 +2731,18 @@
           "penne"
         ],
         "notes": "Håll såsen krämig och tomatrik och avsluta med svartpeppar."
+      },
+      "pl": {
+        "name": "Makaron z sosem bekonowo-pieczarkowym",
+        "description": "Penne wymieszane z bekonem, pieczarkami, crème fraîche i krojonymi pomidorami.",
+        "mainIngredients": [
+          "bekon",
+          "pieczarki",
+          "crème fraîche",
+          "krojone pomidory",
+          "penne"
+        ],
+        "notes": "Niech sos będzie kremowy i pomidorowy, a na końcu dodaj czarny pieprz."
       }
     }
   },
@@ -1968,6 +2772,18 @@
           "bladgrönt"
         ],
         "notes": "Laga den i förväg och servera varm eller rumstempererad."
+      },
+      "pl": {
+        "name": "Hiszpańska tortilla z sałatą",
+        "description": "Tortilla z ziemniaków i jajek podana w kawałkach z pomidorami i zieleniną.",
+        "mainIngredients": [
+          "jajka",
+          "ziemniaki",
+          "cebula",
+          "pomidory",
+          "zielenina sałatkowa"
+        ],
+        "notes": "Przygotuj wcześniej i podaj na ciepło albo w temperaturze pokojowej."
       }
     }
   },
@@ -1997,6 +2813,18 @@
           "ris"
         ],
         "notes": "Använd tunna strimlor så håller sig köttet mört."
+      },
+      "pl": {
+        "name": "Stir-fry z wieprzowiną i imbirem",
+        "description": "Delikatne paski wieprzowiny smażone z warzywami, imbirem, sosem sojowym i ryżem.",
+        "mainIngredients": [
+          "wieprzowina",
+          "imbir",
+          "mieszane warzywa",
+          "sos sojowy",
+          "ryż"
+        ],
+        "notes": "Użyj cienkich pasków, żeby wieprzowina pozostała delikatna."
       }
     }
   },
@@ -2026,6 +2854,18 @@
           "sallad"
         ],
         "notes": "Använd färdig pajdeg när du vill ha en enkel version."
+      },
+      "pl": {
+        "name": "Quiche z brokułem i cheddarem",
+        "description": "Wytrawny quiche z brokułem, cheddarem, jajkami i prostą sałatą.",
+        "mainIngredients": [
+          "spód do tarty",
+          "brokuł",
+          "cheddar",
+          "jajka",
+          "sałata"
+        ],
+        "notes": "Użyj gotowego spodu, kiedy potrzebujesz łatwiejszej wersji."
       }
     }
   },
@@ -2055,6 +2895,18 @@
           "basilika"
         ],
         "notes": "Skär smörgåsarna i stavar att doppa."
+      },
+      "pl": {
+        "name": "Zupa pomidorowa i grilled cheese",
+        "description": "Gładka zupa pomidorowa podana z chrupiącymi kanapkami grilled cheese.",
+        "mainIngredients": [
+          "pomidory",
+          "chleb",
+          "ser",
+          "śmietanka",
+          "bazylia"
+        ],
+        "notes": "Pokrój kanapki w paski do maczania."
       }
     }
   },
@@ -2084,6 +2936,18 @@
           "myntyoghurt"
         ],
         "notes": "Använd nöt- eller kalkonfärs om lamm inte finns."
+      },
+      "pl": {
+        "name": "Pity z klopsikami jagnięcymi",
+        "description": "Klopsiki jagnięce w ciepłych pitach z ogórkiem, pomidorem i jogurtem miętowym.",
+        "mainIngredients": [
+          "mielona jagnięcina",
+          "chlebki pita",
+          "ogórek",
+          "pomidory",
+          "jogurt miętowy"
+        ],
+        "notes": "Użyj mielonej wołowiny albo indyka, jeśli jagnięcina jest niedostępna."
       }
     }
   },
@@ -2113,6 +2977,18 @@
           "parmesan"
         ],
         "notes": "Ånga broccolin i pastakastrullen för färre kastruller."
+      },
+      "pl": {
+        "name": "Chicken Alfredo z brokułem",
+        "description": "Makaron w kremowym sosie Alfredo z kurczakiem, brokułem i parmezanem.",
+        "mainIngredients": [
+          "makaron",
+          "kurczak",
+          "brokuł",
+          "śmietanka",
+          "parmezan"
+        ],
+        "notes": "Ugotuj brokuł na parze w garnku z makaronem, żeby było mniej naczyń."
       }
     }
   },
@@ -2142,6 +3018,18 @@
           "avokado"
         ],
         "notes": "Använd en blandning av bönor för bättre konsistens."
+      },
+      "pl": {
+        "name": "Chili fasolowe z ryżem",
+        "description": "Proste chili z fasoli podane na ryżu z serem i awokado.",
+        "mainIngredients": [
+          "fasola",
+          "pomidory",
+          "ryż",
+          "ser",
+          "awokado"
+        ],
+        "notes": "Użyj mieszanki fasoli, żeby uzyskać lepszą teksturę."
       }
     }
   },
@@ -2171,6 +3059,18 @@
           "soja"
         ],
         "notes": "Ha frysta räkor hemma för detta snabba alternativ."
+      },
+      "pl": {
+        "name": "Smażony makaron z krewetkami",
+        "description": "Krewetki, makaron, jajka i warzywa wymieszane w wytrawnym sosie.",
+        "mainIngredients": [
+          "krewetki",
+          "makaron",
+          "jajka",
+          "warzywa",
+          "sos sojowy"
+        ],
+        "notes": "Trzymaj w zamrażarce krewetki do tej szybkiej opcji."
       }
     }
   },
@@ -2200,6 +3100,18 @@
           "ströbröd"
         ],
         "notes": "Servera med pasta eller grön sallad."
+      },
+      "pl": {
+        "name": "Eggplant Parmesan",
+        "description": "Pieczony bakłażan warstwowo ułożony z sosem pomidorowym, mozzarellą i parmezanem.",
+        "mainIngredients": [
+          "bakłażan",
+          "sos pomidorowy",
+          "mozzarella",
+          "parmezan",
+          "bułka tarta"
+        ],
+        "notes": "Podaj z makaronem albo zieloną sałatą."
       }
     }
   },
@@ -2229,6 +3141,18 @@
           "potatis"
         ],
         "notes": "Riv ner zucchini i biffarna så håller de sig saftiga."
+      },
+      "pl": {
+        "name": "Burgery z indyka",
+        "description": "Soczyste burgery z indyka z bułkami, sałatą, pomidorem i pieczonymi frytkami.",
+        "mainIngredients": [
+          "mielony indyk",
+          "bułki burgerowe",
+          "sałata",
+          "pomidory",
+          "ziemniaki"
+        ],
+        "notes": "Dodaj startą cukinię do kotletów, żeby pozostały soczyste."
       }
     }
   },
@@ -2258,6 +3182,18 @@
           "persilja"
         ],
         "notes": "Servera haricots verts vid sidan av."
+      },
+      "pl": {
+        "name": "Kremowy kurczak z pieczarkami",
+        "description": "Kurczak w pieczarkowym sosie śmietanowym podany z ryżem albo puree ziemniaczanym.",
+        "mainIngredients": [
+          "kurczak",
+          "pieczarki",
+          "śmietanka",
+          "ryż",
+          "pietruszka"
+        ],
+        "notes": "Podaj z zieloną fasolką z boku."
       }
     }
   },
@@ -2287,6 +3223,18 @@
           "majonnäs"
         ],
         "notes": "Håll picklesen mild och lägg till chili separat för vuxna."
+      },
+      "pl": {
+        "name": "Tofu Banh Mi Bowls",
+        "description": "Miski ryżowe z chrupiącym tofu, marynowaną marchewką, ogórkiem, ziołami i majonezem.",
+        "mainIngredients": [
+          "tofu",
+          "ryż",
+          "marchew",
+          "ogórek",
+          "majonez"
+        ],
+        "notes": "Marynaty zostaw łagodne, a chili dodaj osobno dla dorosłych."
       }
     }
   },
@@ -2316,6 +3264,18 @@
           "ost"
         ],
         "notes": "Använd överbliven kyckling för att göra detta extra snabbt."
+      },
+      "pl": {
+        "name": "Tacos z kurczakiem i kukurydzą",
+        "description": "Tacos z szarpanym kurczakiem, słodką kukurydzą, sałatą, serem i salsą.",
+        "mainIngredients": [
+          "kurczak",
+          "tortille",
+          "kukurydza",
+          "sałata",
+          "ser"
+        ],
+        "notes": "Użyj resztek kurczaka, żeby przygotować je wyjątkowo szybko."
       }
     }
   },
@@ -2345,6 +3305,18 @@
           "bröd"
         ],
         "notes": "Toppa med yoghurt eller fetaost om du vill."
+      },
+      "pl": {
+        "name": "Dymny gulasz fasolowy",
+        "description": "Fasola duszona z pomidorami, wędzoną papryką, marchewką i chrupiącym pieczywem.",
+        "mainIngredients": [
+          "fasola",
+          "pomidory",
+          "marchew",
+          "wędzona papryka",
+          "chleb"
+        ],
+        "notes": "Dodaj na wierzch jogurt albo fetę, jeśli lubisz."
       }
     }
   },
@@ -2374,6 +3346,18 @@
           "citron"
         ],
         "notes": "Konserverad lax fungerar bra som skafferivariant."
+      },
+      "pl": {
+        "name": "Placuszki z łososia",
+        "description": "Złociste kotleciki z łososia i ziemniaków podane z zieloną fasolką, sałatą i cytryną.",
+        "mainIngredients": [
+          "łosoś",
+          "ziemniaki",
+          "zielona fasolka",
+          "sałata",
+          "cytryna"
+        ],
+        "notes": "Łosoś z puszki dobrze sprawdza się jako wersja ze spiżarni."
       }
     }
   },
@@ -2403,6 +3387,18 @@
           "buljong"
         ],
         "notes": "Gör den gärna i en ugnssäker stekpanna om möjligt."
+      },
+      "pl": {
+        "name": "Shepherd's Pie z wołowiną",
+        "description": "Wołowina i warzywa przykryte puree ziemniaczanym i zapieczone na złoto.",
+        "mainIngredients": [
+          "mielona wołowina",
+          "ziemniaki",
+          "marchew",
+          "kukurydza",
+          "bulion"
+        ],
+        "notes": "Jeśli możesz, przygotuj wszystko w jednej patelni nadającej się do piekarnika."
       }
     }
   },
@@ -2432,6 +3428,18 @@
           "parmesan"
         ],
         "notes": "Mixa såsen slät innan du vänder ner pastan."
+      },
+      "pl": {
+        "name": "Makaron z sosem z pieczonej papryki",
+        "description": "Makaron w kremowym sosie z pieczonej czerwonej papryki ze szpinakiem.",
+        "mainIngredients": [
+          "makaron",
+          "pieczona papryka",
+          "śmietanka",
+          "szpinak",
+          "parmezan"
+        ],
+        "notes": "Zmiksuj sos na gładko przed wymieszaniem z makaronem."
       }
     }
   },
@@ -2461,6 +3469,18 @@
           "morötter"
         ],
         "notes": "Använd kallt ris så steks det i stället för att ångas."
+      },
+      "pl": {
+        "name": "Chicken Fried Rice",
+        "description": "Ryż smażony z kurczakiem, jajkami, papryką, marchewką i sosem sojowym.",
+        "mainIngredients": [
+          "ryż",
+          "kurczak",
+          "jajka",
+          "papryka",
+          "marchew"
+        ],
+        "notes": "Użyj zimnego ryżu, żeby się smażył, a nie parował."
       }
     }
   },
@@ -2490,6 +3510,18 @@
           "tomater"
         ],
         "notes": "Skär i remsor så blir det lätt att dela."
+      },
+      "pl": {
+        "name": "Flatbready z ricottą i szpinakiem",
+        "description": "Flatbread z ricottą, szpinakiem, mozzarellą i pomidorami.",
+        "mainIngredients": [
+          "flatbread",
+          "ricotta",
+          "szpinak",
+          "mozzarella",
+          "pomidory"
+        ],
+        "notes": "Pokrój w paski, żeby łatwo było się dzielić."
       }
     }
   },
@@ -2519,6 +3551,18 @@
           "sallad"
         ],
         "notes": "Servera med råa grönsaker eller sallad för balans."
+      },
+      "pl": {
+        "name": "Suby z wieprzowymi klopsikami",
+        "description": "Klopsiki w sosie pomidorowym włożone do bułek z roztopioną mozzarellą.",
+        "mainIngredients": [
+          "mielona wieprzowina",
+          "bułki",
+          "sos pomidorowy",
+          "mozzarella",
+          "sałata"
+        ],
+        "notes": "Podaj z surowymi warzywami albo sałatą, żeby zrównoważyć posiłek."
       }
     }
   },
@@ -2548,6 +3592,18 @@
           "kryddor"
         ],
         "notes": "Tillsätt citronjuice på slutet för fräschör."
+      },
+      "pl": {
+        "name": "Dal z soczewicy i kokosa",
+        "description": "Czerwona soczewica duszona z mlekiem kokosowym, łagodnymi przyprawami, szpinakiem i ryżem.",
+        "mainIngredients": [
+          "czerwona soczewica",
+          "mleko kokosowe",
+          "szpinak",
+          "ryż",
+          "przyprawy"
+        ],
+        "notes": "Na końcu dodaj sok z cytryny dla świeżości."
       }
     }
   },
@@ -2577,6 +3633,18 @@
           "tomater"
         ],
         "notes": "Använd en stekpanna och pressa med en annan panna om du inte har en press."
+      },
+      "pl": {
+        "name": "Chicken Pesto Panini",
+        "description": "Tostowane kanapki z kurczakiem, pesto, mozzarellą, pomidorami i sałatą.",
+        "mainIngredients": [
+          "chleb",
+          "kurczak",
+          "pesto",
+          "mozzarella",
+          "pomidory"
+        ],
+        "notes": "Użyj patelni i dociśnij drugą patelnią, jeśli nie masz opiekacza."
       }
     }
   },
@@ -2606,6 +3674,18 @@
           "ost"
         ],
         "notes": "Använd fryst fiskpajsmix för enkelhetens skull."
+      },
+      "pl": {
+        "name": "Fish Pie",
+        "description": "Kremowa mieszanka ryb i pora przykryta puree ziemniaczanym i zapieczona.",
+        "mainIngredients": [
+          "mieszanka ryb",
+          "ziemniaki",
+          "por",
+          "mleko",
+          "ser"
+        ],
+        "notes": "Użyj mrożonej mieszanki do fish pie dla wygody."
       }
     }
   },
@@ -2635,6 +3715,18 @@
           "lime"
         ],
         "notes": "Stek halloumin precis före servering så håller den sig mjuk."
+      },
+      "pl": {
+        "name": "Tacos z halloumi",
+        "description": "Smażone halloumi w tortillach z surówką, awokado i limonką.",
+        "mainIngredients": [
+          "halloumi",
+          "tortille",
+          "kapusta",
+          "awokado",
+          "limonka"
+        ],
+        "notes": "Usmaż halloumi tuż przed podaniem, żeby pozostało miękkie."
       }
     }
   },
@@ -2664,6 +3756,18 @@
           "morötter"
         ],
         "notes": "Det här passar bra som helgmiddag eller att laga i förväg."
+      },
+      "pl": {
+        "name": "Ragu wołowe z polentą",
+        "description": "Wolno duszony sos pomidorowy z wołowiną podany na kremowej polencie.",
+        "mainIngredients": [
+          "wołowina",
+          "pomidory",
+          "polenta",
+          "parmezan",
+          "marchew"
+        ],
+        "notes": "To dobra opcja na weekend albo do przygotowania wcześniej."
       }
     }
   },
@@ -2693,6 +3797,18 @@
           "gurka"
         ],
         "notes": "Använd milt currypulver för en familjevänlig variant."
+      },
+      "pl": {
+        "name": "Ryż w stylu chicken biryani",
+        "description": "Aromatyczny ryż z kurczakiem, zieloną fasolką, łagodnymi przyprawami, jogurtem i ogórkiem.",
+        "mainIngredients": [
+          "kurczak",
+          "ryż",
+          "zielona fasolka",
+          "jogurt",
+          "ogórek"
+        ],
+        "notes": "Użyj łagodnego curry w proszku, żeby wersja była rodzinna."
       }
     }
   },
@@ -2722,6 +3838,18 @@
           "buljong"
         ],
         "notes": "Servera med bröd och riven parmesan."
+      },
+      "pl": {
+        "name": "Zupa z białą fasolą i kiełbasą",
+        "description": "Sycąca zupa z kiełbasą, białą fasolą, marchewką, zieleniną i bulionem.",
+        "mainIngredients": [
+          "kiełbasa",
+          "biała fasola",
+          "marchew",
+          "zielenina",
+          "bulion"
+        ],
+        "notes": "Podaj z pieczywem i startym parmezanem."
       }
     }
   },
@@ -2751,6 +3879,18 @@
           "nori"
         ],
         "notes": "Lägg till rökt lax eller tofu om du vill ha mer protein."
+      },
+      "pl": {
+        "name": "Veggie Sushi Bowls",
+        "description": "Miski ryżowe z ogórkiem, awokado, marchewką, edamame i nori.",
+        "mainIngredients": [
+          "ryż",
+          "ogórek",
+          "awokado",
+          "edamame",
+          "nori"
+        ],
+        "notes": "Dodaj wędzonego łososia albo tofu, jeśli chcesz więcej białka."
       }
     }
   },
@@ -2780,6 +3920,18 @@
           "citron"
         ],
         "notes": "Ett användbart sätt att ta hand om överbliven skinka."
+      },
+      "pl": {
+        "name": "Risotto z szynką i szpinakiem",
+        "description": "Kremowe risotto z pokrojoną szynką, szpinakiem, parmezanem i cytryną.",
+        "mainIngredients": [
+          "ryż do risotto",
+          "szynka",
+          "szpinak",
+          "parmezan",
+          "cytryna"
+        ],
+        "notes": "Przydatny sposób na wykorzystanie resztek szynki."
       }
     }
   },
@@ -2809,6 +3961,18 @@
           "sås"
         ],
         "notes": "Skeda ner i salladsblad eller servera som risskålar."
+      },
+      "pl": {
+        "name": "Miski z indykiem i sałatą",
+        "description": "Przyprawiony mielony indyk podany z ryżem, sałatą, ogórkiem i sosem.",
+        "mainIngredients": [
+          "mielony indyk",
+          "ryż",
+          "sałata",
+          "ogórek",
+          "sos"
+        ],
+        "notes": "Nakładaj do liści sałaty albo podaj jako miski ryżowe."
       }
     }
   },
@@ -2838,6 +4002,18 @@
           "basilika"
         ],
         "notes": "Gör två mindre formar och frys in en om du vill."
+      },
+      "pl": {
+        "name": "Baked Ziti",
+        "description": "Makaron zapiekany z sosem pomidorowym, ricottą, mozzarellą i bazylią.",
+        "mainIngredients": [
+          "ziti",
+          "sos pomidorowy",
+          "ricotta",
+          "mozzarella",
+          "bazylia"
+        ],
+        "notes": "Zrób dwie mniejsze foremki i jedną zamroź, jeśli chcesz."
       }
     }
   },
@@ -2867,6 +4043,18 @@
           "ägg"
         ],
         "notes": "Håll buljongen mild och ställ fram chiliolja separat."
+      },
+      "pl": {
+        "name": "Miso Udon z warzywami",
+        "description": "Grube makarony udon w bulionie miso z grzybami, zieleniną i jajkami.",
+        "mainIngredients": [
+          "makaron udon",
+          "miso",
+          "grzyby",
+          "zielenina",
+          "jajka"
+        ],
+        "notes": "Niech bulion będzie łagodny, a olej chili podaj osobno."
       }
     }
   },
@@ -2896,6 +4084,18 @@
           "frukt"
         ],
         "notes": "Låt alla välja sitt favorittillbehör från frukostbordet."
+      },
+      "pl": {
+        "name": "Śniadanie na obiad",
+        "description": "Jajecznica, tosty, pieczone pomidory, owoce i chrupiące ziemniaki.",
+        "mainIngredients": [
+          "jajka",
+          "tosty",
+          "ziemniaki",
+          "pomidory",
+          "owoce"
+        ],
+        "notes": "Niech każdy wybierze swój ulubiony śniadaniowy dodatek."
       }
     }
   }

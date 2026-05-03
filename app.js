@@ -8,6 +8,7 @@ const UI_TEXT = {
     languageLabel: "Language",
     languages: {
       en: "English",
+      pl: "Polish",
       sv: "Swedish",
     },
     loadingIdeas: "Loading ideas",
@@ -34,6 +35,7 @@ const UI_TEXT = {
     languageLabel: "Språk",
     languages: {
       en: "Engelska",
+      pl: "Polska",
       sv: "Svenska",
     },
     loadingIdeas: "Laddar idéer",
@@ -52,6 +54,44 @@ const UI_TEXT = {
     fallbackDescription: "En middagsidé för familjen.",
     ideaCount(count) {
       return `${count} ${count === 1 ? "idé" : "idéer"}`;
+    },
+  },
+  pl: {
+    pageTitle: "Dzisiejszy obiad",
+    appTitle: "Dzisiejszy obiad",
+    languageLabel: "Język",
+    languages: {
+      en: "Angielski",
+      pl: "Polski",
+      sv: "Szwedzki",
+    },
+    loadingIdeas: "Ładowanie pomysłów",
+    loadingDinnerName: "Ładowanie pomysłów na obiad...",
+    loadingDescription: "Aplikacja wczytuje listę dań.",
+    mainIngredients: "Główne składniki",
+    navigationLabel: "Nawigacja po obiadach",
+    back: "Wstecz",
+    next: "Następny pomysł",
+    noIdeasLoaded: "Nie wczytano pomysłów",
+    noDinnerIdeasYet: "Nie ma jeszcze pomysłów na obiad",
+    noIdeasDescription: "Dodaj dania do data/dinners.json, aby zacząć losowanie.",
+    dataUnavailable: "Brak danych",
+    loadErrorName: "Nie udało się wczytać pomysłów na obiad",
+    loadErrorDescription: "Uruchom te pliki z dowolnego statycznego serwera, aby przeglądarka mogła odczytać data/dinners.json.",
+    fallbackDescription: "Pomysł na rodzinny obiad.",
+    ideaCount(count) {
+      const mod10 = count % 10;
+      const mod100 = count % 100;
+
+      if (count === 1) {
+        return `${count} pomysł`;
+      }
+
+      if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) {
+        return `${count} pomysły`;
+      }
+
+      return `${count} pomysłów`;
     },
   },
 };

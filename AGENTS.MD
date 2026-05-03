@@ -10,6 +10,7 @@ This is a static dinner randomizer web app. There is no build step and no backen
 - `data/dinners.json`: source of truth for dinner options.
 - `assets/dishes/*.jpg`: dish-specific images referenced by `data/dinners.json`.
 - `assets/dinner-table.jpg`: fallback image used if a dinner has no image.
+- UI language strings live in `UI_TEXT` in `app.js`.
 
 ## Run Locally
 
@@ -39,11 +40,38 @@ Each dinner in `data/dinners.json` currently uses:
   "mainIngredients": ["ingredient one", "ingredient two"],
   "image": "assets/dishes/example.jpg",
   "recipeUrl": null,
-  "notes": "Optional serving note."
+  "notes": "Optional serving note.",
+  "translations": {
+    "sv": {
+      "name": "Swedish display name",
+      "description": "Swedish short dinner description.",
+      "mainIngredients": ["Swedish ingredient one", "Swedish ingredient two"],
+      "notes": "Swedish optional serving note."
+    },
+    "pl": {
+      "name": "Polish display name",
+      "description": "Polish short dinner description.",
+      "mainIngredients": ["Polish ingredient one", "Polish ingredient two"],
+      "notes": "Polish optional serving note."
+    }
+  }
 }
 ```
 
 Keep IDs stable unless intentionally replacing a dish. If adding or replacing images, keep `image` paths relative to the project root.
+
+## Language Handling
+
+Supported UI/content languages are English (`en`), Swedish (`sv`), and Polish (`pl`).
+
+- English dinner text stays in the top-level `name`, `description`, `mainIngredients`, and `notes` fields.
+- Swedish and Polish dinner text lives in `translations.sv` and `translations.pl`.
+- `app.js` chooses localized dinner fields at render time and falls back to the top-level English fields if a translation is missing.
+- The language selector buttons are in `index.html`; add a `data-language` button when adding a language.
+- UI copy, button labels, page titles, pluralized idea counts, and language button accessible names are all in `UI_TEXT` in `app.js`.
+- Manual language choice is stored in `localStorage` under `dinnerRandomizerLanguage`.
+- If there is no saved manual choice, the app defaults to Swedish for `sv`/`sv-*` browser languages, Polish for `pl`/`pl-*`, and English otherwise.
+- When translating dish names, use natural target-language wording, but keep common borrowed dish names in English or their original form when that reads better, such as Pulled Pork, Ramen, Banh Mi, Tikka Masala, or Fish Pie.
 
 ## Testing
 
@@ -63,7 +91,18 @@ const data = JSON.parse(fs.readFileSync('data/dinners.json', 'utf8'));
 const missingFiles = data.filter((d) => d.image && !fs.existsSync(d.image));
 const missingImages = data.filter((d) => !d.image);
 const duplicateIds = data.map((d) => d.id).filter((id, i, ids) => ids.indexOf(id) !== i);
-console.log({ count: data.length, missingImages: missingImages.length, missingFiles: missingFiles.map((d) => d.id), duplicateIds });
+const incomplete = (lang) => data.filter((d) => {
+  const tx = d.translations?.[lang];
+  return !tx || !tx.name || !tx.description || !Array.isArray(tx.mainIngredients) || tx.mainIngredients.length === 0 || typeof tx.notes !== 'string';
+}).map((d) => d.id);
+console.log({
+  count: data.length,
+  missingImages: missingImages.length,
+  missingFiles: missingFiles.map((d) => d.id),
+  duplicateIds,
+  incompleteSv: incomplete('sv'),
+  incompletePl: incomplete('pl')
+});
 NODE
 ```
 
@@ -73,6 +112,7 @@ Expected current state:
 - Every dinner has an image.
 - No duplicate IDs.
 - No missing image files.
+- Every dinner has complete Swedish and Polish translations.
 
 After UI changes, reload the in-app browser at `http://localhost:4173/` and check the console for errors.
 

@@ -1,5 +1,6 @@
 const DATA_URL = "data/dinners.json";
 const FALLBACK_IMAGE = "assets/dinner-table.jpg";
+const LANGUAGE_STORAGE_KEY = "dinnerRandomizerLanguage";
 
 const UI_TEXT = {
   en: {
@@ -128,6 +129,12 @@ function getCopy() {
 }
 
 function detectInitialLanguage() {
+  const savedLanguage = readSavedLanguage();
+
+  if (savedLanguage) {
+    return savedLanguage;
+  }
+
   const browserLanguages = Array.isArray(navigator.languages) && navigator.languages.length > 0
     ? navigator.languages
     : [navigator.language].filter(Boolean);
@@ -145,6 +152,23 @@ function detectInitialLanguage() {
   }
 
   return "en";
+}
+
+function readSavedLanguage() {
+  try {
+    const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+    return Object.prototype.hasOwnProperty.call(UI_TEXT, savedLanguage) ? savedLanguage : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function saveLanguage(language) {
+  try {
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+  } catch (error) {
+    // The selected language still applies for this page view if storage is unavailable.
+  }
 }
 
 async function loadDinners() {
@@ -341,6 +365,7 @@ function setLanguage(language) {
   }
 
   state.language = language;
+  saveLanguage(language);
   renderApp();
 }
 

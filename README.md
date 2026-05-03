@@ -2,6 +2,9 @@
 
 A static dinner idea picker for a family of four. There is no backend; the page loads `data/dinners.json` in the browser and picks one random dinner at a time.
 
+This is a vibe coded application. Most of the dinners suggestions are AI generated, as well as the images.
+Use at your own risk.
+
 ## Run locally
 
 Serve the folder with any static file server:

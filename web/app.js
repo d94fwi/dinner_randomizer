@@ -1,5 +1,6 @@
-const DATA_URL = "data/dinners.json";
-const FALLBACK_IMAGE = "assets/dinner-table.jpg";
+const SHARED_ASSET_PREFIX = window.location.pathname.includes("/web/") ? "../shared/" : "";
+const DATA_URL = `${SHARED_ASSET_PREFIX}data/dinners.json`;
+const FALLBACK_IMAGE = `${SHARED_ASSET_PREFIX}assets/dinner-table.jpg`;
 const LANGUAGE_STORAGE_KEY = "dinnerRandomizerLanguage";
 const RECENT_REPEAT_BUFFER_SIZE = 10;
 
@@ -24,10 +25,10 @@ const UI_TEXT = {
     recipeSearchTerm: "recipe",
     noIdeasLoaded: "No ideas loaded",
     noDinnerIdeasYet: "No dinner ideas yet",
-    noIdeasDescription: "Add dinners to data/dinners.json to start picking.",
+    noIdeasDescription: "Add dinners to shared/data/dinners.json to start picking.",
     dataUnavailable: "Data unavailable",
     loadErrorName: "Could not load dinner ideas",
-    loadErrorDescription: "Serve these files from any static host so the browser can read data/dinners.json.",
+    loadErrorDescription: "Serve these files from any static host so the browser can read the dinner data.",
     fallbackDescription: "A family dinner idea.",
     ideaCount(count) {
       return `${count} idea${count === 1 ? "" : "s"}`;
@@ -53,10 +54,10 @@ const UI_TEXT = {
     recipeSearchTerm: "recept",
     noIdeasLoaded: "Inga idéer laddade",
     noDinnerIdeasYet: "Inga middagsidéer ännu",
-    noIdeasDescription: "Lägg till middagar i data/dinners.json för att börja lotta.",
+    noIdeasDescription: "Lägg till middagar i shared/data/dinners.json för att börja lotta.",
     dataUnavailable: "Data saknas",
     loadErrorName: "Kunde inte ladda middagsidéer",
-    loadErrorDescription: "Servera filerna från valfri statisk server så att webbläsaren kan läsa data/dinners.json.",
+    loadErrorDescription: "Servera filerna från valfri statisk server så att webbläsaren kan läsa middagsdatan.",
     fallbackDescription: "En middagsidé för familjen.",
     ideaCount(count) {
       return `${count} ${count === 1 ? "idé" : "idéer"}`;
@@ -82,10 +83,10 @@ const UI_TEXT = {
     recipeSearchTerm: "przepis",
     noIdeasLoaded: "Nie wczytano pomysłów",
     noDinnerIdeasYet: "Nie ma jeszcze pomysłów na obiad",
-    noIdeasDescription: "Dodaj dania do data/dinners.json, aby zacząć losowanie.",
+    noIdeasDescription: "Dodaj dania do shared/data/dinners.json, aby zacząć losowanie.",
     dataUnavailable: "Brak danych",
     loadErrorName: "Nie udało się wczytać pomysłów na obiad",
-    loadErrorDescription: "Uruchom te pliki z dowolnego statycznego serwera, aby przeglądarka mogła odczytać data/dinners.json.",
+    loadErrorDescription: "Uruchom te pliki z dowolnego statycznego serwera, aby przeglądarka mogła odczytać dane obiadów.",
     fallbackDescription: "Pomysł na rodzinny obiad.",
     ideaCount(count) {
       const mod10 = count % 10;
@@ -205,6 +206,18 @@ function normalizeDinner(dinner) {
     notes: dinner.notes || "",
     translations: dinner.translations || {},
   };
+}
+
+function resolveAssetPath(path) {
+  if (!path) {
+    return FALLBACK_IMAGE;
+  }
+
+  if (/^(?:[a-z]+:)?\/\//i.test(path) || path.startsWith("/") || path.startsWith("data:") || path.startsWith("blob:")) {
+    return path;
+  }
+
+  return `${SHARED_ASSET_PREFIX}${path}`;
 }
 
 function shuffleItems(items) {
@@ -426,7 +439,7 @@ function renderDinner(dinner) {
   }
 
   elements.poolCount.textContent = copy.ideaCount(state.dinners.length);
-  elements.dinnerImage.src = localizedDinner.image || FALLBACK_IMAGE;
+  elements.dinnerImage.src = resolveAssetPath(localizedDinner.image);
   elements.dinnerImage.alt = localizedDinner.image ? localizedDinner.name : "";
   elements.dinnerName.textContent = localizedDinner.name;
   elements.dinnerDescription.textContent = localizedDinner.description;

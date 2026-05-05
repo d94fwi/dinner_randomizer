@@ -1,0 +1,92 @@
+name: Deploy Web App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Validate app and dinner data
+        run: |
+          node -c web/app.js
+          node - <<'NODE'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('shared/data/dinners.json', 'utf8'));
+          const missingFiles = data.filter((d) => d.image && !fs.existsSync(`shared/${d.image}`));
+          const missingImages = data.filter((d) => !d.image);
+          const duplicateIds = data.map((d) => d.id).filter((id, i, ids) => ids.indexOf(id) !== i);
+          const incomplete = (lang) => data.filter((d) => {
+            const tx = d.translations?.[lang];
+            return !tx || !tx.name || !tx.description || !Array.isArray(tx.mainIngredients) || tx.mainIngredients.length === 0 || typeof tx.notes !== 'string';
+          }).map((d) => d.id);
+
+          const result = {
+            count: data.length,
+            missingImages: missingImages.length,
+            missingFiles: missingFiles.map((d) => d.id),
+            duplicateIds,
+            incompleteSv: incomplete('sv'),
+            incompletePl: incomplete('pl'),
+          };
+
+          console.log(result);
+
+          if (
+            result.count !== 100 ||
+            result.missingImages !== 0 ||
+            result.missingFiles.length > 0 ||
+            result.duplicateIds.length > 0 ||
+            result.incompleteSv.length > 0 ||
+            result.incompletePl.length > 0
+          ) {
+            process.exit(1);
+          }
+          NODE
+
+      - name: Prepare static site
+        run: |
+          mkdir -p _site
+          cp -R web/. _site/
+          mkdir -p _site/data
+          mkdir -p _site/assets
+          cp -R shared/data/. _site/data/
+          cp -R shared/assets/. _site/assets/
+          touch _site/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

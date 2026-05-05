@@ -3,6 +3,7 @@ const DATA_URL = `${SHARED_ASSET_PREFIX}data/dinners.json`;
 const FALLBACK_IMAGE = `${SHARED_ASSET_PREFIX}assets/dinner-table.jpg`;
 const LANGUAGE_STORAGE_KEY = "dinnerRandomizerLanguage";
 const RECENT_REPEAT_BUFFER_SIZE = 10;
+const UPCOMING_IMAGE_PRELOAD_COUNT = 3;
 
 const LANGUAGE_FLAGS = {
   en: "🇬🇧",
@@ -157,7 +158,12 @@ const state = {
   isLanguageMenuOpen: false,
 };
 
+const preloadedImagePaths = new Set();
+const imagePreloads = new Map();
+let isImagePreloadScheduled = false;
+
 const elements = {
+  planner: document.querySelector("#planner"),
   appTitle: document.querySelector("#appTitle"),
   poolCount: document.querySelector("#poolCount"),
   languageSwitcher: document.querySelector("#languageSwitcher"),
@@ -310,6 +316,49 @@ function getDinnerById(dinnerId) {
   return state.dinners.find((dinner) => dinner.id === dinnerId) || null;
 }
 
+function preloadImage(path) {
+  if (!path || preloadedImagePaths.has(path)) {
+    return;
+  }
+
+  preloadedImagePaths.add(path);
+  const image = new Image();
+  imagePreloads.set(path, image);
+  image.src = path;
+}
+
+function preloadUpcomingDinnerImages() {
+  if (state.loadStatus !== "ready" || state.dinners.length === 0) {
+    return;
+  }
+
+  state.upcomingDinnerIds
+    .slice(0, UPCOMING_IMAGE_PRELOAD_COUNT)
+    .map(getDinnerById)
+    .filter(Boolean)
+    .forEach((dinner) => preloadImage(resolveAssetPath(dinner.image)));
+}
+
+function scheduleUpcomingImagePreload() {
+  if (isImagePreloadScheduled) {
+    return;
+  }
+
+  isImagePreloadScheduled = true;
+
+  const runPreload = () => {
+    isImagePreloadScheduled = false;
+    preloadUpcomingDinnerImages();
+  };
+
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(runPreload, { timeout: 1000 });
+    return;
+  }
+
+  window.setTimeout(runPreload, 0);
+}
+
 function rememberRecentDinner(dinnerId) {
   state.recentDinnerIds.push(dinnerId);
 
@@ -460,8 +509,9 @@ function renderApp() {
 
 function renderLoading() {
   const copy = getCopy();
+  elements.planner.dataset.status = "loading";
   elements.poolCount.textContent = copy.loadingIdeas;
-  elements.dinnerImage.src = FALLBACK_IMAGE;
+  elements.dinnerImage.removeAttribute("src");
   elements.dinnerImage.alt = "";
   elements.dinnerName.textContent = copy.loadingDinnerName;
   elements.dinnerDescription.textContent = copy.loadingDescription;
@@ -473,6 +523,7 @@ function renderLoading() {
 
 function renderLoadError() {
   const copy = getCopy();
+  elements.planner.dataset.status = "error";
   elements.poolCount.textContent = copy.dataUnavailable;
   elements.dinnerImage.src = FALLBACK_IMAGE;
   elements.dinnerImage.alt = "";
@@ -490,6 +541,7 @@ function renderDinner(dinner) {
   elements.ingredientList.replaceChildren();
 
   if (!localizedDinner) {
+    elements.planner.dataset.status = "empty";
     elements.poolCount.textContent = copy.noIdeasLoaded;
     elements.dinnerImage.src = FALLBACK_IMAGE;
     elements.dinnerImage.alt = "";
@@ -501,6 +553,7 @@ function renderDinner(dinner) {
     return;
   }
 
+  elements.planner.dataset.status = "ready";
   elements.poolCount.textContent = copy.ideaCount(state.dinners.length);
   elements.dinnerImage.src = resolveAssetPath(localizedDinner.image);
   elements.dinnerImage.alt = localizedDinner.image ? localizedDinner.name : "";
@@ -516,6 +569,7 @@ function renderDinner(dinner) {
   });
 
   updateBackButton();
+  scheduleUpcomingImagePreload();
 }
 
 function updateBackButton() {

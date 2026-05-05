@@ -53,6 +53,12 @@ Each dinner in `shared/data/dinners.json` currently uses:
       "mainIngredients": ["Swedish ingredient one", "Swedish ingredient two"],
       "notes": "Swedish optional serving note."
     },
+    "no": {
+      "name": "Norwegian display name",
+      "description": "Norwegian short dinner description.",
+      "mainIngredients": ["Norwegian ingredient one", "Norwegian ingredient two"],
+      "notes": "Norwegian optional serving note."
+    },
     "pl": {
       "name": "Polish display name",
       "description": "Polish short dinner description.",
@@ -67,15 +73,15 @@ Keep IDs stable unless intentionally replacing a dish. If adding or replacing im
 
 ## Language Handling
 
-Supported UI/content languages are English (`en`), Swedish (`sv`), and Polish (`pl`).
+Supported UI/content languages are English (`en`), Swedish (`sv`), Norwegian (`no`), and Polish (`pl`).
 
 - English dinner text stays in the top-level `name`, `description`, `mainIngredients`, and `notes` fields.
-- Swedish and Polish dinner text lives in `translations.sv` and `translations.pl`.
+- Swedish, Norwegian, and Polish dinner text lives in `translations.sv`, `translations.no`, and `translations.pl`.
 - `web/app.js` chooses localized dinner fields at render time and falls back to the top-level English fields if a translation is missing.
 - The language selector buttons are in `web/index.html`; add a `data-language` button when adding a language.
 - UI copy, button labels, page titles, pluralized idea counts, and language button accessible names are all in `UI_TEXT` in `web/app.js`.
 - Manual language choice is stored in `localStorage` under `dinnerRandomizerLanguage`.
-- If there is no saved manual choice, the app defaults to Swedish for `sv`/`sv-*` browser languages, Polish for `pl`/`pl-*`, and English otherwise.
+- If there is no saved manual choice, the app defaults to Swedish for `sv`/`sv-*` browser languages, Norwegian for `no`/`no-*`, `nb`/`nb-*`, or `nn`/`nn-*`, Polish for `pl`/`pl-*`, and English otherwise.
 - When translating dish names, use natural target-language wording, but keep common borrowed dish names in English or their original form when that reads better, such as Pulled Pork, Ramen, Banh Mi, Tikka Masala, or Fish Pie.
 
 ## Testing
@@ -106,6 +112,7 @@ console.log({
   missingFiles: missingFiles.map((d) => d.id),
   duplicateIds,
   incompleteSv: incomplete('sv'),
+  incompleteNo: incomplete('no'),
   incompletePl: incomplete('pl')
 });
 NODE
@@ -117,7 +124,7 @@ Expected current state:
 - Every dinner has an image.
 - No duplicate IDs.
 - No missing image files.
-- Every dinner has complete Swedish and Polish translations.
+- Every dinner has complete Swedish, Norwegian, and Polish translations.
 
 After UI changes, reload the in-app browser at `http://localhost:4173/web/` and check the console for errors.
 

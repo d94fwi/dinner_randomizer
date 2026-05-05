@@ -25,6 +25,18 @@
         ],
         "notes": "Ställ fram toppingarna var för sig så att alla kan bygga sin egen skål."
       },
+      "no": {
+        "name": "Taco bowls du bygger selv",
+        "description": "Risskåler med krydret kjøttdeig eller bønner, mais, salsa, avokado, ost og sprø tortillachips.",
+        "mainIngredients": [
+          "ris",
+          "kjøttdeig eller bønner",
+          "mais",
+          "salsa",
+          "avokado"
+        ],
+        "notes": "Sett toppingene fram hver for seg, så alle kan bygge sin egen skål."
+      },
       "pl": {
         "name": "Taco Bowls do samodzielnego skomponowania",
         "description": "Miski z ryżem, przyprawioną wołowiną lub fasolą, kukurydzą, salsą, awokado, serem i chrupiącymi chipsami tortilla.",
@@ -64,6 +76,18 @@
           "dill"
         ],
         "notes": "Byt laxen mot kycklinglår om fisk inte står på menyn."
+      },
+      "no": {
+        "name": "Ovnsbakt laks med poteter",
+        "description": "Sitronlaks stekt med småpoteter og grønne bønner til en enkel middag på ett brett.",
+        "mainIngredients": [
+          "laks",
+          "småpoteter",
+          "grønne bønner",
+          "sitron",
+          "dill"
+        ],
+        "notes": "Bytt ut laksen med kyllinglår hvis fisk ikke står på menyen."
       },
       "pl": {
         "name": "Łosoś z piekarnika z ziemniakami",
@@ -105,6 +129,18 @@
         ],
         "notes": "Lägg till vita bönor eller grillad kyckling för extra protein."
       },
+      "no": {
+        "name": "Kremet tomatpasta med spinat",
+        "description": "En lun pastamiddag med tomatsaus, en skvett fløte, spinat og parmesan.",
+        "mainIngredients": [
+          "pasta",
+          "tomater",
+          "fløte",
+          "spinat",
+          "parmesan"
+        ],
+        "notes": "Legg til hvite bønner eller grillet kylling for ekstra protein."
+      },
       "pl": {
         "name": "Kremowy makaron pomidorowy ze szpinakiem",
         "description": "Przytulny makaron z sosem pomidorowym, odrobiną śmietanki, szpinakiem i parmezanem.",
@@ -144,6 +180,18 @@
           "lime"
         ],
         "notes": "Gör extra grönsaker till lunchwraps dagen efter."
+      },
+      "no": {
+        "name": "Kyllingfajitas",
+        "description": "Fresende kylling, paprika og løk servert med tortillas, yoghurt og lime.",
+        "mainIngredients": [
+          "kylling",
+          "paprika",
+          "løk",
+          "tortillas",
+          "lime"
+        ],
+        "notes": "Lag ekstra grønnsaker til lunsjwraps dagen etter."
       },
       "pl": {
         "name": "Chicken Fajitas",
@@ -185,6 +233,18 @@
         ],
         "notes": "Såsen går bra att frysa, så dubbla gärna satsen när du har tid."
       },
+      "no": {
+        "name": "Linsebolognese",
+        "description": "En fyldig tomat- og linsesaus servert over spaghetti med parmesan og salat.",
+        "mainIngredients": [
+          "linser",
+          "tomater",
+          "gulrot",
+          "selleri",
+          "spaghetti"
+        ],
+        "notes": "Sausen egner seg godt til frysing, så lag dobbel porsjon når du har tid."
+      },
       "pl": {
         "name": "Bolognese z soczewicą",
         "description": "Gęsty sos pomidorowy z soczewicą podany ze spaghetti, parmezanem i sałatą.",
@@ -224,6 +284,18 @@
           "teriyakisås"
         ],
         "notes": "Servera såsen vid sidan av för den som vill ha mildare smak."
+      },
+      "no": {
+        "name": "Teriyaki-kylling med ris",
+        "description": "Klissete teriyaki-kylling med ris, agurk, gulrøtter og dampet brokkoli.",
+        "mainIngredients": [
+          "kylling",
+          "ris",
+          "brokkoli",
+          "agurk",
+          "teriyakisaus"
+        ],
+        "notes": "Ha sausen ved siden av for dem som foretrekker mildere smak."
       },
       "pl": {
         "name": "Talerze ryżowe z kurczakiem teriyaki",
@@ -265,6 +337,18 @@
         ],
         "notes": "Förkoka potatisen i mikron och låt den sedan bli krispig i ugnen för att spara tid."
       },
+      "no": {
+        "name": "Fylt bakt potet-bar",
+        "description": "Sprø bakte poteter med bønner, ost, yoghurt, gressløk, salat og valgfritt bacon.",
+        "mainIngredients": [
+          "poteter",
+          "bønner",
+          "ost",
+          "yoghurt",
+          "gressløk"
+        ],
+        "notes": "Start potetene i mikrobølgeovnen, og gjør dem sprø i ovnen for å spare tid."
+      },
       "pl": {
         "name": "Pieczone ziemniaki z dodatkami",
         "description": "Chrupiące pieczone ziemniaki z fasolą, serem, jogurtem, szczypiorkiem, sałatą i opcjonalnym bekonem.",
@@ -304,6 +388,18 @@
           "yoghurt"
         ],
         "notes": "Baka köttbullarna på bakplåtspapper för mindre disk."
+      },
+      "no": {
+        "name": "Kalkunkjøttboller med couscous",
+        "description": "Urtekrydrede kalkunkjøttboller med couscous, agurk- og tomatsalat og hvitløksyoghurt.",
+        "mainIngredients": [
+          "kalkunkjøttdeig",
+          "couscous",
+          "agurk",
+          "tomater",
+          "yoghurt"
+        ],
+        "notes": "Stek kjøttbollene på bakepapir for mindre oppvask."
       },
       "pl": {
         "name": "Klopsiki z indyka z kuskusem",
@@ -345,6 +441,18 @@
         ],
         "notes": "Blir bäst med kallt överblivet ris."
       },
+      "no": {
+        "name": "Stekt ris med grønnsaker og egg",
+        "description": "Rask stekt ris med paprika, gulrøtter, egg, soyasaus og grønnsakene som bør brukes opp.",
+        "mainIngredients": [
+          "ris",
+          "egg",
+          "paprika",
+          "gulrøtter",
+          "soyasaus"
+        ],
+        "notes": "Best med kald resteris."
+      },
       "pl": {
         "name": "Vegetable Fried Rice z jajkiem",
         "description": "Szybki smażony ryż z papryką, marchewką, jajkami, sosem sojowym i warzywami, które trzeba zużyć.",
@@ -384,6 +492,18 @@
           "mozzarella"
         ],
         "notes": "Använd vegetarisk korv om du vill göra rätten köttfri."
+      },
+      "no": {
+        "name": "Panne med pølse og gnocchi",
+        "description": "Sprøstekt gnocchi i panne med pølse, cherrytomater, bladgrønt og mozzarella.",
+        "mainIngredients": [
+          "gnocchi",
+          "pølse",
+          "cherrytomater",
+          "spinat",
+          "mozzarella"
+        ],
+        "notes": "Bruk vegetarisk pølse hvis du vil ha en kjøttfri variant."
       },
       "pl": {
         "name": "Patelnia z kiełbasą i gnocchi",
@@ -425,6 +545,18 @@
         ],
         "notes": "Ställ fram chiliflakes för den som vill ha mer hetta."
       },
+      "no": {
+        "name": "Mild kikert- og kokoskarri",
+        "description": "Kremet kikertkarri med kokosmelk, tomater, spinat og basmatiris.",
+        "mainIngredients": [
+          "kikerter",
+          "kokosmelk",
+          "tomater",
+          "spinat",
+          "ris"
+        ],
+        "notes": "Sett chiliflak på bordet for dem som vil ha mer varme."
+      },
       "pl": {
         "name": "Łagodne curry z ciecierzycą i kokosem",
         "description": "Kremowe curry z ciecierzycą, mlekiem kokosowym, pomidorami, szpinakiem i ryżem basmati.",
@@ -464,6 +596,18 @@
           "sallad"
         ],
         "notes": "Låt alla välja sina egna toppings före gräddning."
+      },
+      "no": {
+        "name": "Personlige pitapizzaer",
+        "description": "Små pitapizzaer med tomatsaus, mozzarella, grønnsaker og enkel salat.",
+        "mainIngredients": [
+          "pitabrød",
+          "tomatsaus",
+          "mozzarella",
+          "grønnsaker",
+          "salat"
+        ],
+        "notes": "La alle toppe sin egen pizza før steking."
       },
       "pl": {
         "name": "Mini pizze na pitach",
@@ -505,6 +649,18 @@
         ],
         "notes": "Använd grekisk yoghurt i stället för crème fraiche för en lättare avslutning."
       },
+      "no": {
+        "name": "Biff stroganoff med eggnudler",
+        "description": "Møre biffstrimler og sopp i kremet saus servert over eggnudler.",
+        "mainIngredients": [
+          "biffstrimler",
+          "sopp",
+          "eggnudler",
+          "rømme",
+          "persille"
+        ],
+        "notes": "Bruk gresk yoghurt i stedet for rømme for en lettere avslutning."
+      },
       "pl": {
         "name": "Beef Stroganoff z makaronem jajecznym",
         "description": "Delikatne paski wołowiny i pieczarki w kremowym sosie, podane na makaronie jajecznym.",
@@ -544,6 +700,18 @@
           "buljong"
         ],
         "notes": "Servera med rostat bröd eller varma frallor för en enkel hel middag."
+      },
+      "no": {
+        "name": "Kylling- og nudelsuppe",
+        "description": "En lun gryte med kylling, nudler, gulrøtter, selleri og kraft.",
+        "mainIngredients": [
+          "kylling",
+          "nudler",
+          "gulrøtter",
+          "selleri",
+          "kraft"
+        ],
+        "notes": "Server med toast eller varme rundstykker for en enkel komplett middag."
       },
       "pl": {
         "name": "Zupa z kurczakiem i makaronem",
@@ -585,6 +753,18 @@
         ],
         "notes": "Montera tidigare på dagen och grädda när alla är hungriga."
       },
+      "no": {
+        "name": "Grønnsakslasagne",
+        "description": "Lagvis pasta med tomatsaus, ovnsbakte grønnsaker, ricotta og mozzarella.",
+        "mainIngredients": [
+          "lasagneplater",
+          "tomatsaus",
+          "squash",
+          "ricotta",
+          "mozzarella"
+        ],
+        "notes": "Sett den sammen tidligere på dagen og stek når alle er sultne."
+      },
       "pl": {
         "name": "Lasagne warzywna",
         "description": "Warstwy makaronu z sosem pomidorowym, pieczonymi warzywami, ricottą i mozzarellą.",
@@ -624,6 +804,18 @@
           "avokado"
         ],
         "notes": "Håll räkorna milda och ställ fram het sås på bordet."
+      },
+      "no": {
+        "name": "Reketaco med limeslaw",
+        "description": "Raske reketaco med sprø kål, lime, yoghurtsaus og avokado.",
+        "mainIngredients": [
+          "reker",
+          "tortillas",
+          "kål",
+          "lime",
+          "avokado"
+        ],
+        "notes": "Hold rekene milde og sett hot sauce på bordet."
       },
       "pl": {
         "name": "Shrimp Tacos z surówką limonkową",
@@ -665,6 +857,18 @@
         ],
         "notes": "Lägg fyllningarna i skålar så att alla kan bygga sin egen pita."
       },
+      "no": {
+        "name": "Greske kyllingpitaer",
+        "description": "Varme pitaer fylt med kylling, agurk, tomat, salat og tzatziki.",
+        "mainIngredients": [
+          "kylling",
+          "pitabrød",
+          "agurk",
+          "tomater",
+          "tzatziki"
+        ],
+        "notes": "Legg fyllet i skåler, så alle kan bygge sin egen pita."
+      },
       "pl": {
         "name": "Greckie pity z kurczakiem",
         "description": "Ciepłe pity wypełnione kurczakiem, ogórkiem, pomidorem, sałatą i tzatziki.",
@@ -704,6 +908,18 @@
           "bladgrönt"
         ],
         "notes": "Skiva rester tunt till smörgåsar dagen efter."
+      },
+      "no": {
+        "name": "Svinefilet med epler",
+        "description": "Ovnsstekt svinefilet med epler, poteter og en enkel grønn salat.",
+        "mainIngredients": [
+          "svinefilet",
+          "epler",
+          "poteter",
+          "sennep",
+          "bladgrønt"
+        ],
+        "notes": "Skjær rester i tynne skiver til sandwicher dagen etter."
       },
       "pl": {
         "name": "Polędwiczka wieprzowa z jabłkami",
@@ -745,6 +961,18 @@
         ],
         "notes": "Servera med salsa, yoghurt och skurna grönsaker."
       },
+      "no": {
+        "name": "Quesadillas med svarte bønner",
+        "description": "Sprø tortillas fylt med svarte bønner, ost, mais og paprika.",
+        "mainIngredients": [
+          "tortillas",
+          "svarte bønner",
+          "ost",
+          "mais",
+          "paprika"
+        ],
+        "notes": "Server med salsa, yoghurt og oppskårne grønnsaker."
+      },
       "pl": {
         "name": "Quesadillas z czarną fasolą",
         "description": "Chrupiące tortille wypełnione czarną fasolą, serem, kukurydzą i papryką.",
@@ -784,6 +1012,18 @@
           "ost"
         ],
         "notes": "Använd små pastasorter så att gratängen blir lätt att servera."
+      },
+      "no": {
+        "name": "Pastagrateng med tunfisk",
+        "description": "Pasta bakt med tunfisk, tomatsaus, mais og ostetopping.",
+        "mainIngredients": [
+          "pasta",
+          "tunfisk",
+          "tomatsaus",
+          "mais",
+          "ost"
+        ],
+        "notes": "Bruk små pastatyper, så gratengen er lett å servere."
       },
       "pl": {
         "name": "Zapiekanka makaronowa z tuńczykiem",
@@ -825,6 +1065,18 @@
         ],
         "notes": "Skiva köttet tunt så att det blir klart snabbt."
       },
+      "no": {
+        "name": "Biff og brokkoli-wok",
+        "description": "Saftig biff og brokkoli i saus servert over ris til en rask familiemiddag.",
+        "mainIngredients": [
+          "biff",
+          "brokkoli",
+          "ris",
+          "soyasaus",
+          "hvitløk"
+        ],
+        "notes": "Skjær biffen tynt, så den blir raskt ferdig."
+      },
       "pl": {
         "name": "Beef and Broccoli Stir-Fry",
         "description": "Wołowina i brokuł w sosie, podane na ryżu jako szybki rodzinny obiad.",
@@ -864,6 +1116,18 @@
           "kryddor"
         ],
         "notes": "Toppa med yoghurt, ost eller avokado."
+      },
+      "no": {
+        "name": "Chili med søtpotet",
+        "description": "En mettende chili med søtpoteter, bønner, tomater og milde krydder.",
+        "mainIngredients": [
+          "søtpoteter",
+          "bønner",
+          "tomater",
+          "mais",
+          "krydder"
+        ],
+        "notes": "Topp med yoghurt, ost eller avokado."
       },
       "pl": {
         "name": "Chili z batatami",
@@ -905,6 +1169,18 @@
         ],
         "notes": "Lägg gurkstavar och frukt vid sidan av."
       },
+      "no": {
+        "name": "Kylling-Caesar-wraps",
+        "description": "Grillet kylling, romanosalat, parmesan og Caesar-dressing pakket i tortillas.",
+        "mainIngredients": [
+          "kylling",
+          "tortillas",
+          "romanosalat",
+          "parmesan",
+          "Caesar-dressing"
+        ],
+        "notes": "Server agurkstaver og frukt ved siden av."
+      },
       "pl": {
         "name": "Chicken Caesar Wraps",
         "description": "Grillowany kurczak, sałata rzymska, parmezan i sos cezar zawinięte w tortille.",
@@ -944,6 +1220,18 @@
           "lingonsylt"
         ],
         "notes": "Frysta köttbullar gör detta till en användbar reservmiddag."
+      },
+      "no": {
+        "name": "Svenske kjøttboller med mos",
+        "description": "Kjøttboller i kremet saus servert med potetmos og grønne bønner.",
+        "mainIngredients": [
+          "kjøttboller",
+          "poteter",
+          "fløte",
+          "grønne bønner",
+          "tyttebærsyltetøy"
+        ],
+        "notes": "Frosne kjøttboller gjør dette til en nyttig reservemiddag."
       },
       "pl": {
         "name": "Szwedzkie klopsiki z puree",
@@ -985,6 +1273,18 @@
         ],
         "notes": "Rör ner spenat mot slutet för extra färg."
       },
+      "no": {
+        "name": "Sopprisotto",
+        "description": "Kremet ris med sopp, parmesan, kraft og en enkel sidesalat.",
+        "mainIngredients": [
+          "risottoris",
+          "sopp",
+          "parmesan",
+          "kraft",
+          "salatblader"
+        ],
+        "notes": "Rør inn spinat mot slutten for ekstra farge."
+      },
       "pl": {
         "name": "Risotto grzybowe",
         "description": "Kremowy ryż z grzybami, parmezanem, bulionem i prostą sałatą.",
@@ -1024,6 +1324,18 @@
           "majs"
         ],
         "notes": "Använd överbliven ugnskyckling om du har det."
+      },
+      "no": {
+        "name": "Flatbrød med BBQ-kylling",
+        "description": "Flatbrød toppet med barbecuekylling, rødløk, ost og mais.",
+        "mainIngredients": [
+          "flatbrød",
+          "kylling",
+          "barbecuesaus",
+          "ost",
+          "mais"
+        ],
+        "notes": "Bruk rester av stekt kylling hvis du har det."
       },
       "pl": {
         "name": "BBQ Chicken Flatbreads",
@@ -1065,6 +1377,18 @@
         ],
         "notes": "Baka fryst falafel för en middag med liten insats."
       },
+      "no": {
+        "name": "Falafeltallerkener",
+        "description": "Falafel servert med hummus, pitabrød, agurk- og tomatsalat og yoghurtsaus.",
+        "mainIngredients": [
+          "falafel",
+          "hummus",
+          "pitabrød",
+          "agurk",
+          "tomater"
+        ],
+        "notes": "Stek frossen falafel i ovnen for en enkel middag."
+      },
       "pl": {
         "name": "Talerze z falafelem",
         "description": "Falafel podany z hummusem, pitą, sałatką z ogórka i pomidora oraz sosem jogurtowym.",
@@ -1104,6 +1428,18 @@
           "tacokrydda"
         ],
         "notes": "Servera med tortillachips för krispighet."
+      },
+      "no": {
+        "name": "Tacosuppe med kalkun",
+        "description": "Tomatbasert suppe med kalkunkjøttdeig, bønner, mais og tacokrydder.",
+        "mainIngredients": [
+          "kalkunkjøttdeig",
+          "bønner",
+          "mais",
+          "tomater",
+          "tacokrydder"
+        ],
+        "notes": "Server med tortillachips for sprøhet."
       },
       "pl": {
         "name": "Zupa taco z indykiem",
@@ -1145,6 +1481,18 @@
         ],
         "notes": "Gör två stora omeletter och skär dem i klyftor."
       },
+      "no": {
+        "name": "Omelettmiddag med skinke og ost",
+        "description": "Luftige omeletter med skinke, ost, toast og sprø salat.",
+        "mainIngredients": [
+          "egg",
+          "skinke",
+          "ost",
+          "toast",
+          "salatblader"
+        ],
+        "notes": "Lag to store omeletter og skjær dem i båter."
+      },
       "pl": {
         "name": "Omletowa kolacja z szynką i serem",
         "description": "Puszyste omlety z szynką, serem, tostami i chrupiącą sałatą.",
@@ -1184,6 +1532,18 @@
           "parmesan"
         ],
         "notes": "Servera varm eller rumstempererad beroende på kvällen."
+      },
+      "no": {
+        "name": "Pestotortellini med spinat",
+        "description": "Ostetortellini vendt med pesto, spinat, tomater og parmesan.",
+        "mainIngredients": [
+          "tortellini",
+          "pesto",
+          "spinat",
+          "cherrytomater",
+          "parmesan"
+        ],
+        "notes": "Server varm eller romtemperert, avhengig av kvelden."
       },
       "pl": {
         "name": "Tortellini z pesto i szpinakiem",
@@ -1225,6 +1585,18 @@
         ],
         "notes": "Använd färdiggrillad kyckling för att få det att gå snabbare."
       },
+      "no": {
+        "name": "Kyllingpai i panne",
+        "description": "Kremet kylling og grønnsaker toppet med butterdeig eller små brød.",
+        "mainIngredients": [
+          "kylling",
+          "blandede grønnsaker",
+          "fløte",
+          "butterdeig",
+          "kraft"
+        ],
+        "notes": "Bruk ferdigstekt kylling for å spare tid."
+      },
       "pl": {
         "name": "Chicken Pot Pie z patelni",
         "description": "Kremowy kurczak z warzywami przykryty ciastem francuskim albo bułeczkami.",
@@ -1264,6 +1636,18 @@
           "sesamsås"
         ],
         "notes": "Pressa tofun en kort stund så bryns den bättre."
+      },
+      "no": {
+        "name": "Sesamtofu med nudler",
+        "description": "Nudler vendt med sprø tofu, agurk, gulrøtter og sesamsaus.",
+        "mainIngredients": [
+          "tofu",
+          "nudler",
+          "agurk",
+          "gulrøtter",
+          "sesamsaus"
+        ],
+        "notes": "Press tofuen kort, så den brunes bedre."
       },
       "pl": {
         "name": "Makaron sezamowy z tofu",
@@ -1305,6 +1689,18 @@
         ],
         "notes": "Slå in extra wraps i folie till enkla luncher."
       },
+      "no": {
+        "name": "Burritowraps med biff",
+        "description": "Myke tortillas fylt med biff, ris, bønner, ost og salsa.",
+        "mainIngredients": [
+          "tortillas",
+          "biff",
+          "ris",
+          "bønner",
+          "salsa"
+        ],
+        "notes": "Pakk ekstra wraps i folie til enkle lunsjer."
+      },
       "pl": {
         "name": "Wrapy burrito z wołowiną",
         "description": "Miękkie tortille wypełnione wołowiną, ryżem, fasolą, serem i salsą.",
@@ -1344,6 +1740,18 @@
           "citron"
         ],
         "notes": "Gott både varmt och kallt, så det passar flexibla kvällar."
+      },
+      "no": {
+        "name": "Couscous med ovnsbakte grønnsaker",
+        "description": "Couscous med ovnsbakte grønnsaker, kikerter, feta og sitrondressing.",
+        "mainIngredients": [
+          "couscous",
+          "kikerter",
+          "ovnsbakte grønnsaker",
+          "feta",
+          "sitron"
+        ],
+        "notes": "God både varm og kald, så den passer travle kvelder."
       },
       "pl": {
         "name": "Kuskus z pieczonymi warzywami",
@@ -1385,6 +1793,18 @@
         ],
         "notes": "Rosta allt på en plåt för mindre disk."
       },
+      "no": {
+        "name": "Kyllinglår med sitron og hvitløk",
+        "description": "Saftige kyllinglår bakt med sitron, hvitløk, poteter og gulrøtter.",
+        "mainIngredients": [
+          "kyllinglår",
+          "sitron",
+          "hvitløk",
+          "poteter",
+          "gulrøtter"
+        ],
+        "notes": "Stek alt på ett brett for mindre opprydding."
+      },
       "pl": {
         "name": "Udka z kurczaka z cytryną i czosnkiem",
         "description": "Soczyste udka pieczone z cytryną, czosnkiem, ziemniakami i marchewką.",
@@ -1424,6 +1844,18 @@
           "lime"
         ],
         "notes": "En användbar middag från frysen."
+      },
+      "no": {
+        "name": "Fiskepinnetaco",
+        "description": "Sprø fiskepinner i tortillas med slaw og tartarsaus.",
+        "mainIngredients": [
+          "fiskepinner",
+          "tortillas",
+          "kål",
+          "tartarsaus",
+          "lime"
+        ],
+        "notes": "En nyttig frysevennlig middag."
       },
       "pl": {
         "name": "Fish Finger Tacos",
@@ -1465,6 +1897,18 @@
         ],
         "notes": "Servera med vitlöksbröd om du vill göra den matigare."
       },
+      "no": {
+        "name": "Minestronesuppe",
+        "description": "Grønnsakssuppe med bønner, pasta, tomater og parmesan.",
+        "mainIngredients": [
+          "bønner",
+          "pasta",
+          "tomater",
+          "grønnsaker",
+          "parmesan"
+        ],
+        "notes": "Server med hvitløksbrød hvis du vil gjøre den mer mettende."
+      },
       "pl": {
         "name": "Zupa minestrone",
         "description": "Zupa warzywna z fasolą, makaronem, pomidorami i parmezanem.",
@@ -1504,6 +1948,18 @@
           "balsamicoglaze"
         ],
         "notes": "Servera med pasta, ris eller ett gott bröd."
+      },
+      "no": {
+        "name": "Caprese-kylling",
+        "description": "Kyllingbryst toppet med tomater, mozzarella, basilikum og balsamicoglasur.",
+        "mainIngredients": [
+          "kylling",
+          "tomater",
+          "mozzarella",
+          "basilikum",
+          "balsamicoglasur"
+        ],
+        "notes": "Server med pasta, ris eller godt brød."
       },
       "pl": {
         "name": "Kurczak Caprese",
@@ -1545,6 +2001,18 @@
         ],
         "notes": "Tillsätt limejuice på slutet för att lyfta såsen."
       },
+      "no": {
+        "name": "Kyllingnudler med peanøttsaus",
+        "description": "Nudler med kylling, grønnsaker og kremet peanøttsaus.",
+        "mainIngredients": [
+          "kylling",
+          "nudler",
+          "peanøttsmør",
+          "grønnsaker",
+          "soyasaus"
+        ],
+        "notes": "Tilsett limejuice til slutt for å friske opp sausen."
+      },
       "pl": {
         "name": "Makaron z kurczakiem i sosem orzechowym",
         "description": "Makaron z kurczakiem, warzywami i kremowym sosem z masła orzechowego.",
@@ -1584,6 +2052,18 @@
           "couscous"
         ],
         "notes": "Lägg till kikärter för att göra rätten mer mättande."
+      },
+      "no": {
+        "name": "Halloumi og grønnsaker på brett",
+        "description": "Ovnsbakte grønnsaker og halloumi servert med couscous eller flatbrød.",
+        "mainIngredients": [
+          "halloumi",
+          "squash",
+          "paprika",
+          "rødløk",
+          "couscous"
+        ],
+        "notes": "Legg til kikerter for å gjøre retten mer mettende."
       },
       "pl": {
         "name": "Halloumi z warzywami z piekarnika",
@@ -1625,6 +2105,18 @@
         ],
         "notes": "Servera öppet för yngre barn så blir det lättare att äta."
       },
+      "no": {
+        "name": "Sloppy Joes",
+        "description": "Saftig kjøttdeig i saus servert i brød med sylteagurk og sprø salat.",
+        "mainIngredients": [
+          "kjøttdeig",
+          "brød",
+          "tomatsaus",
+          "sylteagurk",
+          "salat"
+        ],
+        "notes": "Server åpne sandwicher til yngre barn for å gjøre det enklere."
+      },
       "pl": {
         "name": "Sloppy Joes",
         "description": "Wołowina mielona w sosie podana w bułkach z piklami i chrupiącą sałatą.",
@@ -1664,6 +2156,18 @@
           "örter"
         ],
         "notes": "Rör ner tillagad kyckling om du vill ha extra protein."
+      },
+      "no": {
+        "name": "Ovnsbakt fetaorzo",
+        "description": "Orzo bakt med feta, tomater, spinat og urter.",
+        "mainIngredients": [
+          "orzo",
+          "feta",
+          "tomater",
+          "spinat",
+          "urter"
+        ],
+        "notes": "Rør inn kokt kylling hvis du vil ha ekstra protein."
       },
       "pl": {
         "name": "Pieczone orzo z fetą",
@@ -1705,6 +2209,18 @@
         ],
         "notes": "Håll grönsakerna separata för enklare servering."
       },
+      "no": {
+        "name": "Kylling-souvlaki bowls",
+        "description": "Sitronkylling servert med ris, agurk, tomat og yoghurtsaus.",
+        "mainIngredients": [
+          "kylling",
+          "ris",
+          "agurk",
+          "tomater",
+          "yoghurtsaus"
+        ],
+        "notes": "Hold grønnsakene hver for seg for enklere servering."
+      },
       "pl": {
         "name": "Chicken Souvlaki Bowls",
         "description": "Cytrynowy kurczak podany z ryżem, ogórkiem, pomidorem i sosem jogurtowym.",
@@ -1744,6 +2260,18 @@
           "majs"
         ],
         "notes": "Servera med strimlad sallad och yoghurt."
+      },
+      "no": {
+        "name": "Enchiladas med bønner og ost",
+        "description": "Tortillas fylt med bønner og ost, bakt i enchiladasaus.",
+        "mainIngredients": [
+          "tortillas",
+          "bønner",
+          "ost",
+          "enchiladasaus",
+          "mais"
+        ],
+        "notes": "Server med strimlet salat og yoghurt."
       },
       "pl": {
         "name": "Enchiladas z fasolą i serem",
@@ -1785,6 +2313,18 @@
         ],
         "notes": "Använd kycklingkorv eller vegetarisk korv om du föredrar det."
       },
+      "no": {
+        "name": "Pølsebrød med paprika",
+        "description": "Pølser med sautert paprika og løk lagt i varme brød.",
+        "mainIngredients": [
+          "pølser",
+          "brød",
+          "paprika",
+          "løk",
+          "sennep"
+        ],
+        "notes": "Bruk kyllingpølser eller vegetariske pølser om ønskelig."
+      },
       "pl": {
         "name": "Suby z kiełbasą i papryką",
         "description": "Kiełbaski ze smażoną papryką i cebulą w ciepłych bułkach.",
@@ -1824,6 +2364,18 @@
           "persilja"
         ],
         "notes": "Servera med bröd att fånga upp såsen med."
+      },
+      "no": {
+        "name": "Torsk med tomatbønner",
+        "description": "Mild torsk bakt over hvite bønner i tomat med urter og sitron.",
+        "mainIngredients": [
+          "torsk",
+          "hvite bønner",
+          "tomater",
+          "sitron",
+          "persille"
+        ],
+        "notes": "Server med brød til å få opp sausen."
       },
       "pl": {
         "name": "Dorsz z fasolą w pomidorach",
@@ -1865,6 +2417,18 @@
         ],
         "notes": "Hoppa över brödet och servera allt som en tallrik."
       },
+      "no": {
+        "name": "Vegetarburgertallerkener",
+        "description": "Vegetarburgere servert med potetbåter, salat og dipsaus.",
+        "mainIngredients": [
+          "vegetarburgere",
+          "poteter",
+          "salat",
+          "tomater",
+          "saus"
+        ],
+        "notes": "Dropp brødet og server alt som en tallerkenrett."
+      },
       "pl": {
         "name": "Talerze z burgerami warzywnymi",
         "description": "Burgery warzywne podane z ziemniaczanymi łódeczkami, sałatą i sosem do maczania.",
@@ -1904,6 +2468,18 @@
           "bladgrönt"
         ],
         "notes": "Använd buljong med låg salthalt och låt alla krydda sin egen skål."
+      },
+      "no": {
+        "name": "Ramen bowls med kylling",
+        "description": "Nudler i kraft toppet med kylling, egg, gulrøtter og bladgrønt.",
+        "mainIngredients": [
+          "ramennudler",
+          "kylling",
+          "egg",
+          "gulrøtter",
+          "bladgrønt"
+        ],
+        "notes": "Bruk kraft med lite salt og la alle krydre sin egen skål."
       },
       "pl": {
         "name": "Chicken Ramen Bowls",
@@ -1945,6 +2521,18 @@
         ],
         "notes": "Forma koftan som små biffar så tillagas de jämnt."
       },
+      "no": {
+        "name": "Flatbrød med biffkofta",
+        "description": "Krydrede biffkaker servert med flatbrød, salat og hvitløksyoghurt.",
+        "mainIngredients": [
+          "kjøttdeig",
+          "flatbrød",
+          "agurk",
+          "tomater",
+          "hvitløksyoghurt"
+        ],
+        "notes": "Form koftaen som små kaker, så de steker jevnt."
+      },
       "pl": {
         "name": "Beef Kofta Flatbreads",
         "description": "Przyprawione kotleciki wołowe podane z flatbreadem, sałatą i jogurtem czosnkowym.",
@@ -1984,6 +2572,18 @@
           "mozzarella"
         ],
         "notes": "Använd lasagneplattor rullade runt fyllningen om det behövs."
+      },
+      "no": {
+        "name": "Cannelloni med spinat og ricotta",
+        "description": "Pastarør fylt med spinat og ricotta, bakt i tomatsaus.",
+        "mainIngredients": [
+          "cannelloni",
+          "spinat",
+          "ricotta",
+          "tomatsaus",
+          "mozzarella"
+        ],
+        "notes": "Bruk lasagneplater rullet rundt fyllet hvis det trengs."
       },
       "pl": {
         "name": "Cannelloni ze szpinakiem i ricottą",
@@ -2025,6 +2625,18 @@
         ],
         "notes": "Gör extra sås att skeda över riset."
       },
+      "no": {
+        "name": "Kylling med honning og sennep",
+        "description": "Kylling bakt i honning- og sennepssaus med ris og grønne grønnsaker.",
+        "mainIngredients": [
+          "kylling",
+          "honning",
+          "sennep",
+          "ris",
+          "grønne bønner"
+        ],
+        "notes": "Lag ekstra saus til å øse over risen."
+      },
       "pl": {
         "name": "Kurczak w sosie miodowo-musztardowym",
         "description": "Kurczak pieczony w sosie miodowo-musztardowym z ryżem i zielonymi warzywami.",
@@ -2064,6 +2676,18 @@
           "ris"
         ],
         "notes": "Servera med naan eller ris beroende på vad du har hemma."
+      },
+      "no": {
+        "name": "Blomkål tikka masala",
+        "description": "Blomkål og kikerter i en mild, kremet tomatcurrysaus.",
+        "mainIngredients": [
+          "blomkål",
+          "kikerter",
+          "tomater",
+          "fløte",
+          "ris"
+        ],
+        "notes": "Server med naan eller ris, avhengig av hva du har."
       },
       "pl": {
         "name": "Cauliflower Tikka Masala",
@@ -2105,6 +2729,18 @@
         ],
         "notes": "Perfekt för att använda överbliven långkokt fläskkarré."
       },
+      "no": {
+        "name": "Risskåler med pulled pork",
+        "description": "Pulled pork over ris med kål, mais, avokado og salsa.",
+        "mainIngredients": [
+          "pulled pork",
+          "ris",
+          "kål",
+          "mais",
+          "salsa"
+        ],
+        "notes": "Flott for å bruke rester av langtidsstekt svinekjøtt."
+      },
       "pl": {
         "name": "Pulled Pork Rice Bowls",
         "description": "Pulled pork na ryżu z kapustą, kukurydzą, awokado i salsą.",
@@ -2144,6 +2780,18 @@
           "tomater"
         ],
         "notes": "Håll oliverna vid sidan av om inte alla gillar dem."
+      },
+      "no": {
+        "name": "Middelhavs tunfisksalat-tallerkener",
+        "description": "Tunfisk, poteter, egg, grønne bønner, tomater og oliven på ett fat.",
+        "mainIngredients": [
+          "tunfisk",
+          "poteter",
+          "egg",
+          "grønne bønner",
+          "tomater"
+        ],
+        "notes": "Ha oliven ved siden av hvis ikke alle liker dem."
       },
       "pl": {
         "name": "Śródziemnomorskie talerze z tuńczykiem",
@@ -2185,6 +2833,18 @@
         ],
         "notes": "Servera med osttoast för en mysig måltid."
       },
+      "no": {
+        "name": "Kremet maissuppe",
+        "description": "Kremet maissuppe med poteter, gulrøtter, urter og valgfritt bacon.",
+        "mainIngredients": [
+          "mais",
+          "poteter",
+          "gulrøtter",
+          "fløte",
+          "bacon"
+        ],
+        "notes": "Server med ostesmørbrød for et lunt måltid."
+      },
       "pl": {
         "name": "Corn Chowder",
         "description": "Kremowa zupa kukurydziana z ziemniakami, marchewką, ziołami i opcjonalnym bekonem.",
@@ -2224,6 +2884,18 @@
           "pasta"
         ],
         "notes": "Baka i stället för att steka för enklare rengöring."
+      },
+      "no": {
+        "name": "Ovnsbakt kylling parmesan",
+        "description": "Panert kylling bakt med tomatsaus og mozzarella, servert med pasta.",
+        "mainIngredients": [
+          "kylling",
+          "brødsmuler",
+          "tomatsaus",
+          "mozzarella",
+          "pasta"
+        ],
+        "notes": "Stek i ovnen i stedet for å fritere, så blir oppryddingen enklere."
       },
       "pl": {
         "name": "Chicken Parmesan Bake",
@@ -2265,6 +2937,18 @@
         ],
         "notes": "Avsluta under grillen med mozzarella om du vill ha den bubblig."
       },
+      "no": {
+        "name": "Gnocchi med tomatbønner",
+        "description": "Myk gnocchi småkokt med hvite bønner, tomatsaus og spinat.",
+        "mainIngredients": [
+          "gnocchi",
+          "hvite bønner",
+          "tomatsaus",
+          "spinat",
+          "parmesan"
+        ],
+        "notes": "Gratiner under grillen med mozzarella hvis du vil ha den boblende."
+      },
       "pl": {
         "name": "Gnocchi z fasolą w pomidorach",
         "description": "Miękkie gnocchi duszone z białą fasolą, sosem pomidorowym i szpinakiem.",
@@ -2304,6 +2988,18 @@
           "sesam"
         ],
         "notes": "Använd mindre chilipasta för en mildare familjevariant."
+      },
+      "no": {
+        "name": "Koreanskinspirerte biffskåler",
+        "description": "Søt og salt kjøttdeig over ris med agurk, gulrøtter og sesam.",
+        "mainIngredients": [
+          "kjøttdeig",
+          "ris",
+          "agurk",
+          "gulrøtter",
+          "sesam"
+        ],
+        "notes": "Bruk mindre chilipasta for en mildere familievariant."
       },
       "pl": {
         "name": "Korean-Style Beef Bowls",
@@ -2345,6 +3041,18 @@
         ],
         "notes": "Mixa pumpan i såsen för en slät konsistens."
       },
+      "no": {
+        "name": "Mac and cheese med flaskegresskar",
+        "description": "Kremet makaroni med flaskegresskar, cheddar og sprø topping.",
+        "mainIngredients": [
+          "makaroni",
+          "flaskegresskar",
+          "cheddar",
+          "melk",
+          "brødsmuler"
+        ],
+        "notes": "Kjør gresskaret glatt i sausen for en jevn konsistens."
+      },
       "pl": {
         "name": "Mac and Cheese z dynią piżmową",
         "description": "Kremowy makaron z dynią piżmową, cheddarem i chrupiącą posypką.",
@@ -2384,6 +3092,18 @@
           "avokado"
         ],
         "notes": "Servera med bröd vid sidan av för större aptit."
+      },
+      "no": {
+        "name": "Kalkun club-salat",
+        "description": "Kalkun, bacon, salat, tomater, avokado, krutonger og ranchdressing.",
+        "mainIngredients": [
+          "kalkun",
+          "bacon",
+          "salat",
+          "tomater",
+          "avokado"
+        ],
+        "notes": "Server med brød ved siden av for større appetitt."
       },
       "pl": {
         "name": "Turkey Club Salad",
@@ -2425,6 +3145,18 @@
         ],
         "notes": "Rosta kikärterna tills de är krispiga för bäst konsistens."
       },
+      "no": {
+        "name": "Shawarma-wraps med kikerter",
+        "description": "Ovnsristede kikerter pakket i wraps med salat, sylteagurk og tahiniyoghurt.",
+        "mainIngredients": [
+          "kikerter",
+          "wraps",
+          "salat",
+          "sylteagurk",
+          "tahiniyoghurt"
+        ],
+        "notes": "Rist kikertene til de er sprø for best konsistens."
+      },
       "pl": {
         "name": "Chickpea Shawarma Wraps",
         "description": "Pieczona ciecierzyca w wrapach z sałatą, piklami i sosem jogurtowo-tahini.",
@@ -2464,6 +3196,18 @@
           "avokado"
         ],
         "notes": "Gratinera på en plåt och servera med sallad."
+      },
+      "no": {
+        "name": "Nachos med biffchili",
+        "description": "Tortillachips toppet med biffchili, ost, salsa og avokado.",
+        "mainIngredients": [
+          "tortillachips",
+          "biffchili",
+          "ost",
+          "salsa",
+          "avokado"
+        ],
+        "notes": "Stek på et brett og server med salat."
       },
       "pl": {
         "name": "Nachos z wołowym chili",
@@ -2505,6 +3249,18 @@
         ],
         "notes": "En bra frukost-till-middag-variant."
       },
+      "no": {
+        "name": "Sitron- og ricottapannekaker til middag",
+        "description": "Luftige ricottapannekaker servert med bær, yoghurt og eggerøre.",
+        "mainIngredients": [
+          "ricotta",
+          "egg",
+          "mel",
+          "bær",
+          "yoghurt"
+        ],
+        "notes": "En god frokost-til-middag-variant."
+      },
       "pl": {
         "name": "Placki z ricottą i cytryną na obiad",
         "description": "Puszyste placki z ricottą podane z owocami jagodowymi, jogurtem i jajecznicą.",
@@ -2544,6 +3300,18 @@
           "tomater"
         ],
         "notes": "Ställ fram mozzarellapärlor eller parmesan vid bordet."
+      },
+      "no": {
+        "name": "Ratatouille-pasta",
+        "description": "Pasta vendt med aubergine, squash, paprika, tomater og basilikum.",
+        "mainIngredients": [
+          "pasta",
+          "aubergine",
+          "squash",
+          "paprika",
+          "tomater"
+        ],
+        "notes": "Sett mozzarellaperler eller parmesan på bordet."
       },
       "pl": {
         "name": "Makaron ratatouille",
@@ -2585,6 +3353,18 @@
         ],
         "notes": "Servera mangochutney vid sidan av."
       },
+      "no": {
+        "name": "Kylling tikka-wraps",
+        "description": "Mildt krydret kylling pakket med salat, agurk, yoghurt og chutney.",
+        "mainIngredients": [
+          "kylling",
+          "wraps",
+          "salat",
+          "agurk",
+          "yoghurt"
+        ],
+        "notes": "Server med mangochutney ved siden av."
+      },
       "pl": {
         "name": "Chicken Tikka Wraps",
         "description": "Łagodnie przyprawiony kurczak zawinięty z sałatą, ogórkiem, jogurtem i chutneyem.",
@@ -2624,6 +3404,18 @@
           "teriyakisås"
         ],
         "notes": "Dela laxen i bitar och vänd ner i nudlarna för enklare servering."
+      },
+      "no": {
+        "name": "Teriyaki-laks med nudler",
+        "description": "Glasert laks med nudler, brokkoli, gulrøtter og sesam.",
+        "mainIngredients": [
+          "laks",
+          "nudler",
+          "brokkoli",
+          "gulrøtter",
+          "teriyakisaus"
+        ],
+        "notes": "Del laksen i flak og vend den inn i nudlene for enklere servering."
       },
       "pl": {
         "name": "Łosoś teriyaki z makaronem",
@@ -2665,6 +3457,18 @@
         ],
         "notes": "Håll såsen krämig och tomatrik och avsluta med svartpeppar."
       },
+      "no": {
+        "name": "Pasta med bacon- og soppsaus",
+        "description": "Penne vendt med bacon, sopp, creme fraiche og knuste tomater.",
+        "mainIngredients": [
+          "bacon",
+          "sopp",
+          "creme fraiche",
+          "knuste tomater",
+          "pennepasta"
+        ],
+        "notes": "Hold sausen kremet og tomatrik, og avslutt med svart pepper."
+      },
       "pl": {
         "name": "Makaron z sosem bekonowo-pieczarkowym",
         "description": "Penne wymieszane z bekonem, pieczarkami, crème fraîche i krojonymi pomidorami.",
@@ -2704,6 +3508,18 @@
           "bladgrönt"
         ],
         "notes": "Laga den i förväg och servera varm eller rumstempererad."
+      },
+      "no": {
+        "name": "Spansk tortilla med salat",
+        "description": "Potet- og eggtortilla servert i båter med tomater og bladgrønt.",
+        "mainIngredients": [
+          "egg",
+          "poteter",
+          "løk",
+          "tomater",
+          "salatblader"
+        ],
+        "notes": "Lag den på forhånd og server varm eller romtemperert."
       },
       "pl": {
         "name": "Hiszpańska tortilla z sałatą",
@@ -2745,6 +3561,18 @@
         ],
         "notes": "Använd tunna strimlor så håller sig köttet mört."
       },
+      "no": {
+        "name": "Wok med svin og ingefær",
+        "description": "Møre svinestrimler woket med grønnsaker, ingefær, soya og ris.",
+        "mainIngredients": [
+          "svinekjøtt",
+          "ingefær",
+          "blandede grønnsaker",
+          "soyasaus",
+          "ris"
+        ],
+        "notes": "Bruk tynne strimler, så svinekjøttet holder seg mørt."
+      },
       "pl": {
         "name": "Stir-fry z wieprzowiną i imbirem",
         "description": "Delikatne paski wieprzowiny smażone z warzywami, imbirem, sosem sojowym i ryżem.",
@@ -2784,6 +3612,18 @@
           "sallad"
         ],
         "notes": "Använd färdig pajdeg när du vill ha en enkel version."
+      },
+      "no": {
+        "name": "Quiche med brokkoli og cheddar",
+        "description": "Salt pai med brokkoli, cheddar, egg og en enkel salat.",
+        "mainIngredients": [
+          "paibunn",
+          "brokkoli",
+          "cheddar",
+          "egg",
+          "salat"
+        ],
+        "notes": "Bruk ferdig paibunn når du trenger en enkel variant."
       },
       "pl": {
         "name": "Quiche z brokułem i cheddarem",
@@ -2825,6 +3665,18 @@
         ],
         "notes": "Skär smörgåsarna i stavar att doppa."
       },
+      "no": {
+        "name": "Tomatsuppe og ostesmørbrød",
+        "description": "Jevn tomatsuppe servert med sprø grillede ostesmørbrød.",
+        "mainIngredients": [
+          "tomater",
+          "brød",
+          "ost",
+          "fløte",
+          "basilikum"
+        ],
+        "notes": "Skjær smørbrødene i staver til dipping."
+      },
       "pl": {
         "name": "Zupa pomidorowa i grilled cheese",
         "description": "Gładka zupa pomidorowa podana z chrupiącymi kanapkami grilled cheese.",
@@ -2864,6 +3716,18 @@
           "myntyoghurt"
         ],
         "notes": "Använd nöt- eller kalkonfärs om lamm inte finns."
+      },
+      "no": {
+        "name": "Pita med lammekjøttboller",
+        "description": "Lammekjøttboller i varme pitaer med agurk, tomat og mynteyoghurt.",
+        "mainIngredients": [
+          "lammekjøttdeig",
+          "pitabrød",
+          "agurk",
+          "tomater",
+          "mynteyoghurt"
+        ],
+        "notes": "Bruk kjøttdeig av storfe eller kalkun hvis lam ikke er tilgjengelig."
       },
       "pl": {
         "name": "Pity z klopsikami jagnięcymi",
@@ -2905,6 +3769,18 @@
         ],
         "notes": "Ånga broccolin i pastakastrullen för färre kastruller."
       },
+      "no": {
+        "name": "Kylling Alfredo med brokkoli",
+        "description": "Pasta i kremet Alfredo-saus med kylling, brokkoli og parmesan.",
+        "mainIngredients": [
+          "pasta",
+          "kylling",
+          "brokkoli",
+          "fløte",
+          "parmesan"
+        ],
+        "notes": "Damp brokkolien i pastakjelen for færre kjeler."
+      },
       "pl": {
         "name": "Chicken Alfredo z brokułem",
         "description": "Makaron w kremowym sosie Alfredo z kurczakiem, brokułem i parmezanem.",
@@ -2944,6 +3820,18 @@
           "avokado"
         ],
         "notes": "Använd en blandning av bönor för bättre konsistens."
+      },
+      "no": {
+        "name": "Bønnechili med ris",
+        "description": "En enkel bønnechili servert over ris med ost og avokado.",
+        "mainIngredients": [
+          "bønner",
+          "tomater",
+          "ris",
+          "ost",
+          "avokado"
+        ],
+        "notes": "Bruk en blanding av bønner for bedre tekstur."
       },
       "pl": {
         "name": "Chili fasolowe z ryżem",
@@ -2985,6 +3873,18 @@
         ],
         "notes": "Ha frysta räkor hemma för detta snabba alternativ."
       },
+      "no": {
+        "name": "Stekte nudler med reker",
+        "description": "Reker, nudler, egg og grønnsaker vendt i en salt saus.",
+        "mainIngredients": [
+          "reker",
+          "nudler",
+          "egg",
+          "grønnsaker",
+          "soyasaus"
+        ],
+        "notes": "Ha frosne reker tilgjengelig til denne raske middagen."
+      },
       "pl": {
         "name": "Smażony makaron z krewetkami",
         "description": "Krewetki, makaron, jajka i warzywa wymieszane w wytrawnym sosie.",
@@ -3024,6 +3924,18 @@
           "ströbröd"
         ],
         "notes": "Servera med pasta eller grön sallad."
+      },
+      "no": {
+        "name": "Eggplant Parmesan",
+        "description": "Ovnsbakt aubergine lagt lagvis med tomatsaus, mozzarella og parmesan.",
+        "mainIngredients": [
+          "aubergine",
+          "tomatsaus",
+          "mozzarella",
+          "parmesan",
+          "brødsmuler"
+        ],
+        "notes": "Server med pasta eller en grønn salat."
       },
       "pl": {
         "name": "Eggplant Parmesan",
@@ -3065,6 +3977,18 @@
         ],
         "notes": "Riv ner zucchini i biffarna så håller de sig saftiga."
       },
+      "no": {
+        "name": "Kalkunburgere",
+        "description": "Saftige kalkunburgere med burgerbrød, salat, tomat og ovnsfries.",
+        "mainIngredients": [
+          "kalkunkjøttdeig",
+          "burgerbrød",
+          "salat",
+          "tomater",
+          "poteter"
+        ],
+        "notes": "Tilsett revet squash i burgerne for å holde dem saftige."
+      },
       "pl": {
         "name": "Burgery z indyka",
         "description": "Soczyste burgery z indyka z bułkami, sałatą, pomidorem i pieczonymi frytkami.",
@@ -3104,6 +4028,18 @@
           "persilja"
         ],
         "notes": "Servera haricots verts vid sidan av."
+      },
+      "no": {
+        "name": "Kremet soppkylling",
+        "description": "Kylling i kremet soppsaus servert med ris eller potetmos.",
+        "mainIngredients": [
+          "kylling",
+          "sopp",
+          "fløte",
+          "ris",
+          "persille"
+        ],
+        "notes": "Server grønne bønner ved siden av."
       },
       "pl": {
         "name": "Kremowy kurczak z pieczarkami",
@@ -3145,6 +4081,18 @@
         ],
         "notes": "Håll picklesen mild och lägg till chili separat för vuxna."
       },
+      "no": {
+        "name": "Tofu Banh Mi bowls",
+        "description": "Risskåler med sprø tofu, syltede gulrøtter, agurk, urter og majones.",
+        "mainIngredients": [
+          "tofu",
+          "ris",
+          "gulrøtter",
+          "agurk",
+          "majones"
+        ],
+        "notes": "Hold det syltede mildt og legg til chili separat for voksne."
+      },
       "pl": {
         "name": "Tofu Banh Mi Bowls",
         "description": "Miski ryżowe z chrupiącym tofu, marynowaną marchewką, ogórkiem, ziołami i majonezem.",
@@ -3184,6 +4132,18 @@
           "ost"
         ],
         "notes": "Använd överbliven kyckling för att göra detta extra snabbt."
+      },
+      "no": {
+        "name": "Kylling- og maistaco",
+        "description": "Taco med revet kylling, søt mais, salat, ost og salsa.",
+        "mainIngredients": [
+          "kylling",
+          "tortillas",
+          "mais",
+          "salat",
+          "ost"
+        ],
+        "notes": "Bruk rester av kylling for å gjøre dette ekstra raskt."
       },
       "pl": {
         "name": "Tacos z kurczakiem i kukurydzą",
@@ -3225,6 +4185,18 @@
         ],
         "notes": "Toppa med yoghurt eller fetaost om du vill."
       },
+      "no": {
+        "name": "Røkt bønnegryte",
+        "description": "Bønner småkokt med tomater, røkt paprika, gulrøtter og godt brød.",
+        "mainIngredients": [
+          "bønner",
+          "tomater",
+          "gulrøtter",
+          "røkt paprika",
+          "brød"
+        ],
+        "notes": "Topp med yoghurt eller feta hvis du liker det."
+      },
       "pl": {
         "name": "Dymny gulasz fasolowy",
         "description": "Fasola duszona z pomidorami, wędzoną papryką, marchewką i chrupiącym pieczywem.",
@@ -3264,6 +4236,18 @@
           "citron"
         ],
         "notes": "Konserverad lax fungerar bra som skafferivariant."
+      },
+      "no": {
+        "name": "Laksefiskekaker",
+        "description": "Gylne lakse- og potetkaker servert med grønne bønner, salat og sitron.",
+        "mainIngredients": [
+          "laks",
+          "poteter",
+          "grønne bønner",
+          "salat",
+          "sitron"
+        ],
+        "notes": "Hermetisk laks fungerer godt som en skapvariant."
       },
       "pl": {
         "name": "Placuszki z łososia",
@@ -3305,6 +4289,18 @@
         ],
         "notes": "Gör den gärna i en ugnssäker stekpanna om möjligt."
       },
+      "no": {
+        "name": "Shepherd's Pie med storfe",
+        "description": "Kjøttdeig og grønnsaker toppet med potetmos og bakt gyllen.",
+        "mainIngredients": [
+          "kjøttdeig",
+          "poteter",
+          "gulrøtter",
+          "mais",
+          "kraft"
+        ],
+        "notes": "Lag den i én ovnssikker panne hvis mulig."
+      },
       "pl": {
         "name": "Shepherd's Pie z wołowiną",
         "description": "Wołowina i warzywa przykryte puree ziemniaczanym i zapieczone na złoto.",
@@ -3344,6 +4340,18 @@
           "parmesan"
         ],
         "notes": "Mixa såsen slät innan du vänder ner pastan."
+      },
+      "no": {
+        "name": "Pasta med ovnsbakt rød paprika",
+        "description": "Pasta vendt i en kremet saus av ovnsbakt rød paprika med spinat.",
+        "mainIngredients": [
+          "pasta",
+          "ovnsbakt paprika",
+          "fløte",
+          "spinat",
+          "parmesan"
+        ],
+        "notes": "Kjør sausen glatt før du vender den med pastaen."
       },
       "pl": {
         "name": "Makaron z sosem z pieczonej papryki",
@@ -3385,6 +4393,18 @@
         ],
         "notes": "Använd kallt ris så steks det i stället för att ångas."
       },
+      "no": {
+        "name": "Stekt ris med kylling",
+        "description": "Ris woket med kylling, egg, paprika, gulrøtter og soyasaus.",
+        "mainIngredients": [
+          "ris",
+          "kylling",
+          "egg",
+          "paprika",
+          "gulrøtter"
+        ],
+        "notes": "Bruk kald ris, så den stekes i stedet for å dampes."
+      },
       "pl": {
         "name": "Chicken Fried Rice",
         "description": "Ryż smażony z kurczakiem, jajkami, papryką, marchewką i sosem sojowym.",
@@ -3424,6 +4444,18 @@
           "tomater"
         ],
         "notes": "Skär i remsor så blir det lätt att dela."
+      },
+      "no": {
+        "name": "Flatbrød med ricotta og spinat",
+        "description": "Flatbrød toppet med ricotta, spinat, mozzarella og tomater.",
+        "mainIngredients": [
+          "flatbrød",
+          "ricotta",
+          "spinat",
+          "mozzarella",
+          "tomater"
+        ],
+        "notes": "Skjær i strimler for enkel deling."
       },
       "pl": {
         "name": "Flatbready z ricottą i szpinakiem",
@@ -3465,6 +4497,18 @@
         ],
         "notes": "Servera med råa grönsaker eller sallad för balans."
       },
+      "no": {
+        "name": "Kjøttbollesubs med svin",
+        "description": "Kjøttboller i tomatsaus lagt i brød med smeltet mozzarella.",
+        "mainIngredients": [
+          "svinekjøttdeig",
+          "brød",
+          "tomatsaus",
+          "mozzarella",
+          "salat"
+        ],
+        "notes": "Server med rå grønnsaker eller salat for å balansere måltidet."
+      },
       "pl": {
         "name": "Suby z wieprzowymi klopsikami",
         "description": "Klopsiki w sosie pomidorowym włożone do bułek z roztopioną mozzarellą.",
@@ -3504,6 +4548,18 @@
           "kryddor"
         ],
         "notes": "Tillsätt citronjuice på slutet för fräschör."
+      },
+      "no": {
+        "name": "Kokos- og linsedal",
+        "description": "Røde linser småkokt med kokosmelk, milde krydder, spinat og ris.",
+        "mainIngredients": [
+          "røde linser",
+          "kokosmelk",
+          "spinat",
+          "ris",
+          "krydder"
+        ],
+        "notes": "Tilsett sitronsaft til slutt for friskhet."
       },
       "pl": {
         "name": "Dal z soczewicy i kokosa",
@@ -3545,6 +4601,18 @@
         ],
         "notes": "Använd en stekpanna och pressa med en annan panna om du inte har en press."
       },
+      "no": {
+        "name": "Panini med kylling og pesto",
+        "description": "Ristede sandwicher med kylling, pesto, mozzarella, tomater og salat.",
+        "mainIngredients": [
+          "brød",
+          "kylling",
+          "pesto",
+          "mozzarella",
+          "tomater"
+        ],
+        "notes": "Bruk en stekepanne og press med en annen panne hvis du ikke har paninipresse."
+      },
       "pl": {
         "name": "Chicken Pesto Panini",
         "description": "Tostowane kanapki z kurczakiem, pesto, mozzarellą, pomidorami i sałatą.",
@@ -3584,6 +4652,18 @@
           "ost"
         ],
         "notes": "Använd fryst fiskpajsmix för enkelhetens skull."
+      },
+      "no": {
+        "name": "Fish Pie",
+        "description": "Kremet blandet fisk og purre toppet med potetmos og bakt i ovnen.",
+        "mainIngredients": [
+          "blandet fisk",
+          "poteter",
+          "purre",
+          "melk",
+          "ost"
+        ],
+        "notes": "Bruk frossen fish pie-blanding for enkelhet."
       },
       "pl": {
         "name": "Fish Pie",
@@ -3625,6 +4705,18 @@
         ],
         "notes": "Stek halloumin precis före servering så håller den sig mjuk."
       },
+      "no": {
+        "name": "Halloumitaco",
+        "description": "Pannestekt halloumi i tortillas med slaw, avokado og lime.",
+        "mainIngredients": [
+          "halloumi",
+          "tortillas",
+          "kål",
+          "avokado",
+          "lime"
+        ],
+        "notes": "Stek halloumien rett før servering, så den holder seg myk."
+      },
       "pl": {
         "name": "Tacos z halloumi",
         "description": "Smażone halloumi w tortillach z surówką, awokado i limonką.",
@@ -3664,6 +4756,18 @@
           "morötter"
         ],
         "notes": "Det här passar bra som helgmiddag eller att laga i förväg."
+      },
+      "no": {
+        "name": "Biffragu med polenta",
+        "description": "Langsomkokt tomatsaus med storfe servert over kremet polenta.",
+        "mainIngredients": [
+          "storfe",
+          "tomater",
+          "polenta",
+          "parmesan",
+          "gulrøtter"
+        ],
+        "notes": "Dette er et godt helge- eller forberedelsesalternativ."
       },
       "pl": {
         "name": "Ragu wołowe z polentą",
@@ -3705,6 +4809,18 @@
         ],
         "notes": "Använd milt currypulver för en familjevänlig variant."
       },
+      "no": {
+        "name": "Kyllingris i biryani-stil",
+        "description": "Duftende ris med kylling, grønne bønner, milde krydder, yoghurt og agurk.",
+        "mainIngredients": [
+          "kylling",
+          "ris",
+          "grønne bønner",
+          "yoghurt",
+          "agurk"
+        ],
+        "notes": "Bruk mildt currypulver for en familievennlig variant."
+      },
       "pl": {
         "name": "Ryż w stylu chicken biryani",
         "description": "Aromatyczny ryż z kurczakiem, zieloną fasolką, łagodnymi przyprawami, jogurtem i ogórkiem.",
@@ -3744,6 +4860,18 @@
           "buljong"
         ],
         "notes": "Servera med bröd och riven parmesan."
+      },
+      "no": {
+        "name": "Suppe med hvite bønner og pølse",
+        "description": "En mettende suppe med pølse, hvite bønner, gulrøtter, bladgrønt og kraft.",
+        "mainIngredients": [
+          "pølse",
+          "hvite bønner",
+          "gulrøtter",
+          "bladgrønt",
+          "kraft"
+        ],
+        "notes": "Server med brød og revet parmesan."
       },
       "pl": {
         "name": "Zupa z białą fasolą i kiełbasą",
@@ -3785,6 +4913,18 @@
         ],
         "notes": "Lägg till rökt lax eller tofu om du vill ha mer protein."
       },
+      "no": {
+        "name": "Vegetariske sushi bowls",
+        "description": "Risskåler med agurk, avokado, gulrøtter, edamame og nori.",
+        "mainIngredients": [
+          "ris",
+          "agurk",
+          "avokado",
+          "edamame",
+          "nori"
+        ],
+        "notes": "Legg til røkt laks eller tofu hvis du vil ha mer protein."
+      },
       "pl": {
         "name": "Veggie Sushi Bowls",
         "description": "Miski ryżowe z ogórkiem, awokado, marchewką, edamame i nori.",
@@ -3824,6 +4964,18 @@
           "citron"
         ],
         "notes": "Ett användbart sätt att ta hand om överbliven skinka."
+      },
+      "no": {
+        "name": "Risotto med skinke og spinat",
+        "description": "Kremet risotto med skinketerninger, spinat, parmesan og sitron.",
+        "mainIngredients": [
+          "risottoris",
+          "skinke",
+          "spinat",
+          "parmesan",
+          "sitron"
+        ],
+        "notes": "En nyttig måte å bruke rester av skinke på."
       },
       "pl": {
         "name": "Risotto z szynką i szpinakiem",
@@ -3865,6 +5017,18 @@
         ],
         "notes": "Skeda ner i salladsblad eller servera som risskålar."
       },
+      "no": {
+        "name": "Kalkun- og salatskåler",
+        "description": "Krydret kalkunkjøttdeig servert med ris, salat, agurk og saus.",
+        "mainIngredients": [
+          "kalkunkjøttdeig",
+          "ris",
+          "salat",
+          "agurk",
+          "saus"
+        ],
+        "notes": "Legg fyllet i salatblader eller server som risskåler."
+      },
       "pl": {
         "name": "Miski z indykiem i sałatą",
         "description": "Przyprawiony mielony indyk podany z ryżem, sałatą, ogórkiem i sosem.",
@@ -3904,6 +5068,18 @@
           "basilika"
         ],
         "notes": "Gör två mindre formar och frys in en om du vill."
+      },
+      "no": {
+        "name": "Ovnsbakt ziti",
+        "description": "Pasta bakt med tomatsaus, ricotta, mozzarella og basilikum.",
+        "mainIngredients": [
+          "ziti",
+          "tomatsaus",
+          "ricotta",
+          "mozzarella",
+          "basilikum"
+        ],
+        "notes": "Lag to mindre former og frys én hvis du vil."
       },
       "pl": {
         "name": "Baked Ziti",
@@ -3945,6 +5121,18 @@
         ],
         "notes": "Håll buljongen mild och ställ fram chiliolja separat."
       },
+      "no": {
+        "name": "Miso-udon med grønnsaker",
+        "description": "Tykke udonnudler i misokraft med sopp, bladgrønt og egg.",
+        "mainIngredients": [
+          "udonnudler",
+          "miso",
+          "sopp",
+          "bladgrønt",
+          "egg"
+        ],
+        "notes": "Hold kraften mild og tilsett chiliolje separat."
+      },
       "pl": {
         "name": "Miso Udon z warzywami",
         "description": "Grube makarony udon w bulionie miso z grzybami, zieleniną i jajkami.",
@@ -3984,6 +5172,18 @@
           "frukt"
         ],
         "notes": "Låt alla välja sitt favorittillbehör från frukostbordet."
+      },
+      "no": {
+        "name": "Frokost til middag",
+        "description": "Eggerøre, toast, ovnsbakte tomater, frukt og sprø poteter.",
+        "mainIngredients": [
+          "egg",
+          "toast",
+          "poteter",
+          "tomater",
+          "frukt"
+        ],
+        "notes": "La alle velge sitt favorittilbehør til frokosten."
       },
       "pl": {
         "name": "Śniadanie na obiad",

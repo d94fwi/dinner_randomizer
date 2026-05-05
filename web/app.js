@@ -11,6 +11,7 @@ const UI_TEXT = {
     languageLabel: "Language",
     languages: {
       en: "English",
+      no: "Norwegian",
       pl: "Polish",
       sv: "Swedish",
     },
@@ -40,6 +41,7 @@ const UI_TEXT = {
     languageLabel: "Språk",
     languages: {
       en: "Engelska",
+      no: "Norska",
       pl: "Polska",
       sv: "Svenska",
     },
@@ -63,12 +65,43 @@ const UI_TEXT = {
       return `${count} ${count === 1 ? "idé" : "idéer"}`;
     },
   },
+  no: {
+    pageTitle: "Dagens middag",
+    appTitle: "Dagens middag",
+    languageLabel: "Språk",
+    languages: {
+      en: "Engelsk",
+      no: "Norsk",
+      pl: "Polsk",
+      sv: "Svensk",
+    },
+    loadingIdeas: "Laster ideer",
+    loadingDinnerName: "Laster middagsideer...",
+    loadingDescription: "Appen leser middagslisten.",
+    mainIngredients: "Hovedingredienser",
+    navigationLabel: "Middagsnavigasjon",
+    back: "Tilbake",
+    next: "Neste middagsidé",
+    recipeSearch: "Søk etter oppskrift på Google",
+    recipeSearchTerm: "oppskrift",
+    noIdeasLoaded: "Ingen ideer lastet",
+    noDinnerIdeasYet: "Ingen middagsideer ennå",
+    noIdeasDescription: "Legg til middager i shared/data/dinners.json for å begynne å trekke.",
+    dataUnavailable: "Data mangler",
+    loadErrorName: "Kunne ikke laste middagsideer",
+    loadErrorDescription: "Server filene fra en statisk server slik at nettleseren kan lese middagsdataene.",
+    fallbackDescription: "En middagsidé for familien.",
+    ideaCount(count) {
+      return `${count} ${count === 1 ? "idé" : "ideer"}`;
+    },
+  },
   pl: {
     pageTitle: "Dzisiejszy obiad",
     appTitle: "Dzisiejszy obiad",
     languageLabel: "Język",
     languages: {
       en: "Angielski",
+      no: "Norweski",
       pl: "Polski",
       sv: "Szwedzki",
     },
@@ -154,6 +187,14 @@ function detectInitialLanguage() {
 
     if (normalizedLanguage.startsWith("sv")) {
       return "sv";
+    }
+
+    if (
+      normalizedLanguage.startsWith("no") ||
+      normalizedLanguage.startsWith("nb") ||
+      normalizedLanguage.startsWith("nn")
+    ) {
+      return "no";
     }
 
     if (normalizedLanguage.startsWith("pl")) {

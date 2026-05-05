@@ -4,6 +4,13 @@ const FALLBACK_IMAGE = `${SHARED_ASSET_PREFIX}assets/dinner-table.jpg`;
 const LANGUAGE_STORAGE_KEY = "dinnerRandomizerLanguage";
 const RECENT_REPEAT_BUFFER_SIZE = 10;
 
+const LANGUAGE_FLAGS = {
+  en: "🇬🇧",
+  no: "🇳🇴",
+  pl: "🇵🇱",
+  sv: "🇸🇪",
+};
+
 const UI_TEXT = {
   en: {
     pageTitle: "Dinner Randomizer",
@@ -147,12 +154,16 @@ const state = {
   language: detectInitialLanguage(),
   loadStatus: "loading",
   loadError: null,
+  isLanguageMenuOpen: false,
 };
 
 const elements = {
   appTitle: document.querySelector("#appTitle"),
   poolCount: document.querySelector("#poolCount"),
   languageSwitcher: document.querySelector("#languageSwitcher"),
+  languageToggle: document.querySelector("#languageToggle"),
+  languageToggleFlag: document.querySelector("#languageToggleFlag"),
+  languageMenu: document.querySelector("#languageMenu"),
   languageButtons: document.querySelectorAll("[data-language]"),
   dinnerImage: document.querySelector("#dinnerImage"),
   dinnerName: document.querySelector("#dinnerName"),
@@ -399,10 +410,16 @@ function openRecipeSearch() {
 
 function renderStaticText() {
   const copy = getCopy();
+  const selectedLanguageName = copy.languages[state.language];
   document.documentElement.lang = state.language;
   document.title = copy.pageTitle;
   elements.appTitle.textContent = copy.appTitle;
   elements.languageSwitcher.setAttribute("aria-label", copy.languageLabel);
+  elements.languageToggle.setAttribute("aria-label", `${copy.languageLabel}: ${selectedLanguageName}`);
+  elements.languageToggle.setAttribute("aria-expanded", String(state.isLanguageMenuOpen));
+  elements.languageToggle.title = selectedLanguageName;
+  elements.languageToggleFlag.textContent = LANGUAGE_FLAGS[state.language];
+  elements.languageMenu.hidden = !state.isLanguageMenuOpen;
   elements.ingredientHeading.textContent = copy.mainIngredients;
   elements.dinnerNavigation.setAttribute("aria-label", copy.navigationLabel);
   elements.backDinner.setAttribute("aria-label", copy.back);
@@ -415,8 +432,13 @@ function renderStaticText() {
     const language = button.dataset.language;
     const isActive = language === state.language;
     button.setAttribute("aria-label", copy.languages[language]);
-    button.setAttribute("aria-pressed", String(isActive));
+    button.setAttribute("aria-checked", String(isActive));
     button.title = copy.languages[language];
+
+    const label = button.querySelector("span:last-child");
+    if (label) {
+      label.textContent = copy.languages[language];
+    }
   });
 }
 
@@ -506,16 +528,42 @@ function setLanguage(language) {
   }
 
   state.language = language;
+  state.isLanguageMenuOpen = false;
   saveLanguage(language);
   renderApp();
+}
+
+function setLanguageMenuOpen(isOpen) {
+  if (state.isLanguageMenuOpen === isOpen) {
+    return;
+  }
+
+  state.isLanguageMenuOpen = isOpen;
+  renderStaticText();
 }
 
 async function init() {
   elements.pickDinner.addEventListener("click", pickRandomDinner);
   elements.backDinner.addEventListener("click", showPreviousDinner);
   elements.recipeSearch.addEventListener("click", openRecipeSearch);
+  elements.languageToggle.addEventListener("click", () => setLanguageMenuOpen(!state.isLanguageMenuOpen));
   elements.languageButtons.forEach((button) => {
     button.addEventListener("click", () => setLanguage(button.dataset.language));
+  });
+  document.addEventListener("click", (event) => {
+    if (!state.isLanguageMenuOpen || elements.languageSwitcher.contains(event.target)) {
+      return;
+    }
+
+    setLanguageMenuOpen(false);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !state.isLanguageMenuOpen) {
+      return;
+    }
+
+    setLanguageMenuOpen(false);
+    elements.languageToggle.focus();
   });
 
   renderApp();

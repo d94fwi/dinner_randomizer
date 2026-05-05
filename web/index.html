@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f7f0e8">
     <title>Dinner Randomizer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
   </head>
   <body>
     <main class="app-shell">
@@ -14,19 +14,31 @@
           <h1 id="appTitle">Dinner Randomizer</h1>
         </div>
         <div class="topbar-controls">
-          <div class="language-switcher" id="languageSwitcher" role="group" aria-label="Language">
-            <button class="language-button" type="button" data-language="sv" aria-label="Svenska" aria-pressed="false" title="Svenska">
-              <span aria-hidden="true">🇸🇪</span>
+          <div class="language-switcher" id="languageSwitcher" aria-label="Language">
+            <button class="language-toggle" id="languageToggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="languageMenu">
+              <span class="language-toggle-flag" id="languageToggleFlag" aria-hidden="true">🇬🇧</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="m6 9 6 6 6-6"></path>
+              </svg>
             </button>
-            <button class="language-button" type="button" data-language="no" aria-label="Norsk" aria-pressed="false" title="Norsk">
-              <span aria-hidden="true">🇳🇴</span>
-            </button>
-            <button class="language-button" type="button" data-language="pl" aria-label="Polski" aria-pressed="false" title="Polski">
-              <span aria-hidden="true">🇵🇱</span>
-            </button>
-            <button class="language-button" type="button" data-language="en" aria-label="English" aria-pressed="true" title="English">
-              <span aria-hidden="true">🇬🇧</span>
-            </button>
+            <div class="language-menu" id="languageMenu" role="menu" hidden>
+              <button class="language-option" type="button" role="menuitemradio" data-language="sv" aria-checked="false">
+                <span aria-hidden="true">🇸🇪</span>
+                <span>Svenska</span>
+              </button>
+              <button class="language-option" type="button" role="menuitemradio" data-language="no" aria-checked="false">
+                <span aria-hidden="true">🇳🇴</span>
+                <span>Norsk</span>
+              </button>
+              <button class="language-option" type="button" role="menuitemradio" data-language="pl" aria-checked="false">
+                <span aria-hidden="true">🇵🇱</span>
+                <span>Polski</span>
+              </button>
+              <button class="language-option" type="button" role="menuitemradio" data-language="en" aria-checked="true">
+                <span aria-hidden="true">🇬🇧</span>
+                <span>English</span>
+              </button>
+            </div>
           </div>
           <span class="pool-count" id="poolCount">Loading ideas</span>
         </div>
@@ -81,6 +93,6 @@
       </section>
     </main>
 
-    <script src="app.js" defer></script>
+    <script src="app.js?v=2" defer></script>
   </body>
 </html>

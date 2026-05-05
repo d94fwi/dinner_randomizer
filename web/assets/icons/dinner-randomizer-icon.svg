@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Dinner Randomizer icon</title>
+  <desc id="desc">A simple plate with a question mark, fork on the left, and knife on the right.</desc>
+
+  <rect width="1024" height="1024" fill="#f7f0e8"/>
+
+  <g fill="#314b39">
+    <rect x="52" y="166" width="36" height="300" rx="18"/>
+    <rect x="112" y="166" width="36" height="300" rx="18"/>
+    <rect x="172" y="166" width="36" height="300" rx="18"/>
+    <rect x="232" y="166" width="36" height="300" rx="18"/>
+    <path d="M52 377h252v72c0 74-48 137-114 158v243c0 25-20 45-45 45s-45-20-45-45V607C34 586 52 523 52 449v-72Z"/>
+
+    <path d="M846 181c76 52 122 145 122 257 0 91-31 162-92 215v197c0 25-20 45-45 45s-45-20-45-45V236c0-55 32-78 60-55Z"/>
+    <path d="M873 289c33 42 51 94 51 153 0 55-17 103-51 145Z" fill="#f7f0e8"/>
+  </g>
+
+  <circle cx="512" cy="523" r="337" fill="#eadcc8"/>
+  <circle cx="512" cy="523" r="284" fill="#fffaf2"/>
+  <circle cx="512" cy="523" r="181" fill="none" stroke="#eadcc8" stroke-width="30"/>
+
+  <text x="512" y="641" text-anchor="middle" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="324" font-weight="900" fill="#b84c35">?</text>
+</svg>

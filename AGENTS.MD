@@ -1,6 +1,6 @@
 # Agent Notes
 
-This is a static dinner randomizer web app with shared data/assets prepared for future native clients. There is no backend. GitHub Pages publishes an assembled static site from GitHub Actions.
+This is a static dinner randomizer web app with a native SwiftUI iOS client that reuses the shared dinner data and image assets. There is no backend. GitHub Pages publishes only the assembled static web site from GitHub Actions.
 
 ## Structure
 
@@ -10,8 +10,39 @@ This is a static dinner randomizer web app with shared data/assets prepared for 
 - `shared/data/dinners.json`: source of truth for dinner options.
 - `shared/assets/dishes/*.jpg`: dish-specific images referenced by `shared/data/dinners.json`.
 - `shared/assets/dinner-table.jpg`: fallback image used if a dinner has no image.
+- `ios/DinnerRandomizer/DinnerRandomizer.xcodeproj`: native iOS app project.
+- `ios/DinnerRandomizer/DinnerRandomizer/`: SwiftUI app source.
+- `ios/DinnerRandomizer/DinnerRandomizerTests/`: native data/resource tests.
 - `.github/workflows/deploy-pages.yml`: validates and publishes only the assembled web app to GitHub Pages from `master`.
 - UI language strings live in `UI_TEXT` in `web/app.js`.
+
+## iOS App Design
+
+The iOS app is a native Swift / SwiftUI implementation, not a web view. It should stay aligned with the web app visually and behaviorally while using iOS-native controls.
+
+- `ContentView.swift`: main SwiftUI interface, including toolbar search/language controls, the dinner card, ingredient chips, note accent bar, bottom Back/Next controls, and swipe gestures.
+- `ViewModels/DinnerRandomizerViewModel.swift`: loads dinners, owns selected language, manages current/previous/upcoming dinner queues, prevents very recent repeats, and exposes localized view state.
+- `Services/DinnerResourceLoader.swift`: reads bundled `data/dinners.json` and resolves bundled image paths like `assets/dishes/example.jpg`.
+- `Models/Dinner.swift`: decodes the shared JSON model and produces `LocalizedDinner` values with English fallback behavior.
+- `Models/AppLanguage.swift`: supported languages, flag emoji, saved language key, and device-language detection.
+- `Models/AppCopy.swift`: native UI copy for English, Swedish, Norwegian, and Polish.
+- `Views/DinnerImageView.swift`: bundled image rendering with a fallback placeholder.
+
+The Xcode project links `../../shared/data` as bundled `data/` resources and `../../shared/assets` as bundled `assets/` resources. Keep JSON image paths in the same deployed web form (`assets/dishes/...`) so both the web app and iOS app can resolve them without client-specific data.
+
+Navigation behavior:
+
+- Next uses a shuffled upcoming queue and appends the current dinner to Back history.
+- Back pops from the previous-dinner stack.
+- The current, previous, and upcoming dinner cards are rendered together during a swipe so the adjacent card is visible while dragging.
+- Swipe transitions move the entire card as one unit. When a drag commits, the adjacent card finishes moving into place, then the view model swaps the dinner with animations disabled and resets the drag offset invisibly. Avoid adding per-subview transitions inside the card because that can make the image, labels, and ingredient section animate independently.
+
+Language behavior mirrors the web app:
+
+- Supported UI/content languages are English (`en`), Swedish (`sv`), Norwegian (`no`), and Polish (`pl`).
+- Manual language choice is stored under `dinnerRandomizerLanguage`, matching the web storage key.
+- The language selector is a SwiftUI `Menu`; include flag emoji next to language names when adding or changing languages.
+- Dinner text localization comes from `Dinner.localized(for:fallbackDescription:)`; keep English top-level fields as the fallback.
 
 The web app supports two static layouts:
 
@@ -127,6 +158,14 @@ Expected current state:
 - Every dinner has complete Swedish, Norwegian, and Polish translations.
 
 After UI changes, reload the in-app browser at `http://localhost:4173/web/` and check the console for errors.
+
+iOS build verification:
+
+```bash
+xcodebuild -project ios/DinnerRandomizer/DinnerRandomizer.xcodeproj -scheme DinnerRandomizer -destination generic/platform=iOS -derivedDataPath /private/tmp/DinnerRandomizerDerivedData CODE_SIGNING_ALLOWED=NO build
+```
+
+iOS data/resource tests can be run from Xcode against an iOS simulator when CoreSimulator is available. In restricted automation environments, a generic iOS build is the usual smoke test.
 
 ## Image Workflow
 

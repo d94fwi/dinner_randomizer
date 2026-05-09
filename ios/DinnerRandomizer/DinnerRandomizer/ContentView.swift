@@ -10,6 +10,32 @@ struct ContentView: View {
     private static let ingredientColumnSpacing: CGFloat = 12
     private static let ingredientRowSpacing: CGFloat = 8
 
+    private struct LayoutMetrics {
+        let scrollVerticalPadding: CGFloat
+        let cardPadding: CGFloat
+        let cardSpacing: CGFloat
+        let poolCountBottomPadding: CGFloat
+        let titleBottomPadding: CGFloat
+        let ingredientsTopPadding: CGFloat
+        let ingredientsHeaderSpacing: CGFloat
+        let ingredientRowSpacing: CGFloat
+        let noteVerticalPadding: CGFloat
+
+        init(availableHeight: CGFloat) {
+            let roomyScale = min(max((availableHeight - 560) / 160, 0), 1)
+
+            scrollVerticalPadding = 10 + (8 * roomyScale)
+            cardPadding = 10 + (8 * roomyScale)
+            cardSpacing = 10 + (8 * roomyScale)
+            poolCountBottomPadding = 11 + (9 * roomyScale)
+            titleBottomPadding = 5 + (5 * roomyScale)
+            ingredientsTopPadding = 7 + (11 * roomyScale)
+            ingredientsHeaderSpacing = 7 + (3 * roomyScale)
+            ingredientRowSpacing = ContentView.ingredientRowSpacing
+            noteVerticalPadding = 4 + (6 * roomyScale)
+        }
+    }
+
     @Environment(\.displayScale) private var displayScale
     @StateObject private var viewModel: DinnerRandomizerViewModel
     @State private var cardDragOffset: CGFloat = 0
@@ -27,14 +53,18 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 0) {
-                    content
+            GeometryReader { geometry in
+                let metrics = LayoutMetrics(availableHeight: geometry.size.height)
+
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 0) {
+                        content(metrics: metrics)
+                    }
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, metrics.scrollVerticalPadding)
                 }
-                .padding(.horizontal, 12)
-                .padding(.vertical, 10)
+                .background(Color(.systemGroupedBackground))
             }
-            .background(Color(.systemGroupedBackground))
             .navigationTitle(viewModel.copy.pageTitle)
             .navigationBarTitleDisplayMode(.inline)
             .safeAreaInset(edge: .bottom) {
@@ -99,7 +129,7 @@ struct ContentView: View {
     }
 
     @ViewBuilder
-    private var content: some View {
+    private func content(metrics: LayoutMetrics) -> some View {
         switch viewModel.loadState {
         case .loading:
             statusView(
@@ -121,7 +151,7 @@ struct ContentView: View {
             )
         case .ready:
             if let dinner = viewModel.localizedCurrentDinner {
-                swipeableDinnerView(dinner)
+                swipeableDinnerView(dinner, metrics: metrics)
             } else {
                 statusView(
                     systemImage: "tray",
@@ -132,21 +162,21 @@ struct ContentView: View {
         }
     }
 
-    private func swipeableDinnerView(_ dinner: LocalizedDinner) -> some View {
+    private func swipeableDinnerView(_ dinner: LocalizedDinner, metrics: LayoutMetrics) -> some View {
         ZStack(alignment: .top) {
             if let previousDinner = viewModel.localizedPreviousDinner {
-                dinnerCard(previousDinner)
+                dinnerCard(previousDinner, metrics: metrics)
                     .offset(x: cardOffset(-cardTravelDistance + cardDragOffset))
                     .allowsHitTesting(false)
             }
 
             if let upcomingDinner = viewModel.localizedUpcomingDinner {
-                dinnerCard(upcomingDinner)
+                dinnerCard(upcomingDinner, metrics: metrics)
                     .offset(x: cardOffset(cardTravelDistance + cardDragOffset))
                     .allowsHitTesting(false)
             }
 
-            dinnerCard(dinner)
+            dinnerCard(dinner, metrics: metrics)
                 .offset(x: cardOffset(cardDragOffset))
                 .zIndex(1)
         }
@@ -166,21 +196,21 @@ struct ContentView: View {
         .clipped()
     }
 
-    private func dinnerCard(_ dinner: LocalizedDinner) -> some View {
-        VStack(alignment: .leading, spacing: 10) {
+    private func dinnerCard(_ dinner: LocalizedDinner, metrics: LayoutMetrics) -> some View {
+        VStack(alignment: .leading, spacing: metrics.cardSpacing) {
             DinnerImageView(url: viewModel.image(for: dinner), title: dinner.name)
 
             VStack(alignment: .leading, spacing: 0) {
                 Text(viewModel.poolCountText)
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
-                    .padding(.bottom, 11)
+                    .padding(.bottom, metrics.poolCountBottomPadding)
 
                 Text(dinner.name)
                     .font(.title2.bold())
                     .lineLimit(2)
                     .minimumScaleFactor(0.8)
-                    .padding(.bottom, 5)
+                    .padding(.bottom, metrics.titleBottomPadding)
 
                 Text(dinner.description)
                     .font(.callout)
@@ -189,8 +219,8 @@ struct ContentView: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
 
-            ingredientsView(dinner.mainIngredients)
-                .padding(.top, 7)
+            ingredientsView(dinner.mainIngredients, metrics: metrics)
+                .padding(.top, metrics.ingredientsTopPadding)
 
             if !dinner.notes.isEmpty {
                 Text(dinner.notes)
@@ -198,7 +228,7 @@ struct ContentView: View {
                     .foregroundStyle(.secondary)
                     .lineLimit(3)
                     .padding(.leading, 14)
-                    .padding(.vertical, 4)
+                    .padding(.vertical, metrics.noteVerticalPadding)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .overlay(alignment: .leading) {
                         Rectangle()
@@ -207,19 +237,19 @@ struct ContentView: View {
                     }
             }
         }
-        .padding(10)
+        .padding(metrics.cardPadding)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color(.systemBackground), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
         .compositingGroup()
         .drawingGroup()
     }
 
-    private func ingredientsView(_ ingredients: [String]) -> some View {
-        VStack(alignment: .leading, spacing: 7) {
+    private func ingredientsView(_ ingredients: [String], metrics: LayoutMetrics) -> some View {
+        VStack(alignment: .leading, spacing: metrics.ingredientsHeaderSpacing) {
             Text(viewModel.copy.mainIngredients)
                 .font(.subheadline.bold())
 
-            VStack(spacing: Self.ingredientRowSpacing) {
+            VStack(spacing: metrics.ingredientRowSpacing) {
                 ForEach(Array(ingredientRows(ingredients).enumerated()), id: \.offset) { _, row in
                     HStack(spacing: Self.ingredientColumnSpacing) {
                         ForEach(row, id: \.self) { ingredient in

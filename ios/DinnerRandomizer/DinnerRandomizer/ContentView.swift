@@ -6,7 +6,11 @@ struct ContentView: View {
     private static let mustard = Color(red: 194 / 255, green: 146 / 255, blue: 50 / 255)
     private static let swipeThreshold: CGFloat = 80
     private static let cardGap: CGFloat = 14
+    private static let ingredientChipHeight: CGFloat = 38
+    private static let ingredientColumnSpacing: CGFloat = 12
+    private static let ingredientRowSpacing: CGFloat = 8
 
+    @Environment(\.displayScale) private var displayScale
     @StateObject private var viewModel: DinnerRandomizerViewModel
     @State private var cardDragOffset: CGFloat = 0
     @State private var cardTravelDistance: CGFloat = 420
@@ -132,18 +136,18 @@ struct ContentView: View {
         ZStack(alignment: .top) {
             if let previousDinner = viewModel.localizedPreviousDinner {
                 dinnerCard(previousDinner)
-                    .offset(x: -cardTravelDistance + cardDragOffset)
+                    .offset(x: cardOffset(-cardTravelDistance + cardDragOffset))
                     .allowsHitTesting(false)
             }
 
             if let upcomingDinner = viewModel.localizedUpcomingDinner {
                 dinnerCard(upcomingDinner)
-                    .offset(x: cardTravelDistance + cardDragOffset)
+                    .offset(x: cardOffset(cardTravelDistance + cardDragOffset))
                     .allowsHitTesting(false)
             }
 
             dinnerCard(dinner)
-                .offset(x: cardDragOffset)
+                .offset(x: cardOffset(cardDragOffset))
                 .zIndex(1)
         }
         .background {
@@ -166,15 +170,17 @@ struct ContentView: View {
         VStack(alignment: .leading, spacing: 10) {
             DinnerImageView(url: viewModel.image(for: dinner), title: dinner.name)
 
-            VStack(alignment: .leading, spacing: 5) {
+            VStack(alignment: .leading, spacing: 0) {
                 Text(viewModel.poolCountText)
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
+                    .padding(.bottom, 11)
 
                 Text(dinner.name)
                     .font(.title2.bold())
                     .lineLimit(2)
                     .minimumScaleFactor(0.8)
+                    .padding(.bottom, 5)
 
                 Text(dinner.description)
                     .font(.callout)
@@ -184,6 +190,7 @@ struct ContentView: View {
             }
 
             ingredientsView(dinner.mainIngredients)
+                .padding(.top, 7)
 
             if !dinner.notes.isEmpty {
                 Text(dinner.notes)
@@ -201,7 +208,10 @@ struct ContentView: View {
             }
         }
         .padding(10)
+        .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color(.systemBackground), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+        .compositingGroup()
+        .drawingGroup()
     }
 
     private func ingredientsView(_ ingredients: [String]) -> some View {
@@ -209,27 +219,43 @@ struct ContentView: View {
             Text(viewModel.copy.mainIngredients)
                 .font(.subheadline.bold())
 
-            LazyVGrid(
-                columns: [
-                    GridItem(.flexible(), spacing: 12, alignment: .leading),
-                    GridItem(.flexible(), spacing: 12, alignment: .leading)
-                ],
-                alignment: .leading,
-                spacing: 8
-            ) {
-                ForEach(ingredients, id: \.self) { ingredient in
-                    Text(ingredient)
-                        .font(.callout.weight(.semibold))
-                        .foregroundStyle(Self.sageDark)
-                        .lineLimit(2)
-                        .minimumScaleFactor(0.8)
-                        .padding(.horizontal, 12)
-                        .padding(.vertical, 8)
-                        .frame(maxWidth: .infinity, minHeight: 38, alignment: .leading)
-                        .background(Self.sage.opacity(0.09), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+            VStack(spacing: Self.ingredientRowSpacing) {
+                ForEach(Array(ingredientRows(ingredients).enumerated()), id: \.offset) { _, row in
+                    HStack(spacing: Self.ingredientColumnSpacing) {
+                        ForEach(row, id: \.self) { ingredient in
+                            ingredientChip(ingredient)
+                        }
+
+                        if row.count == 1 {
+                            Color.clear
+                                .frame(maxWidth: .infinity)
+                        }
+                    }
+                    .frame(height: Self.ingredientChipHeight)
                 }
             }
         }
+    }
+
+    private func ingredientRows(_ ingredients: [String]) -> [[String]] {
+        stride(from: 0, to: ingredients.count, by: 2).map { index in
+            Array(ingredients[index..<min(index + 2, ingredients.count)])
+        }
+    }
+
+    private func ingredientChip(_ ingredient: String) -> some View {
+        Text(ingredient)
+            .font(.callout.weight(.semibold))
+            .foregroundStyle(Self.sageDark)
+            .lineLimit(2)
+            .minimumScaleFactor(0.8)
+            .padding(.horizontal, 12)
+            .frame(maxWidth: .infinity, minHeight: Self.ingredientChipHeight, maxHeight: Self.ingredientChipHeight, alignment: .leading)
+            .background(Self.sage.opacity(0.09), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+    }
+
+    private func cardOffset(_ offset: CGFloat) -> CGFloat {
+        (offset * displayScale).rounded() / displayScale
     }
 
     private var controls: some View {

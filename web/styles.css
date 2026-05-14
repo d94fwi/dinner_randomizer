@@ -192,6 +192,94 @@ h1 {
   backdrop-filter: blur(18px);
 }
 
+.support-shell {
+  align-content: start;
+}
+
+.support-home-link {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 250, 242, 0.86);
+  color: var(--sage-dark);
+  font-size: 0.86rem;
+  font-weight: 850;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(60, 42, 28, 0.08);
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.support-home-link:hover,
+.support-home-link:focus-visible {
+  transform: translateY(-1px);
+  background: #fffaf2;
+  box-shadow: 0 8px 22px rgba(60, 42, 28, 0.14);
+}
+
+.support-home-link:focus-visible {
+  outline: 2px solid rgba(69, 107, 123, 0.55);
+  outline-offset: 2px;
+}
+
+.support-panel {
+  display: grid;
+  gap: clamp(24px, 4vw, 34px);
+  padding: clamp(22px, 5vw, 44px);
+  border: 1px solid rgba(234, 220, 200, 0.96);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.support-intro {
+  display: grid;
+  gap: 12px;
+}
+
+.support-intro h2 {
+  max-width: 13ch;
+}
+
+.support-section {
+  display: grid;
+  gap: 10px;
+}
+
+.support-section h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.support-section p,
+.support-steps,
+.support-list {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.support-steps,
+.support-list {
+  padding-left: 1.25rem;
+}
+
+.support-steps li,
+.support-list li {
+  padding-left: 0.2rem;
+}
+
+.support-steps li + li,
+.support-list li + li {
+  margin-top: 7px;
+}
+
 .image-strip {
   height: clamp(230px, 43vw, 370px);
   position: relative;
@@ -474,6 +562,36 @@ svg {
   .language-option {
     min-height: 36px;
     font-size: 0.88rem;
+  }
+
+  .support-shell {
+    padding: 14px;
+  }
+
+  .support-home-link {
+    min-height: 30px;
+    padding: 0 9px;
+    font-size: 0.76rem;
+  }
+
+  .support-panel {
+    gap: 22px;
+    padding: 16px;
+  }
+
+  .support-intro {
+    gap: 9px;
+  }
+
+  .support-intro h2 {
+    max-width: 14ch;
+  }
+
+  .support-section p,
+  .support-steps,
+  .support-list {
+    font-size: 0.94rem;
+    line-height: 1.45;
   }
 
   .image-strip {

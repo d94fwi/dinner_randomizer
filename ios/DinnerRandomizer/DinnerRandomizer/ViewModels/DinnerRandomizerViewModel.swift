@@ -42,6 +42,12 @@ final class DinnerRandomizerViewModel: ObservableObject {
             preferredLanguages: preferredLanguages
         )
 
+        #if DEBUG
+        if let screenshotLanguage = Self.screenshotLanguageArgument() {
+            self.language = screenshotLanguage
+        }
+        #endif
+
         if autoLoad {
             loadDinners()
         }
@@ -124,6 +130,17 @@ final class DinnerRandomizerViewModel: ObservableObject {
             }
 
             loadState = .ready
+
+            #if DEBUG
+            if let screenshotDinnerId = Self.screenshotDinnerIdArgument(),
+               dinner(with: screenshotDinnerId) != nil {
+                currentDinnerId = screenshotDinnerId
+                upcomingDinnerIds = createShuffledDinnerQueue().filter { $0 != screenshotDinnerId }
+                recentDinnerIds = [screenshotDinnerId]
+                return
+            }
+            #endif
+
             pickRandomDinner()
         } catch {
             dinners = []
@@ -235,6 +252,29 @@ final class DinnerRandomizerViewModel: ObservableObject {
 
 #if DEBUG
 extension DinnerRandomizerViewModel {
+    private static func screenshotDinnerIdArgument() -> Dinner.ID? {
+        screenshotArgumentValue(named: "-screenshotDinner")
+    }
+
+    private static func screenshotLanguageArgument() -> AppLanguage? {
+        guard let value = screenshotArgumentValue(named: "-screenshotLanguage") else {
+            return nil
+        }
+
+        return AppLanguage(rawValue: value)
+    }
+
+    private static func screenshotArgumentValue(named name: String) -> String? {
+        let arguments = ProcessInfo.processInfo.arguments
+
+        guard let index = arguments.firstIndex(of: name),
+              arguments.indices.contains(index + 1) else {
+            return nil
+        }
+
+        return arguments[index + 1]
+    }
+
     static var preview: DinnerRandomizerViewModel {
         let viewModel = DinnerRandomizerViewModel(autoLoad: false)
         viewModel.dinners = [
